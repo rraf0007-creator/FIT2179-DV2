@@ -1,83 +1,169 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 330,
+  "height": 560,
   "autosize": {
     "type": "fit",
     "contains": "padding"
   },
+  "params": [
+    {
+      "name": "selectedYear",
+      "value": 2024,
+      "bind": {
+        "input": "range",
+        "min": 2004,
+        "max": 2024,
+        "step": 1,
+        "name": "Financial year start: "
+      }
+    }
+  ],
   "title": {
-    "text": "Student migration gains are concentrated in NSW and Victoria",
-    "subtitle": "Net student migration by state/territory and financial year"
+    "text": "Net student migration by state and territory",
+    "subtitle": "Interactive choropleth map. Example: 2024 means 2024–25."
   },
   "data": {
-    "url": "data/abs_student_migration_state_year.csv"
+    "url": "data/abs_state_choropleth.geojson",
+    "format": {
+      "type": "json",
+      "property": "features"
+    }
   },
+  "transform": [
+    {
+  "calculate": "datum.properties.label_x",
+  "as": "label_x"
+},
+{
+  "calculate": "datum.state_code == 'VIC' ? datum.label_x - 250 : datum.label_x",
+  "as": "label_x_adjusted"
+},
+{
+  "calculate": "datum.state_code == 'VIC' ? datum.label_y - 250 : datum.label_y",
+  "as": "label_y_adjusted"
+},
+{
+  "calculate": "datum.properties.label_y",
+  "as": "label_y"
+},
+    {
+      "calculate": "datum.properties['financial_year_' + selectedYear]",
+      "as": "financial_year"
+    },
+    {
+      "calculate": "datum.properties['arrivals_' + selectedYear]",
+      "as": "student_arrivals"
+    },
+    {
+      "calculate": "datum.properties['departures_' + selectedYear]",
+      "as": "student_departures"
+    },
+    {
+      "calculate": "datum.properties['net_' + selectedYear]",
+      "as": "net_student_migration"
+    },
+    {
+      "calculate": "datum.properties.state",
+      "as": "state"
+    },
+    {
+      "calculate": "datum.properties.state_code",
+      "as": "state_code"
+    },
+    {
+  "filter": "datum.state_code != 'ACT'"
+}
+  ],
+  "projection": {
+    "type": "identity",
+    "reflectY": true,
+    "scale": 0.055,
+    "translate": [70, 560]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape",
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "shape": {
+          "field": "geometry",
+          "type": "geojson"
+        },
+        "color": {
+          "field": "net_student_migration",
+          "type": "quantitative",
+          "title": "Net student migration",
+          "scale": {
+            "scheme": "blueorange",
+            "domain": [-25000, 95000],
+            "domainMid": 0
+          },
+          "legend": {
+            "format": ",.0f"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State/Territory"
+          },
+          {
+            "field": "financial_year",
+            "type": "ordinal",
+            "title": "Financial year"
+          },
+          {
+            "field": "student_arrivals",
+            "type": "quantitative",
+            "title": "Student arrivals",
+            "format": ","
+          },
+          {
+            "field": "student_departures",
+            "type": "quantitative",
+            "title": "Student departures",
+            "format": ","
+          },
+          {
+            "field": "net_student_migration",
+            "type": "quantitative",
+            "title": "Net student migration",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
   "mark": {
-    "type": "rect"
+    "type": "text",
+    "fontSize": 14,
+    "fontWeight": "bold",
+    "fill": "#111827"
   },
   "encoding": {
-    "x": {
-      "field": "financial_year",
-      "type": "ordinal",
-      "title": "Financial year",
-      "axis": {
-        "labelAngle": -45
-      }
+    "longitude": {
+      "field": "label_x",
+      "type": "quantitative"
     },
-    "y": {
+    "latitude": {
+      "field": "label_y",
+      "type": "quantitative"
+    },
+    "text": {
       "field": "state_code",
-      "type": "nominal",
-      "title": "State/Territory",
-      "sort": [
-        "NSW",
-        "VIC",
-        "QLD",
-        "WA",
-        "SA",
-        "ACT",
-        "TAS",
-        "NT"
-      ]
-    },
-    "color": {
-      "field": "net_student_migration",
-      "type": "quantitative",
-      "title": "Net student migration",
-      "scale": {
-        "scheme": "blueorange",
-        "domainMid": 0
-      }
-    },
-    "tooltip": [
-      {
-        "field": "state",
-        "type": "nominal",
-        "title": "State/Territory"
-      },
-      {
-        "field": "financial_year",
-        "type": "ordinal",
-        "title": "Financial year"
-      },
-      {
-        "field": "student_arrivals",
-        "type": "quantitative",
-        "title": "Student arrivals",
-        "format": ","
-      },
-      {
-        "field": "student_departures",
-        "type": "quantitative",
-        "title": "Student departures",
-        "format": ","
-      },
-      {
-        "field": "net_student_migration",
-        "type": "quantitative",
-        "title": "Net student migration",
-        "format": ","
-      }
-    ]
+      "type": "nominal"
+    }
+  }
+}
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
   }
 }
