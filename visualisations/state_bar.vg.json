@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 480,
+  "height": 320,
+  "data": {
+    "url": "data/students_by_state.csv"
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 4
+  },
+  "encoding": {
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "sort": "-x",
+      "title": "State or territory"
+    },
+    "x": {
+      "field": "students",
+      "type": "quantitative",
+      "title": "YTD enrolments"
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal",
+        "title": "State/Territory"
+      },
+      {
+        "field": "students",
+        "type": "quantitative",
+        "title": "YTD enrolments",
+        "format": ","
+      }
+    ]
+  }
+}
