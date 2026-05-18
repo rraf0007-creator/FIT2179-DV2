@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>FIT2179 Data Visualisation 2</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>International Students in Australia</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Vega-Lite libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
+
 <body>
-  <h1>International Students in Australia</h1>
-  <p>This is my FIT2179 Data Visualisation 2 project.</p>
+  <header class="hero">
+    <h1>Who Studies in Australia?</h1>
+    <p class="subtitle">
+      A visual story of international students, where they come from, and where they study.
+    </p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Australia’s international student population</h2>
+      <p>
+        International students are an important part of Australia’s education system.
+        This visualisation explores their source countries, study locations, and changes over time.
+      </p>
+    </section>
+
+    <section class="section grid-two">
+      <div class="chart-card">
+        <h2>Top source countries</h2>
+        <p>Which countries send the most international students to Australia?</p>
+        <div id="top-countries-bar"></div>
+      </div>
+
+      <div class="chart-card">
+        <h2>Students over time</h2>
+        <p>How has the number of international students changed over time?</p>
+        <div id="yearly-trend-line"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Where students come from</h2>
+      <p>
+        A map will be added here to show the global distribution of student source countries.
+      </p>
+      <div id="world-map"></div>
+    </section>
+
+    <section class="section">
+      <h2>Data sources and authorship</h2>
+      <p>
+        Data sources: Australian Government Department of Education and Australian Bureau of Statistics.
+      </p>
+      <p>
+        Created by: Ridwan Abdullah Rafi | FIT2179 Data Visualisation 2 | 2026
+      </p>
+    </section>
+  </main>
+
+  <script src="js/vega_embed.js"></script>
 </body>
 </html>
