@@ -1,0 +1,190 @@
+country,students,commencements_ytd,as_at_1st_month,enrolments_for_month,commencements_for_month
+China,129164,6028,123136,129164,6028
+India,97056,4951,92105,97056,4951
+Nepal,53024,2095,50929,53024,2095
+Vietnam,25234,1931,23303,25234,1931
+Bangladesh,22395,946,21449,22395,946
+Philippines,19001,1467,17534,19001,1467
+Indonesia,18801,1282,17519,18801,1282
+Colombia,17403,1629,15774,17403,1629
+Pakistan,15528,1019,14509,15528,1019
+Sri Lanka,14855,597,14258,14855,597
+Brazil,13301,1470,11831,13301,1470
+Thailand,12743,1266,11477,12743,1266
+"Korea, Republic of (South)",9686,1251,8435,9686,1251
+Malaysia,9434,466,8968,9434,466
+Taiwan,8339,855,7484,8339,855
+Bhutan,7745,337,7408,7745,337
+Hong Kong SAR,7623,570,7053,7623,570
+Kenya,6360,378,5982,6360,378
+Japan,6099,928,5171,6099,928
+Singapore,4694,161,4533,4694,161
+Mongolia,4050,294,3756,4050,294
+United States of America,3822,1436,2386,3822,1436
+Chile,3459,392,3067,3459,392
+Cambodia,3271,293,2978,3271,293
+Saudi Arabia,2929,229,2700,2929,229
+Turkiye,2859,299,2560,2859,299
+Fiji,2832,230,2602,2832,230
+Canada,2763,368,2395,2763,368
+United Kingdom,2669,268,2401,2669,268
+Iran,2642,242,2400,2642,242
+Spain,2440,381,2059,2440,381
+Mexico,2260,249,2011,2260,249
+Italy,2259,352,1907,2259,352
+France,2203,305,1898,2203,305
+Argentina,2036,228,1808,2036,228
+Germany,1959,508,1451,1959,508
+Ecuador,1709,207,1502,1709,207
+Peru,1634,179,1455,1634,179
+Nigeria,1299,78,1221,1299,78
+Papua New Guinea,1294,214,1080,1294,214
+Zimbabwe,1238,52,1186,1238,52
+Mauritius,1201,73,1128,1201,73
+Laos,790,85,705,790,85
+United Arab Emirates,679,52,627,679,52
+South Africa,666,55,611,666,55
+Russian Federation,621,43,578,621,43
+Norway,552,79,473,552,79
+Ireland,527,73,454,527,73
+Egypt,525,57,468,525,57
+Myanmar,484,9,475,484,9
+Ethiopia,480,44,436,480,44
+Kuwait,471,31,440,471,31
+Macau,374,21,353,374,21
+Ghana,373,30,343,373,30
+Switzerland,364,116,248,364,116
+Portugal,361,27,334,361,27
+Jordan,326,21,305,326,21
+Sweden,325,44,281,325,44
+Poland,316,27,289,316,27
+Uzbekistan,315,18,297,315,18
+Netherlands,313,31,282,313,31
+Belgium,282,47,235,282,47
+Lithuania,282,30,252,282,30
+Czech Republic,222,38,184,222,38
+Lebanon,221,14,207,221,14
+Uganda,215,15,200,215,15
+Brunei Darussalam,181,13,168,181,13
+Israel,163,25,138,163,25
+Oman,161,46,115,161,46
+Botswana,158,4,154,158,4
+Zambia,150,6,144,150,6
+Kazakhstan,135,8,127,135,8
+Estonia,130,15,115,130,15
+Maldives,129,2,127,129,2
+Uruguay,123,15,108,123,15
+Solomon Islands,120,10,110,120,10
+Austria,117,44,73,117,44
+Slovakia,117,16,101,117,16
+Denmark,113,29,84,113,29
+Greece,98,6,92,98,6
+Paraguay,98,8,90,98,8
+North Macedonia,96,3,93,96,3
+Finland,94,11,83,94,11
+Venezuela,92,10,82,92,10
+Bolivia,85,8,77,85,8
+Hungary,82,7,75,82,7
+Tonga,76,10,66,76,10
+Tanzania,76,0,76,76,0
+Morocco,75,11,64,75,11
+Guatemala,74,5,69,74,5
+Nauru,72,20,52,72,20
+Timor-Leste,65,3,62,65,3
+Iraq,60,5,55,60,5
+Romania,58,6,52,58,6
+Malawi,57,0,57,57,0
+Rwanda,44,4,40,44,4
+Ukraine,39,3,36,39,3
+Vanuatu,37,7,30,37,7
+Costa Rica,36,6,30,36,6
+El Salvador,35,6,29,35,6
+Panama,34,10,24,34,10
+Azerbaijan,34,0,34,34,0
+Sudan,33,4,29,33,4
+Tunisia,32,14,18,32,14
+Kyrgyzstan,32,2,30,32,2
+Latvia,31,3,28,31,3
+Serbia,30,2,28,30,2
+Bulgaria,28,1,27,28,1
+Albania,27,3,24,27,3
+Samoa,26,1,25,26,1
+Slovenia,25,2,23,25,2
+Algeria,24,3,21,24,3
+Yemen,24,0,24,24,0
+Afghanistan,23,1,22,23,1
+Syria,22,1,21,22,1
+Mozambique,22,1,21,22,1
+"Congo, Democratic Republic of",21,1,20,21,1
+Namibia,20,1,19,20,1
+Armenia,20,3,17,20,3
+Croatia,20,6,14,20,6
+Luxembourg,20,5,15,20,5
+Cameroon,19,2,17,19,2
+Cyprus,17,3,14,17,3
+Sierra Leone,17,1,16,17,1
+Other,16,2,14,16,2
+Kiribati,16,0,16,16,0
+Malta,15,1,14,15,1
+Gaza Strip and West Bank,14,1,13,14,1
+Seychelles,14,1,13,14,1
+Honduras,14,0,14,14,0
+Jamaica,14,0,14,14,0
+Dominican Republic,13,3,10,13,3
+Madagascar,13,0,13,13,0
+Trinidad and Tobago,12,1,11,12,1
+Belarus,12,0,12,12,0
+Liberia,12,3,9,12,3
+Lesotho,10,3,7,10,3
+Burundi,10,0,10,10,0
+Kosovo,9,1,8,9,1
+Qatar,8,2,6,8,2
+Georgia,8,1,7,8,1
+Nicaragua,7,1,6,7,1
+St Kitts and Nevis,7,1,6,7,1
+Iceland,7,0,7,7,0
+Bahrain,7,0,7,7,0
+Swaziland,7,2,5,7,2
+Moldova,6,2,4,6,2
+Dominica,6,0,6,6,0
+Bahamas,6,2,4,6,2
+Bosnia and Herzegovina,6,1,5,6,1
+Djibouti,5,0,5,5,0
+Eritrea,5,1,4,5,1
+Cuba,5,0,5,5,0
+United Kingdom (Other),5,1,4,5,1
+Liechtenstein,4,3,1,4,3
+South Sudan,4,0,4,4,0
+Barbados,3,0,3,3,0
+Tajikistan,3,0,3,3,0
+Libya,3,0,3,3,0
+Tuvalu,3,0,3,3,0
+Turkmenistan,3,0,3,3,0
+Montenegro,3,0,3,3,0
+Equatorial Guinea,2,0,2,2,0
+Andorra,2,1,1,2,1
+Chad,2,0,2,2,0
+Grenada,2,0,2,2,0
+Niger,2,0,2,2,0
+Antigua and Barbuda,2,0,2,2,0
+St Lucia,2,0,2,2,0
+"Korea, Democratic People's Republic of (North)",2,0,2,2,0
+Monaco,2,0,2,2,0
+Cote d'Ivoire,2,0,2,2,0
+Belize,2,1,1,2,1
+Guyana,2,0,2,2,0
+Gabon,2,0,2,2,0
+Gambia,2,0,2,2,0
+Haiti,2,0,2,2,0
+Bermuda,1,0,1,1,0
+St Helena,1,0,1,1,0
+San Marino,1,0,1,1,0
+Burkina Faso,1,0,1,1,0
+Guinea-Bissau,1,0,1,1,0
+"Congo, Republic of",1,0,1,1,0
+British Indian Ocean Territory,1,0,1,1,0
+Marshall Islands,1,0,1,1,0
+Suriname,1,0,1,1,0
+Angola,1,0,1,1,0
+Mali,1,0,1,1,0
+"Micronesia, Federated States of",1,0,1,1,0
