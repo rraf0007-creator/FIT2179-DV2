@@ -1,3 +1,12 @@
+#top-countries-bar,
+#yearly-trend-line,
+#state-bar,
+#sector-breakdown,
+#australia-bubble-map {
+  width: 100%;
+  min-height: 340px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -46,19 +55,40 @@ main {
 
 .grid-two {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  align-items: stretch;
 }
 
 .chart-card {
   background: white;
-  padding: 24px;
+  padding: 28px;
   border-radius: 14px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  min-height: 520px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .chart-card h2 {
   margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.chart-card p {
+  min-height: 52px;
+  margin-top: 0;
+}
+
+.chart-card > div[id] {
+  width: 100%;
+  overflow: hidden;
+}
+
+.vega-embed {
+  width: 100%;
+  max-width: 100%;
 }
 
 #top-countries-bar,

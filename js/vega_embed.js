@@ -6,5 +6,4 @@ vegaEmbed("#state-bar", "visualisations/state_bar.vg.json").catch(console.error)
 
 vegaEmbed("#sector-breakdown", "visualisations/sector_breakdown.vg.json").catch(console.error);
 
-// We will add this after creating the map spec.
-// vegaEmbed("#world-map", "visualisations/world_map.vg.json").catch(console.error);
+vegaEmbed("#australia-bubble-map", "visualisations/australia_bubble_map.vg.json").catch(console.error);

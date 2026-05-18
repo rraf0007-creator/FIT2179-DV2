@@ -1,7 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 480,
+  "width": "container",
   "height": 320,
+  "autosize": {
+  "type": "fit",
+  "contains": "padding"
+},
   "data": {
     "url": "data/students_by_state.csv"
   },

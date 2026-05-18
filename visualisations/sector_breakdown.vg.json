@@ -1,15 +1,15 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 480,
+  "width": 360,
   "height": 320,
   "data": {
     "url": "data/students_by_sector.csv"
   },
-  "mark": {
+    "mark": {
     "type": "arc",
-    "innerRadius": 70,
-    "outerRadius": 140
-  },
+    "innerRadius": 60,
+    "outerRadius": 120
+    },
   "encoding": {
     "theta": {
       "field": "students",
