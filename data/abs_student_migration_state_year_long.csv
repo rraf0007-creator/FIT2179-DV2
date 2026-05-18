@@ -1,0 +1,337 @@
+state_code,state,financial_year,direction,value,signed_value
+NSW,New South Wales,2004-05,Arrivals,24850,24850
+NSW,New South Wales,2004-05,Departures,7620,-7620
+NSW,New South Wales,2005-06,Arrivals,27110,27110
+NSW,New South Wales,2005-06,Departures,8900,-8900
+NSW,New South Wales,2006-07,Arrivals,39490,39490
+NSW,New South Wales,2006-07,Departures,8560,-8560
+NSW,New South Wales,2007-08,Arrivals,50620,50620
+NSW,New South Wales,2007-08,Departures,9040,-9040
+NSW,New South Wales,2008-09,Arrivals,51280,51280
+NSW,New South Wales,2008-09,Departures,10970,-10970
+NSW,New South Wales,2009-10,Arrivals,35970,35970
+NSW,New South Wales,2009-10,Departures,14970,-14970
+NSW,New South Wales,2010-11,Arrivals,26520,26520
+NSW,New South Wales,2010-11,Departures,17930,-17930
+NSW,New South Wales,2011-12,Arrivals,25840,25840
+NSW,New South Wales,2011-12,Departures,16860,-16860
+NSW,New South Wales,2012-13,Arrivals,30910,30910
+NSW,New South Wales,2012-13,Departures,15660,-15660
+NSW,New South Wales,2013-14,Arrivals,39740,39740
+NSW,New South Wales,2013-14,Departures,15030,-15030
+NSW,New South Wales,2014-15,Arrivals,44960,44960
+NSW,New South Wales,2014-15,Departures,15310,-15310
+NSW,New South Wales,2015-16,Arrivals,48170,48170
+NSW,New South Wales,2015-16,Departures,15020,-15020
+NSW,New South Wales,2016-17,Arrivals,55670,55670
+NSW,New South Wales,2016-17,Departures,15930,-15930
+NSW,New South Wales,2017-18,Arrivals,59550,59550
+NSW,New South Wales,2017-18,Departures,20300,-20300
+NSW,New South Wales,2018-19,Arrivals,58670,58670
+NSW,New South Wales,2018-19,Departures,25740,-25740
+NSW,New South Wales,2019-20,Arrivals,36210,36210
+NSW,New South Wales,2019-20,Departures,39980,-39980
+NSW,New South Wales,2020-21,Arrivals,640,640
+NSW,New South Wales,2020-21,Departures,21430,-21430
+NSW,New South Wales,2021-22,Arrivals,55380,55380
+NSW,New South Wales,2021-22,Departures,10020,-10020
+NSW,New South Wales,2022-23,Arrivals,97800,97800
+NSW,New South Wales,2022-23,Departures,5900,-5900
+NSW,New South Wales,2023-24,Arrivals,69160,69160
+NSW,New South Wales,2023-24,Departures,13330,-13330
+NSW,New South Wales,2024-25,Arrivals,55030,55030
+NSW,New South Wales,2024-25,Departures,19080,-19080
+VIC,Victoria,2004-05,Arrivals,19880,19880
+VIC,Victoria,2004-05,Departures,5720,-5720
+VIC,Victoria,2005-06,Arrivals,23390,23390
+VIC,Victoria,2005-06,Departures,7180,-7180
+VIC,Victoria,2006-07,Arrivals,35490,35490
+VIC,Victoria,2006-07,Departures,6810,-6810
+VIC,Victoria,2007-08,Arrivals,43520,43520
+VIC,Victoria,2007-08,Departures,7180,-7180
+VIC,Victoria,2008-09,Arrivals,51970,51970
+VIC,Victoria,2008-09,Departures,8480,-8480
+VIC,Victoria,2009-10,Arrivals,32950,32950
+VIC,Victoria,2009-10,Departures,11830,-11830
+VIC,Victoria,2010-11,Arrivals,21540,21540
+VIC,Victoria,2010-11,Departures,14450,-14450
+VIC,Victoria,2011-12,Arrivals,20940,20940
+VIC,Victoria,2011-12,Departures,13180,-13180
+VIC,Victoria,2012-13,Arrivals,25450,25450
+VIC,Victoria,2012-13,Departures,12220,-12220
+VIC,Victoria,2013-14,Arrivals,35040,35040
+VIC,Victoria,2013-14,Departures,11920,-11920
+VIC,Victoria,2014-15,Arrivals,37910,37910
+VIC,Victoria,2014-15,Departures,12420,-12420
+VIC,Victoria,2015-16,Arrivals,42100,42100
+VIC,Victoria,2015-16,Departures,12550,-12550
+VIC,Victoria,2016-17,Arrivals,49000,49000
+VIC,Victoria,2016-17,Departures,13630,-13630
+VIC,Victoria,2017-18,Arrivals,53030,53030
+VIC,Victoria,2017-18,Departures,16520,-16520
+VIC,Victoria,2018-19,Arrivals,56530,56530
+VIC,Victoria,2018-19,Departures,20720,-20720
+VIC,Victoria,2019-20,Arrivals,37150,37150
+VIC,Victoria,2019-20,Departures,31780,-31780
+VIC,Victoria,2020-21,Arrivals,300,300
+VIC,Victoria,2020-21,Departures,24670,-24670
+VIC,Victoria,2021-22,Arrivals,46740,46740
+VIC,Victoria,2021-22,Departures,8250,-8250
+VIC,Victoria,2022-23,Arrivals,80000,80000
+VIC,Victoria,2022-23,Departures,4540,-4540
+VIC,Victoria,2023-24,Arrivals,60680,60680
+VIC,Victoria,2023-24,Departures,9580,-9580
+VIC,Victoria,2024-25,Arrivals,50110,50110
+VIC,Victoria,2024-25,Departures,14370,-14370
+QLD,Queensland,2004-05,Arrivals,9640,9640
+QLD,Queensland,2004-05,Departures,3880,-3880
+QLD,Queensland,2005-06,Arrivals,10110,10110
+QLD,Queensland,2005-06,Departures,4850,-4850
+QLD,Queensland,2006-07,Arrivals,12710,12710
+QLD,Queensland,2006-07,Departures,4950,-4950
+QLD,Queensland,2007-08,Arrivals,18920,18920
+QLD,Queensland,2007-08,Departures,4750,-4750
+QLD,Queensland,2008-09,Arrivals,23770,23770
+QLD,Queensland,2008-09,Departures,5490,-5490
+QLD,Queensland,2009-10,Arrivals,17550,17550
+QLD,Queensland,2009-10,Departures,7270,-7270
+QLD,Queensland,2010-11,Arrivals,12650,12650
+QLD,Queensland,2010-11,Departures,9110,-9110
+QLD,Queensland,2011-12,Arrivals,11720,11720
+QLD,Queensland,2011-12,Departures,8750,-8750
+QLD,Queensland,2012-13,Arrivals,13650,13650
+QLD,Queensland,2012-13,Departures,8510,-8510
+QLD,Queensland,2013-14,Arrivals,19430,19430
+QLD,Queensland,2013-14,Departures,8130,-8130
+QLD,Queensland,2014-15,Arrivals,17570,17570
+QLD,Queensland,2014-15,Departures,8440,-8440
+QLD,Queensland,2015-16,Arrivals,18770,18770
+QLD,Queensland,2015-16,Departures,7810,-7810
+QLD,Queensland,2016-17,Arrivals,21310,21310
+QLD,Queensland,2016-17,Departures,8190,-8190
+QLD,Queensland,2017-18,Arrivals,21950,21950
+QLD,Queensland,2017-18,Departures,9520,-9520
+QLD,Queensland,2018-19,Arrivals,24180,24180
+QLD,Queensland,2018-19,Departures,11060,-11060
+QLD,Queensland,2019-20,Arrivals,17220,17220
+QLD,Queensland,2019-20,Departures,15360,-15360
+QLD,Queensland,2020-21,Arrivals,280,280
+QLD,Queensland,2020-21,Departures,8710,-8710
+QLD,Queensland,2021-22,Arrivals,17060,17060
+QLD,Queensland,2021-22,Departures,4650,-4650
+QLD,Queensland,2022-23,Arrivals,43620,43620
+QLD,Queensland,2022-23,Departures,2620,-2620
+QLD,Queensland,2023-24,Arrivals,30130,30130
+QLD,Queensland,2023-24,Departures,5350,-5350
+QLD,Queensland,2024-25,Arrivals,21950,21950
+QLD,Queensland,2024-25,Departures,8320,-8320
+SA,South Australia,2004-05,Arrivals,4160,4160
+SA,South Australia,2004-05,Departures,1070,-1070
+SA,South Australia,2005-06,Arrivals,4670,4670
+SA,South Australia,2005-06,Departures,1430,-1430
+SA,South Australia,2006-07,Arrivals,6080,6080
+SA,South Australia,2006-07,Departures,1580,-1580
+SA,South Australia,2007-08,Arrivals,7170,7170
+SA,South Australia,2007-08,Departures,1710,-1710
+SA,South Australia,2008-09,Arrivals,9390,9390
+SA,South Australia,2008-09,Departures,1880,-1880
+SA,South Australia,2009-10,Arrivals,7100,7100
+SA,South Australia,2009-10,Departures,2510,-2510
+SA,South Australia,2010-11,Arrivals,4930,4930
+SA,South Australia,2010-11,Departures,2980,-2980
+SA,South Australia,2011-12,Arrivals,4850,4850
+SA,South Australia,2011-12,Departures,2980,-2980
+SA,South Australia,2012-13,Arrivals,5210,5210
+SA,South Australia,2012-13,Departures,2920,-2920
+SA,South Australia,2013-14,Arrivals,6640,6640
+SA,South Australia,2013-14,Departures,3020,-3020
+SA,South Australia,2014-15,Arrivals,7100,7100
+SA,South Australia,2014-15,Departures,2990,-2990
+SA,South Australia,2015-16,Arrivals,7420,7420
+SA,South Australia,2015-16,Departures,2980,-2980
+SA,South Australia,2016-17,Arrivals,7500,7500
+SA,South Australia,2016-17,Departures,3050,-3050
+SA,South Australia,2017-18,Arrivals,7790,7790
+SA,South Australia,2017-18,Departures,2820,-2820
+SA,South Australia,2018-19,Arrivals,8680,8680
+SA,South Australia,2018-19,Departures,2930,-2930
+SA,South Australia,2019-20,Arrivals,7700,7700
+SA,South Australia,2019-20,Departures,5260,-5260
+SA,South Australia,2020-21,Arrivals,80,80
+SA,South Australia,2020-21,Departures,2600,-2600
+SA,South Australia,2021-22,Arrivals,9050,9050
+SA,South Australia,2021-22,Departures,1370,-1370
+SA,South Australia,2022-23,Arrivals,16440,16440
+SA,South Australia,2022-23,Departures,840,-840
+SA,South Australia,2023-24,Arrivals,12280,12280
+SA,South Australia,2023-24,Departures,1420,-1420
+SA,South Australia,2024-25,Arrivals,8930,8930
+SA,South Australia,2024-25,Departures,1970,-1970
+WA,Western Australia,2004-05,Arrivals,5710,5710
+WA,Western Australia,2004-05,Departures,2160,-2160
+WA,Western Australia,2005-06,Arrivals,5670,5670
+WA,Western Australia,2005-06,Departures,2670,-2670
+WA,Western Australia,2006-07,Arrivals,7290,7290
+WA,Western Australia,2006-07,Departures,2500,-2500
+WA,Western Australia,2007-08,Arrivals,10290,10290
+WA,Western Australia,2007-08,Departures,2210,-2210
+WA,Western Australia,2008-09,Arrivals,12610,12610
+WA,Western Australia,2008-09,Departures,2660,-2660
+WA,Western Australia,2009-10,Arrivals,9370,9370
+WA,Western Australia,2009-10,Departures,3590,-3590
+WA,Western Australia,2010-11,Arrivals,6780,6780
+WA,Western Australia,2010-11,Departures,3970,-3970
+WA,Western Australia,2011-12,Arrivals,6470,6470
+WA,Western Australia,2011-12,Departures,3590,-3590
+WA,Western Australia,2012-13,Arrivals,7360,7360
+WA,Western Australia,2012-13,Departures,3370,-3370
+WA,Western Australia,2013-14,Arrivals,8970,8970
+WA,Western Australia,2013-14,Departures,3730,-3730
+WA,Western Australia,2014-15,Arrivals,9280,9280
+WA,Western Australia,2014-15,Departures,3680,-3680
+WA,Western Australia,2015-16,Arrivals,10330,10330
+WA,Western Australia,2015-16,Departures,3720,-3720
+WA,Western Australia,2016-17,Arrivals,10040,10040
+WA,Western Australia,2016-17,Departures,3830,-3830
+WA,Western Australia,2017-18,Arrivals,8920,8920
+WA,Western Australia,2017-18,Departures,3960,-3960
+WA,Western Australia,2018-19,Arrivals,10700,10700
+WA,Western Australia,2018-19,Departures,3930,-3930
+WA,Western Australia,2019-20,Arrivals,8490,8490
+WA,Western Australia,2019-20,Departures,4150,-4150
+WA,Western Australia,2020-21,Arrivals,80,80
+WA,Western Australia,2020-21,Departures,2430,-2430
+WA,Western Australia,2021-22,Arrivals,7530,7530
+WA,Western Australia,2021-22,Departures,1540,-1540
+WA,Western Australia,2022-23,Arrivals,30330,30330
+WA,Western Australia,2022-23,Departures,830,-830
+WA,Western Australia,2023-24,Arrivals,24880,24880
+WA,Western Australia,2023-24,Departures,1690,-1690
+WA,Western Australia,2024-25,Arrivals,15230,15230
+WA,Western Australia,2024-25,Departures,2930,-2930
+TAS,Tasmania,2004-05,Arrivals,690,690
+TAS,Tasmania,2004-05,Departures,210,-210
+TAS,Tasmania,2005-06,Arrivals,720,720
+TAS,Tasmania,2005-06,Departures,280,-280
+TAS,Tasmania,2006-07,Arrivals,850,850
+TAS,Tasmania,2006-07,Departures,290,-290
+TAS,Tasmania,2007-08,Arrivals,1010,1010
+TAS,Tasmania,2007-08,Departures,310,-310
+TAS,Tasmania,2008-09,Arrivals,1050,1050
+TAS,Tasmania,2008-09,Departures,330,-330
+TAS,Tasmania,2009-10,Arrivals,930,930
+TAS,Tasmania,2009-10,Departures,440,-440
+TAS,Tasmania,2010-11,Arrivals,710,710
+TAS,Tasmania,2010-11,Departures,490,-490
+TAS,Tasmania,2011-12,Arrivals,850,850
+TAS,Tasmania,2011-12,Departures,490,-490
+TAS,Tasmania,2012-13,Arrivals,820,820
+TAS,Tasmania,2012-13,Departures,500,-500
+TAS,Tasmania,2013-14,Arrivals,960,960
+TAS,Tasmania,2013-14,Departures,480,-480
+TAS,Tasmania,2014-15,Arrivals,1410,1410
+TAS,Tasmania,2014-15,Departures,540,-540
+TAS,Tasmania,2015-16,Arrivals,1280,1280
+TAS,Tasmania,2015-16,Departures,380,-380
+TAS,Tasmania,2016-17,Arrivals,1310,1310
+TAS,Tasmania,2016-17,Departures,380,-380
+TAS,Tasmania,2017-18,Arrivals,1600,1600
+TAS,Tasmania,2017-18,Departures,410,-410
+TAS,Tasmania,2018-19,Arrivals,1700,1700
+TAS,Tasmania,2018-19,Departures,550,-550
+TAS,Tasmania,2019-20,Arrivals,1140,1140
+TAS,Tasmania,2019-20,Departures,990,-990
+TAS,Tasmania,2020-21,Arrivals,30,30
+TAS,Tasmania,2020-21,Departures,370,-370
+TAS,Tasmania,2021-22,Arrivals,1320,1320
+TAS,Tasmania,2021-22,Departures,210,-210
+TAS,Tasmania,2022-23,Arrivals,1990,1990
+TAS,Tasmania,2022-23,Departures,130,-130
+TAS,Tasmania,2023-24,Arrivals,1500,1500
+TAS,Tasmania,2023-24,Departures,170,-170
+TAS,Tasmania,2024-25,Arrivals,710,710
+TAS,Tasmania,2024-25,Departures,190,-190
+NT,Northern Territory,2004-05,Arrivals,120,120
+NT,Northern Territory,2004-05,Departures,60,-60
+NT,Northern Territory,2005-06,Arrivals,140,140
+NT,Northern Territory,2005-06,Departures,40,-40
+NT,Northern Territory,2006-07,Arrivals,210,210
+NT,Northern Territory,2006-07,Departures,70,-70
+NT,Northern Territory,2007-08,Arrivals,260,260
+NT,Northern Territory,2007-08,Departures,70,-70
+NT,Northern Territory,2008-09,Arrivals,330,330
+NT,Northern Territory,2008-09,Departures,50,-50
+NT,Northern Territory,2009-10,Arrivals,320,320
+NT,Northern Territory,2009-10,Departures,80,-80
+NT,Northern Territory,2010-11,Arrivals,230,230
+NT,Northern Territory,2010-11,Departures,100,-100
+NT,Northern Territory,2011-12,Arrivals,330,330
+NT,Northern Territory,2011-12,Departures,90,-90
+NT,Northern Territory,2012-13,Arrivals,390,390
+NT,Northern Territory,2012-13,Departures,100,-100
+NT,Northern Territory,2013-14,Arrivals,480,480
+NT,Northern Territory,2013-14,Departures,120,-120
+NT,Northern Territory,2014-15,Arrivals,580,580
+NT,Northern Territory,2014-15,Departures,130,-130
+NT,Northern Territory,2015-16,Arrivals,650,650
+NT,Northern Territory,2015-16,Departures,130,-130
+NT,Northern Territory,2016-17,Arrivals,620,620
+NT,Northern Territory,2016-17,Departures,170,-170
+NT,Northern Territory,2017-18,Arrivals,440,440
+NT,Northern Territory,2017-18,Departures,120,-120
+NT,Northern Territory,2018-19,Arrivals,550,550
+NT,Northern Territory,2018-19,Departures,120,-120
+NT,Northern Territory,2019-20,Arrivals,380,380
+NT,Northern Territory,2019-20,Departures,130,-130
+NT,Northern Territory,2020-21,Arrivals,30,30
+NT,Northern Territory,2020-21,Departures,70,-70
+NT,Northern Territory,2021-22,Arrivals,640,640
+NT,Northern Territory,2021-22,Departures,80,-80
+NT,Northern Territory,2022-23,Arrivals,1580,1580
+NT,Northern Territory,2022-23,Departures,50,-50
+NT,Northern Territory,2023-24,Arrivals,1150,1150
+NT,Northern Territory,2023-24,Departures,50,-50
+NT,Northern Territory,2024-25,Arrivals,970,970
+NT,Northern Territory,2024-25,Departures,80,-80
+ACT,Australian Capital Territory,2004-05,Arrivals,1150,1150
+ACT,Australian Capital Territory,2004-05,Departures,530,-530
+ACT,Australian Capital Territory,2005-06,Arrivals,1280,1280
+ACT,Australian Capital Territory,2005-06,Departures,730,-730
+ACT,Australian Capital Territory,2006-07,Arrivals,1610,1610
+ACT,Australian Capital Territory,2006-07,Departures,730,-730
+ACT,Australian Capital Territory,2007-08,Arrivals,1940,1940
+ACT,Australian Capital Territory,2007-08,Departures,750,-750
+ACT,Australian Capital Territory,2008-09,Arrivals,2370,2370
+ACT,Australian Capital Territory,2008-09,Departures,830,-830
+ACT,Australian Capital Territory,2009-10,Arrivals,2470,2470
+ACT,Australian Capital Territory,2009-10,Departures,1100,-1100
+ACT,Australian Capital Territory,2010-11,Arrivals,1990,1990
+ACT,Australian Capital Territory,2010-11,Departures,1310,-1310
+ACT,Australian Capital Territory,2011-12,Arrivals,2260,2260
+ACT,Australian Capital Territory,2011-12,Departures,1620,-1620
+ACT,Australian Capital Territory,2012-13,Arrivals,2430,2430
+ACT,Australian Capital Territory,2012-13,Departures,1660,-1660
+ACT,Australian Capital Territory,2013-14,Arrivals,3070,3070
+ACT,Australian Capital Territory,2013-14,Departures,1720,-1720
+ACT,Australian Capital Territory,2014-15,Arrivals,3320,3320
+ACT,Australian Capital Territory,2014-15,Departures,1540,-1540
+ACT,Australian Capital Territory,2015-16,Arrivals,3410,3410
+ACT,Australian Capital Territory,2015-16,Departures,1530,-1530
+ACT,Australian Capital Territory,2016-17,Arrivals,3960,3960
+ACT,Australian Capital Territory,2016-17,Departures,1630,-1630
+ACT,Australian Capital Territory,2017-18,Arrivals,4350,4350
+ACT,Australian Capital Territory,2017-18,Departures,1770,-1770
+ACT,Australian Capital Territory,2018-19,Arrivals,3330,3330
+ACT,Australian Capital Territory,2018-19,Departures,2380,-2380
+ACT,Australian Capital Territory,2019-20,Arrivals,2170,2170
+ACT,Australian Capital Territory,2019-20,Departures,3270,-3270
+ACT,Australian Capital Territory,2020-21,Arrivals,70,70
+ACT,Australian Capital Territory,2020-21,Departures,1920,-1920
+ACT,Australian Capital Territory,2021-22,Arrivals,3670,3670
+ACT,Australian Capital Territory,2021-22,Departures,750,-750
+ACT,Australian Capital Territory,2022-23,Arrivals,5980,5980
+ACT,Australian Capital Territory,2022-23,Departures,590,-590
+ACT,Australian Capital Territory,2023-24,Arrivals,4330,4330
+ACT,Australian Capital Territory,2023-24,Departures,1230,-1230
+ACT,Australian Capital Territory,2024-25,Arrivals,3770,3770
+ACT,Australian Capital Territory,2024-25,Departures,1710,-1710

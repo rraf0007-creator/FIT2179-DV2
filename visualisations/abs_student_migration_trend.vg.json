@@ -1,0 +1,115 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 360,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "title": {
+    "text": "Student migration flows recovered sharply after the border closure period",
+    "subtitle": "ABS overseas migrant arrivals and departures for student visas, Australia, 2004-05 to 2024-25"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/abs_student_migration_trend_long.csv"
+      },
+      "mark": {
+        "type": "bar",
+        "opacity": 0.75
+      },
+      "encoding": {
+        "x": {
+          "field": "financial_year",
+          "type": "ordinal",
+          "title": "Financial year",
+          "axis": {
+            "labelAngle": -45
+          }
+        },
+        "y": {
+          "field": "signed_value",
+          "type": "quantitative",
+          "title": "Migrants",
+          "axis": {
+            "format": ",",
+            "labelExpr": "abs(datum.value)"
+          }
+        },
+        "color": {
+          "field": "direction",
+          "type": "nominal",
+          "title": "Flow",
+          "scale": {
+            "domain": [
+              "Arrivals",
+              "Departures"
+            ],
+            "range": [
+              "#2f6f9f",
+              "#d55e5e"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "financial_year",
+            "type": "ordinal",
+            "title": "Financial year"
+          },
+          {
+            "field": "direction",
+            "type": "nominal",
+            "title": "Flow"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Migrants",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/abs_student_migration_trend.csv"
+      },
+      "mark": {
+        "type": "line",
+        "point": true,
+        "strokeWidth": 3,
+        "color": "#111827"
+      },
+      "encoding": {
+        "x": {
+          "field": "financial_year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "net_student_migration",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "financial_year",
+            "type": "ordinal",
+            "title": "Financial year"
+          },
+          {
+            "field": "net_student_migration",
+            "type": "quantitative",
+            "title": "Net student migration",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "legend": {
+      "orient": "bottom"
+    }
+  }
+}

@@ -6,6 +6,13 @@
   width: 100%;
   min-height: 340px;
 }
+#abs-student-migration-trend,
+#combined-state-migration-enrolments,
+#abs-temp-visa-lollipop,
+#abs-state-net-heatmap {
+  width: 100%;
+  min-height: 360px;
+}
 
 * {
   box-sizing: border-box;

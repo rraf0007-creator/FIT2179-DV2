@@ -1,0 +1,83 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 330,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "title": {
+    "text": "Student migration gains are concentrated in NSW and Victoria",
+    "subtitle": "Net student migration by state/territory and financial year"
+  },
+  "data": {
+    "url": "data/abs_student_migration_state_year.csv"
+  },
+  "mark": {
+    "type": "rect"
+  },
+  "encoding": {
+    "x": {
+      "field": "financial_year",
+      "type": "ordinal",
+      "title": "Financial year",
+      "axis": {
+        "labelAngle": -45
+      }
+    },
+    "y": {
+      "field": "state_code",
+      "type": "nominal",
+      "title": "State/Territory",
+      "sort": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "WA",
+        "SA",
+        "ACT",
+        "TAS",
+        "NT"
+      ]
+    },
+    "color": {
+      "field": "net_student_migration",
+      "type": "quantitative",
+      "title": "Net student migration",
+      "scale": {
+        "scheme": "blueorange",
+        "domainMid": 0
+      }
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal",
+        "title": "State/Territory"
+      },
+      {
+        "field": "financial_year",
+        "type": "ordinal",
+        "title": "Financial year"
+      },
+      {
+        "field": "student_arrivals",
+        "type": "quantitative",
+        "title": "Student arrivals",
+        "format": ","
+      },
+      {
+        "field": "student_departures",
+        "type": "quantitative",
+        "title": "Student departures",
+        "format": ","
+      },
+      {
+        "field": "net_student_migration",
+        "type": "quantitative",
+        "title": "Net student migration",
+        "format": ","
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+state_code,state,student_arrivals_2024_25,student_departures_2024_25,net_student_migration_2024_25,enrolments_jan_2026,arrivals_per_100_enrolments,net_per_100_enrolments
+NSW,New South Wales,55030,19080,35950,222144,24.8,16.2
+VIC,Victoria,50110,14370,35740,168892,29.7,21.2
+QLD,Queensland,21950,8320,13630,76592,28.7,17.8
+SA,South Australia,8930,1970,6960,32054,27.9,21.7
+WA,Western Australia,15230,2930,12300,46247,32.9,26.6
+TAS,Tasmania,710,190,520,4735,15.0,11.0
+NT,Northern Territory,970,80,890,3682,26.3,24.2
+ACT,Australian Capital Territory,3770,1710,2060,11255,33.5,18.3

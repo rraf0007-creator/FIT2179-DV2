@@ -1,0 +1,129 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 310,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "title": {
+    "text": "Students were the largest temporary visa migrant arrival group in 2024-25",
+    "subtitle": "ABS overseas migrant arrivals by selected temporary visa type"
+  },
+  "data": {
+    "url": "data/abs_temp_visa_arrivals_2024_25.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 3,
+        "opacity": 0.55
+      },
+      "encoding": {
+        "y": {
+          "field": "visa_type",
+          "type": "nominal",
+          "sort": "-x",
+          "title": "Temporary visa type"
+        },
+        "x": {
+          "datum": 0,
+          "type": "quantitative",
+          "title": "Migrant arrivals",
+          "axis": {
+            "format": ","
+          }
+        },
+        "x2": {
+          "field": "arrivals"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.visa_type == 'Student'",
+            "value": "#d55e5e"
+          },
+          "value": "#9ca3af"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 180
+      },
+      "encoding": {
+        "y": {
+          "field": "visa_type",
+          "type": "nominal",
+          "sort": "-x"
+        },
+        "x": {
+          "field": "arrivals",
+          "type": "quantitative"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.visa_type == 'Student'",
+            "value": "#d55e5e"
+          },
+          "value": "#4b5563"
+        },
+        "tooltip": [
+          {
+            "field": "visa_type",
+            "type": "nominal",
+            "title": "Visa type"
+          },
+          {
+            "field": "arrivals",
+            "type": "quantitative",
+            "title": "Arrivals",
+            "format": ","
+          },
+          {
+            "field": "departures",
+            "type": "quantitative",
+            "title": "Departures",
+            "format": ","
+          },
+          {
+            "field": "net",
+            "type": "quantitative",
+            "title": "Net",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 12
+      },
+      "encoding": {
+        "y": {
+          "field": "visa_type",
+          "type": "nominal",
+          "sort": "-x"
+        },
+        "x": {
+          "field": "arrivals",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "arrivals",
+          "type": "quantitative",
+          "format": ","
+        }
+      }
+    }
+  ],
+  "config": {
+    "legend": {
+      "disable": true
+    }
+  }
+}

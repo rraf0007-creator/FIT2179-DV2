@@ -1,0 +1,6 @@
+visa_type,arrivals,departures,net,is_student
+Student,156710,48640,108070,Student
+Skilled (temporary),45780,10080,35700,Other temporary visa
+Working holiday,78340,24950,53390,Other temporary visa
+Visitors,56080,18340,37740,Other temporary visa
+Other (temporary),26170,45920,-19750,Other temporary visa

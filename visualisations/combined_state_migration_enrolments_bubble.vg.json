@@ -1,0 +1,121 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 360,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "title": {
+    "text": "Big enrolment states also gained the most student migrants",
+    "subtitle": "Combines Department of Education enrolments with ABS student visa net migration"
+  },
+  "data": {
+    "url": "data/combined_state_student_migration_enrolments.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "opacity": 0.75,
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "enrolments_jan_2026",
+          "type": "quantitative",
+          "title": "International student enrolments, Jan 2026",
+          "axis": {
+            "format": ","
+          }
+        },
+        "y": {
+          "field": "net_student_migration_2024_25",
+          "type": "quantitative",
+          "title": "Net student migration, 2024-25",
+          "axis": {
+            "format": ","
+          }
+        },
+        "size": {
+          "field": "student_arrivals_2024_25",
+          "type": "quantitative",
+          "title": "Student arrivals",
+          "scale": {
+            "range": [
+              100,
+              3500
+            ]
+          }
+        },
+        "color": {
+          "field": "net_per_100_enrolments",
+          "type": "quantitative",
+          "title": "Net per 100 enrolments",
+          "scale": {
+            "scheme": "tealblues"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State/Territory"
+          },
+          {
+            "field": "enrolments_jan_2026",
+            "type": "quantitative",
+            "title": "Dept enrolments",
+            "format": ","
+          },
+          {
+            "field": "student_arrivals_2024_25",
+            "type": "quantitative",
+            "title": "ABS student arrivals",
+            "format": ","
+          },
+          {
+            "field": "student_departures_2024_25",
+            "type": "quantitative",
+            "title": "ABS student departures",
+            "format": ","
+          },
+          {
+            "field": "net_student_migration_2024_25",
+            "type": "quantitative",
+            "title": "Net student migration",
+            "format": ","
+          },
+          {
+            "field": "net_per_100_enrolments",
+            "type": "quantitative",
+            "title": "Net per 100 enrolments"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dy": -12,
+        "fontWeight": "bold",
+        "fontSize": 12
+      },
+      "encoding": {
+        "x": {
+          "field": "enrolments_jan_2026",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "net_student_migration_2024_25",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "state_code",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}
