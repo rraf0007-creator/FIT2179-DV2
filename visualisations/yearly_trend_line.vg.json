@@ -1,0 +1,41 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 480,
+  "height": 320,
+  "data": {
+    "url": "data/students_by_year.csv"
+  },
+  "mark": {
+    "type": "line",
+    "point": true,
+    "strokeWidth": 3
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "students",
+      "type": "quantitative",
+      "title": "YTD international student enrolments",
+      "scale": {
+        "zero": false
+      }
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      {
+        "field": "students",
+        "type": "quantitative",
+        "title": "YTD enrolments",
+        "format": ","
+      }
+    ]
+  }
+}
