@@ -27,15 +27,15 @@
           "type": "quantitative",
           "title": "International student enrolments, Jan 2026",
           "axis": {
-            "format": ","
+            "format": ",.0f"
           }
         },
         "y": {
           "field": "net_student_migration_2024_25",
           "type": "quantitative",
-          "title": "Net student migration, 2024-25",
+          "title": "Net student migration 2024-25",
           "axis": {
-            "format": ","
+            "format": ",.0f"
           }
         },
         "size": {

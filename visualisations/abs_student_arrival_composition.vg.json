@@ -1,33 +1,43 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 180,
+  "height": 160,
   "autosize": {
     "type": "fit",
     "contains": "padding"
   },
   "title": {
-    "text": "Most student migrant arrivals were higher education students",
-    "subtitle": "Composition of ABS student visa arrivals, 2024-25"
+    "text": "Most student visa migrant arrivals were higher education students",
+    "subtitle": "Composition of ABS student visa arrivals, 2024–25"
   },
   "data": {
     "url": "data/abs_student_arrival_composition_2024_25.csv"
   },
+  "transform": [
+    {
+      "calculate": "'Student visa arrivals'",
+      "as": "group"
+    }
+  ],
   "mark": {
-    "type": "bar"
+    "type": "bar",
+    "cornerRadiusEnd": 3
   },
   "encoding": {
     "x": {
       "field": "arrivals",
       "type": "quantitative",
       "stack": "normalize",
-      "title": "Share of student arrivals",
+      "title": "Share of student visa arrivals",
       "axis": {
         "format": "%"
       }
     },
     "y": {
-      "value": 40
+      "field": "group",
+      "type": "nominal",
+      "title": null,
+      "axis": null
     },
     "color": {
       "field": "student_visa_category",

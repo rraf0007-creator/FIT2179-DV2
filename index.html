@@ -15,12 +15,35 @@
 </head>
 
 <body>
-  <header class="hero">
+<header class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">FIT2179 Data Visualisation 2</p>
+
     <h1>Who Studies in Australia?</h1>
+
     <p class="subtitle">
-      A visual story of international students, where they come from, and where they study.
+      International student enrolments in Australia are concentrated in a few major source countries,
+      a few large states, and a rapidly changing post-pandemic migration landscape.
     </p>
-  </header>
+
+    <div class="hero-stats">
+      <div class="stat-card">
+        <span class="stat-number">565,601</span>
+        <span class="stat-label">YTD enrolments in Jan 2026</span>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-number">129,164</span>
+        <span class="stat-label">enrolments from China</span>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-number">NSW + VIC</span>
+        <span class="stat-label">largest study destinations</span>
+      </div>
+    </div>
+  </div>
+</header>
 
   <main>
     
@@ -48,18 +71,19 @@
 
     <section class="section grid-two">
       <div class="chart-card">
-        <h2>Where do they study?</h2>
-        <p>
-          New South Wales and Victoria attract the largest numbers of international student enrolments.
-        </p>
-        <div id="state-bar"></div>
-      </div>
+  <h2>How has the sector mix changed?</h2>
+  <p>
+    Higher Education remains the largest sector, while VET has become a much larger part of international enrolments after the post-pandemic rebound.
+  </p>
+  <div id="sector-trend"></div>
+</div>
 
       <div class="chart-card">
-        <h2>What sectors do they study in?</h2>
+        <h2>Sector breakdown of enrolments, Jan 2026</h2>
         <p>
-          Higher Education dominates international enrolments, followed by the VET sector.
-        </p>
+        In January 2026 YTD data, Higher Education dominates international student enrolments,
+        followed by the VET sector.
+      </p>
         <div id="sector-breakdown"></div>
       </div>
     </section>
@@ -105,6 +129,15 @@
     </p>
     <div id="abs-temp-visa-lollipop"></div>
   </div>
+</section>
+
+<section class="section chart-card">
+  <h2>What type of student visas drive migrant arrivals?</h2>
+  <p>
+    Higher education made up the largest share of student visa migrant arrivals in 2024–25,
+    showing that universities remain central to Australia's international student migration story.
+  </p>
+  <div id="abs-student-arrival-composition"></div>
 </section>
 
 <section class="section chart-card">

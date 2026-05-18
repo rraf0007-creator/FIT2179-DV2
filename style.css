@@ -13,6 +13,14 @@
   width: 100%;
   min-height: 360px;
 }
+#abs-student-arrival-composition {
+  width: 100%;
+  min-height: 240px;
+}
+#sector-trend {
+  width: 100%;
+  min-height: 360px;
+}
 
 * {
   box-sizing: border-box;
@@ -27,21 +35,73 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, #12355b, #1f6f8b);
+  min-height: 460px;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.18), transparent 28%),
+    radial-gradient(circle at 85% 30%, rgba(255, 255, 255, 0.12), transparent 30%),
+    linear-gradient(135deg, #0b2545 0%, #12355b 45%, #2f6f88 100%);
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 80px 10%;
   text-align: center;
 }
 
+.hero-content {
+  max-width: 1050px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 700;
+  opacity: 0.85;
+  margin-bottom: 18px;
+}
+
 .hero h1 {
-  font-size: 48px;
-  margin: 0 0 16px;
+  font-size: clamp(44px, 6vw, 76px);
+  line-height: 1.05;
+  margin: 0 0 22px;
+  font-weight: 800;
 }
 
 .subtitle {
-  font-size: 20px;
-  max-width: 750px;
+  font-size: 22px;
+  max-width: 850px;
   margin: 0 auto;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 48px;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.13);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(8px);
+  border-radius: 18px;
+  padding: 22px 18px;
+}
+
+.stat-number {
+  display: block;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  display: block;
+  font-size: 14px;
+  opacity: 0.9;
 }
 
 main {

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 320,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "title": {
+    "text": "International enrolments by sector over time",
+    "subtitle": "Department of Education YTD enrolments, 2019–2026"
+  },
+  "data": {
+    "url": "data/sector_by_year.csv"
+  },
+  "mark": {
+    "type": "area",
+    "opacity": 0.85
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "students",
+      "type": "quantitative",
+      "stack": "zero",
+      "title": "YTD enrolments",
+      "axis": {
+        "format": ",.0f"
+        }  
+    },
+    "color": {
+      "field": "sector",
+      "type": "nominal",
+      "title": "Sector"
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      {
+        "field": "sector",
+        "type": "nominal",
+        "title": "Sector"
+      },
+      {
+        "field": "students",
+        "type": "quantitative",
+        "title": "YTD enrolments",
+        "format": ","
+      }
+    ]
+  },
+  "config": {
+    "legend": {
+      "orient": "bottom"
+    }
+  }
+}
