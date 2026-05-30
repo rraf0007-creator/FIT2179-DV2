@@ -1,0 +1,288 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 520,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "title": {
+    "text": "Where do the largest source countries study in Australia?",
+    "subtitle": "Top five source countries plus all other countries, by Australian state/territory, Jan 2026 YTD enrolments"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/country_state_sankey_nodes.csv"
+      },
+      "mark": {
+        "type": "rect",
+        "cornerRadius": 3,
+        "opacity": 0.9
+      },
+      "encoding": {
+        "x": {
+          "field": "x0",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.16,
+              1.18
+            ]
+          }
+        },
+        "x2": {
+          "field": "x1"
+        },
+        "y": {
+          "field": "y0",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              0,
+              1
+            ],
+            "reverse": true
+          }
+        },
+        "y2": {
+          "field": "y1"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.side == 'source'",
+            "value": "#12355b"
+          },
+          "value": "#2f6f88"
+        },
+        "tooltip": [
+          {
+            "field": "label",
+            "type": "nominal",
+            "title": "Node"
+          },
+          {
+            "field": "total",
+            "type": "quantitative",
+            "title": "Total enrolments",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/country_state_sankey_paths.csv"
+      },
+      "mark": {
+        "type": "trail",
+        "opacity": 0.45
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.16,
+              1.18
+            ]
+          }
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              0,
+              1
+            ],
+            "reverse": true
+          }
+        },
+        "detail": {
+          "field": "flow_id",
+          "type": "nominal"
+        },
+        "order": {
+          "field": "t",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "enrolments",
+          "type": "quantitative",
+          "title": "Enrolments",
+          "scale": {
+            "range": [
+              1,
+              38
+            ]
+          }
+        },
+        "color": {
+          "field": "source",
+          "type": "nominal",
+          "title": "Source country",
+          "scale": {
+            "range": [
+              "#0b2545",
+              "#2f6f88",
+              "#7a9e9f",
+              "#d88c4a",
+              "#c8553d",
+              "#9ca3af"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "source",
+            "type": "nominal",
+            "title": "Source"
+          },
+          {
+            "field": "target_name",
+            "type": "nominal",
+            "title": "State/Territory"
+          },
+          {
+            "field": "enrolments",
+            "type": "quantitative",
+            "title": "YTD enrolments",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/country_state_sankey_nodes.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.side == 'source'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "dx": -4,
+        "fill": "#111827"
+      },
+      "encoding": {
+        "x": {
+          "field": "x_label",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.16,
+              1.18
+            ]
+          }
+        },
+        "y": {
+          "field": "y_label",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              0,
+              1
+            ],
+            "reverse": true
+          }
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "label",
+            "type": "nominal"
+          },
+          {
+            "field": "total",
+            "type": "quantitative",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/country_state_sankey_nodes.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.side == 'target'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "dx": 4,
+        "fill": "#111827"
+      },
+      "encoding": {
+        "x": {
+          "field": "x_label",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              -0.16,
+              1.18
+            ]
+          }
+        },
+        "y": {
+          "field": "y_label",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              0,
+              1
+            ],
+            "reverse": true
+          }
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "label",
+            "type": "nominal"
+          },
+          {
+            "field": "total",
+            "type": "quantitative",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "orient": "bottom"
+    }
+  }
+}

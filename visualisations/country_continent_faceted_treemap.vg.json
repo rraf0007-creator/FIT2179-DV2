@@ -1,0 +1,124 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "data/country_continent_faceted_treemap.csv"
+  },
+  "facet": {
+    "field": "continent_title",
+    "type": "nominal",
+    "columns": 2,
+    "sort": {
+      "field": "continent_rank",
+      "op": "min",
+      "order": "ascending"
+    },
+    "header": {
+      "labelFontSize": 15,
+      "labelFontWeight": "bold",
+      "labelColor": "#14376b",
+      "labelPadding": 8,
+      "title": null
+    }
+  },
+  "spec": {
+    "width": 330,
+    "height": 220,
+    "layer": [
+      {
+        "mark": {
+          "type": "rect",
+          "stroke": "white",
+          "strokeWidth": 2
+        },
+        "encoding": {
+          "x": {
+            "field": "x0",
+            "type": "quantitative",
+            "scale": { "domain": [0, 100] },
+            "axis": null
+          },
+          "x2": { "field": "x1" },
+          "y": {
+            "field": "y0",
+            "type": "quantitative",
+            "scale": { "domain": [0, 100], "reverse": true },
+            "axis": null
+          },
+          "y2": { "field": "y1" },
+          "color": {
+            "field": "continent",
+            "type": "nominal",
+            "legend": null,
+            "scale": {
+              "domain": ["Asia", "Americas", "Europe", "Africa", "Oceania"],
+              "range": ["#E98B2A", "#5B78A8", "#89B8B2", "#6A9F58", "#B07AA1"]
+            }
+          },
+          "tooltip": [
+            { "field": "continent", "type": "nominal", "title": "Continent" },
+            { "field": "country", "type": "nominal", "title": "Country / group" },
+            { "field": "students", "type": "quantitative", "title": "Students", "format": "," },
+            { "field": "share_total", "type": "quantitative", "title": "Share of all students", "format": ".1%" },
+            { "field": "share_continent", "type": "quantitative", "title": "Share within continent", "format": ".1%" }
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "fontWeight": "bold",
+          "fontSize": 12,
+          "color": "#111111",
+          "dy": -7
+        },
+        "encoding": {
+          "x": {
+            "field": "x_mid",
+            "type": "quantitative",
+            "scale": { "domain": [0, 100] },
+            "axis": null
+          },
+          "y": {
+            "field": "y_mid",
+            "type": "quantitative",
+            "scale": { "domain": [0, 100], "reverse": true },
+            "axis": null
+          },
+          "text": { "field": "country_label" }
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "fontSize": 10,
+          "color": "#111111",
+          "dy": 8
+        },
+        "encoding": {
+          "x": {
+            "field": "x_mid",
+            "type": "quantitative",
+            "scale": { "domain": [0, 100] },
+            "axis": null
+          },
+          "y": {
+            "field": "y_mid",
+            "type": "quantitative",
+            "scale": { "domain": [0, 100], "reverse": true },
+            "axis": null
+          },
+          "text": { "field": "share_label" }
+        }
+      }
+    ]
+  },
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "config": {
+    "view": { "stroke": null },
+    "facet": { "spacing": 22 }
+  }
+}

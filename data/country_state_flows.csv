@@ -1,0 +1,49 @@
+source,target,target_name,enrolments
+China,NSW,New South Wales,62154
+China,VIC,Victoria,37466
+China,QLD,Queensland,13519
+China,WA,Western Australia,4994
+China,SA,South Australia,6199
+China,ACT,Australian Capital Territory,4178
+China,TAS,Tasmania,450
+China,NT,Northern Territory,204
+India,NSW,New South Wales,24710
+India,VIC,Victoria,40846
+India,QLD,Queensland,12228
+India,WA,Western Australia,7637
+India,SA,South Australia,8182
+India,ACT,Australian Capital Territory,2013
+India,TAS,Tasmania,690
+India,NT,Northern Territory,750
+Nepal,NSW,New South Wales,32898
+Nepal,VIC,Victoria,8044
+Nepal,QLD,Queensland,3536
+Nepal,WA,Western Australia,2886
+Nepal,SA,South Australia,2496
+Nepal,ACT,Australian Capital Territory,1214
+Nepal,TAS,Tasmania,877
+Nepal,NT,Northern Territory,1073
+Vietnam,NSW,New South Wales,8777
+Vietnam,VIC,Victoria,10048
+Vietnam,QLD,Queensland,1978
+Vietnam,WA,Western Australia,1540
+Vietnam,SA,South Australia,2190
+Vietnam,ACT,Australian Capital Territory,327
+Vietnam,TAS,Tasmania,175
+Vietnam,NT,Northern Territory,199
+Bangladesh,NSW,New South Wales,10633
+Bangladesh,VIC,Victoria,5268
+Bangladesh,QLD,Queensland,1263
+Bangladesh,WA,Western Australia,2621
+Bangladesh,SA,South Australia,1463
+Bangladesh,ACT,Australian Capital Territory,252
+Bangladesh,TAS,Tasmania,424
+Bangladesh,NT,Northern Territory,471
+Other countries,NSW,New South Wales,82972
+Other countries,VIC,Victoria,67220
+Other countries,QLD,Queensland,44068
+Other countries,WA,Western Australia,26569
+Other countries,SA,South Australia,11524
+Other countries,ACT,Australian Capital Territory,3271
+Other countries,TAS,Tasmania,2119
+Other countries,NT,Northern Territory,985

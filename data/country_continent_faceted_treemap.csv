@@ -1,0 +1,41 @@
+continent,continent_rank,continent_title,country,students,share_total,share_continent,x0,x1,y0,y1,x_mid,y_mid,country_label,share_label
+Asia,1,Asia — 85.2% of students,China,129164,0.2284,0.268,0.0,57.0966,0.0,46.9408,28.5483,23.4704,China,26.8%
+Asia,1,Asia — 85.2% of students,India,97056,0.1716,0.2014,57.0966,100.0,0.0,46.9408,78.5483,23.4704,India,20.1%
+Asia,1,Asia — 85.2% of students,Nepal,53024,0.0938,0.11,0.0,67.7554,46.9408,63.1794,33.8777,55.0601,Nepal,11.0%
+Asia,1,Asia — 85.2% of students,Vietnam,25234,0.0446,0.0524,67.7554,100.0,46.9408,63.1794,83.8777,55.0601,,
+Asia,1,Asia — 85.2% of students,Bangladesh,22395,0.0396,0.0465,0.0,54.0994,63.1794,71.7691,27.0497,67.4743,,
+Asia,1,Asia — 85.2% of students,Philippines,19001,0.0336,0.0394,54.0994,100.0,63.1794,71.7691,77.0497,67.4743,,
+Asia,1,Asia — 85.2% of students,Indonesia,18801,0.0332,0.039,0.0,54.7671,71.7691,78.8924,27.3836,75.3308,,
+Asia,1,Asia — 85.2% of students,Pakistan,15528,0.0275,0.0322,54.7671,100.0,71.7691,78.8924,77.3836,75.3308,,
+Asia,1,Asia — 85.2% of students,Sri Lanka,14855,0.0263,0.0308,0.0,100.0,78.8924,81.9748,50.0,80.4336,,
+Asia,1,Asia — 85.2% of students,Thailand,12743,0.0225,0.0264,0.0,100.0,81.9748,84.619,50.0,83.2969,,
+Asia,1,Asia — 85.2% of students,"Korea, Republic of (South)",9686,0.0171,0.0201,0.0,100.0,84.619,86.6289,50.0,85.6239,,
+Asia,1,Asia — 85.2% of students,Malaysia,9434,0.0167,0.0196,0.0,100.0,86.6289,88.5864,50.0,87.6076,,
+Asia,1,Asia — 85.2% of students,Other Asia,55005,0.0973,0.1141,0.0,100.0,88.5864,100.0,50.0,94.2932,Other Asia,11.4%
+Americas,2,Americas — 8.7% of students,Colombia,17403,0.0308,0.3547,0.0,56.6799,0.0,62.5782,28.34,31.2891,Colombia,35.5%
+Americas,2,Americas — 8.7% of students,Brazil,13301,0.0235,0.2711,56.6799,100.0,0.0,62.5782,78.34,31.2891,Brazil,27.1%
+Americas,2,Americas — 8.7% of students,United States of America,3822,0.0068,0.0779,0.0,100.0,62.5782,70.3679,50.0,66.473,,
+Americas,2,Americas — 8.7% of students,Chile,3459,0.0061,0.0705,0.0,100.0,70.3679,77.4177,50.0,73.8928,,
+Americas,2,Americas — 8.7% of students,Canada,2763,0.0049,0.0563,0.0,100.0,77.4177,83.049,50.0,80.2334,,
+Americas,2,Americas — 8.7% of students,Mexico,2260,0.004,0.0461,0.0,100.0,83.049,87.6552,50.0,85.3521,,
+Americas,2,Americas — 8.7% of students,Other Americas,6057,0.0107,0.1234,0.0,100.0,87.6552,100.0,50.0,93.8276,Other Americas,12.3%
+Europe,3,Europe — 3.0% of students,United Kingdom,2669,0.0047,0.1578,0.0,36.2242,0.0,43.5744,18.1121,21.7872,United Kingdom,15.8%
+Europe,3,Europe — 3.0% of students,Spain,2440,0.0043,0.1443,36.2242,69.3404,0.0,43.5744,52.7823,21.7872,Spain,14.4%
+Europe,3,Europe — 3.0% of students,Italy,2259,0.004,0.1336,69.3404,100.0,0.0,43.5744,84.6702,21.7872,Italy,13.4%
+Europe,3,Europe — 3.0% of students,France,2203,0.0039,0.1303,0.0,52.9313,43.5744,68.1885,26.4656,55.8815,France,13.0%
+Europe,3,Europe — 3.0% of students,Germany,1959,0.0035,0.1159,52.9313,100.0,43.5744,68.1885,76.4656,55.8815,Germany,11.6%
+Europe,3,Europe — 3.0% of students,Russian Federation,621,0.0011,0.0367,0.0,100.0,68.1885,71.8611,50.0,70.0248,,
+Europe,3,Europe — 3.0% of students,Other Europe,4758,0.0084,0.2814,0.0,100.0,71.8611,100.0,50.0,85.9306,Other Europe,28.1%
+Africa,4,Africa — 2.3% of students,Kenya,6360,0.0112,0.4816,0.0,100.0,0.0,48.1563,50.0,24.0781,Kenya,48.2%
+Africa,4,Africa — 2.3% of students,Nigeria,1299,0.0023,0.0984,0.0,51.2022,48.1563,67.3658,25.6011,57.761,Nigeria,9.8%
+Africa,4,Africa — 2.3% of students,Zimbabwe,1238,0.0022,0.0937,51.2022,100.0,48.1563,67.3658,75.6011,57.761,Zimbabwe,9.4%
+Africa,4,Africa — 2.3% of students,Mauritius,1201,0.0021,0.0909,0.0,100.0,67.3658,76.4595,50.0,71.9126,Mauritius,9.1%
+Africa,4,Africa — 2.3% of students,South Africa,666,0.0012,0.0504,0.0,100.0,76.4595,81.5022,50.0,78.9808,,
+Africa,4,Africa — 2.3% of students,Egypt,525,0.0009,0.0398,0.0,100.0,81.5022,85.4774,50.0,83.4898,,
+Africa,4,Africa — 2.3% of students,Other Africa,1918,0.0034,0.1452,0.0,100.0,85.4774,100.0,50.0,92.7387,Other Africa,14.5%
+Oceania,5,Oceania — 0.8% of students,Fiji,2832,0.005,0.6324,0.0,100.0,0.0,63.2425,50.0,31.6213,Fiji,63.2%
+Oceania,5,Oceania — 0.8% of students,Papua New Guinea,1294,0.0023,0.289,0.0,100.0,63.2425,92.1393,50.0,77.6909,Papua New Guinea,28.9%
+Oceania,5,Oceania — 0.8% of students,Solomon Islands,120,0.0002,0.0268,0.0,100.0,92.1393,94.8191,50.0,93.4792,,
+Oceania,5,Oceania — 0.8% of students,Tonga,76,0.0001,0.017,0.0,100.0,94.8191,96.5163,50.0,95.6677,,
+Oceania,5,Oceania — 0.8% of students,Nauru,72,0.0001,0.0161,0.0,100.0,96.5163,98.1242,50.0,97.3202,,
+Oceania,5,Oceania — 0.8% of students,Other Oceania,84,0.0001,0.0188,0.0,100.0,98.1242,100.0,50.0,99.0621,,
