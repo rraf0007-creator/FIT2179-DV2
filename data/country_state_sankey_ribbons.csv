@@ -1,0 +1,1921 @@
+flow_id,source,target,target_name,enrolments,t,x,y_top,y_bottom
+China to NSW,China,NSW,New South Wales,62154,0,-0.015,0.0,0.1
+China to NSW,China,NSW,New South Wales,62154,1,0.01141,0.0,0.099992
+China to NSW,China,NSW,New South Wales,62154,2,0.037821,0.0,0.09997
+China to NSW,China,NSW,New South Wales,62154,3,0.064231,0.0,0.099933
+China to NSW,China,NSW,New South Wales,62154,4,0.090641,0.0,0.099884
+China to NSW,China,NSW,New South Wales,62154,5,0.117051,0.0,0.099822
+China to NSW,China,NSW,New South Wales,62154,6,0.143462,0.0,0.099748
+China to NSW,China,NSW,New South Wales,62154,7,0.169872,0.0,0.099663
+China to NSW,China,NSW,New South Wales,62154,8,0.196282,0.0,0.099569
+China to NSW,China,NSW,New South Wales,62154,9,0.222692,0.0,0.099465
+China to NSW,China,NSW,New South Wales,62154,10,0.249103,0.0,0.099353
+China to NSW,China,NSW,New South Wales,62154,11,0.275513,0.0,0.099233
+China to NSW,China,NSW,New South Wales,62154,12,0.301923,0.0,0.099107
+China to NSW,China,NSW,New South Wales,62154,13,0.328333,0.0,0.098974
+China to NSW,China,NSW,New South Wales,62154,14,0.354744,0.0,0.098837
+China to NSW,China,NSW,New South Wales,62154,15,0.381154,0.0,0.098695
+China to NSW,China,NSW,New South Wales,62154,16,0.407564,0.0,0.098549
+China to NSW,China,NSW,New South Wales,62154,17,0.433974,0.0,0.0984
+China to NSW,China,NSW,New South Wales,62154,18,0.460385,0.0,0.09825
+China to NSW,China,NSW,New South Wales,62154,19,0.486795,0.0,0.098098
+China to NSW,China,NSW,New South Wales,62154,20,0.513205,0.0,0.097946
+China to NSW,China,NSW,New South Wales,62154,21,0.539615,0.0,0.097794
+China to NSW,China,NSW,New South Wales,62154,22,0.566026,0.0,0.097644
+China to NSW,China,NSW,New South Wales,62154,23,0.592436,0.0,0.097495
+China to NSW,China,NSW,New South Wales,62154,24,0.618846,0.0,0.09735
+China to NSW,China,NSW,New South Wales,62154,25,0.645256,0.0,0.097207
+China to NSW,China,NSW,New South Wales,62154,26,0.671667,0.0,0.09707
+China to NSW,China,NSW,New South Wales,62154,27,0.698077,0.0,0.096937
+China to NSW,China,NSW,New South Wales,62154,28,0.724487,0.0,0.096811
+China to NSW,China,NSW,New South Wales,62154,29,0.750897,0.0,0.096691
+China to NSW,China,NSW,New South Wales,62154,30,0.777308,0.0,0.096579
+China to NSW,China,NSW,New South Wales,62154,31,0.803718,0.0,0.096475
+China to NSW,China,NSW,New South Wales,62154,32,0.830128,0.0,0.096381
+China to NSW,China,NSW,New South Wales,62154,33,0.856538,0.0,0.096296
+China to NSW,China,NSW,New South Wales,62154,34,0.882949,0.0,0.096222
+China to NSW,China,NSW,New South Wales,62154,35,0.909359,0.0,0.09616
+China to NSW,China,NSW,New South Wales,62154,36,0.935769,0.0,0.096111
+China to NSW,China,NSW,New South Wales,62154,37,0.962179,0.0,0.096074
+China to NSW,China,NSW,New South Wales,62154,38,0.98859,0.0,0.096052
+China to NSW,China,NSW,New South Wales,62154,39,1.015,0.0,0.096044
+China to VIC,China,VIC,Victoria,37466,0,-0.015,0.1,0.160279
+China to VIC,China,VIC,Victoria,37466,1,0.01141,0.100507,0.160781
+China to VIC,China,VIC,Victoria,37466,2,0.037821,0.101991,0.162252
+China to VIC,China,VIC,Victoria,37466,3,0.064231,0.1044,0.164639
+China to VIC,China,VIC,Victoria,37466,4,0.090641,0.107682,0.167891
+China to VIC,China,VIC,Victoria,37466,5,0.117051,0.111782,0.171954
+China to VIC,China,VIC,Victoria,37466,6,0.143462,0.116649,0.176776
+China to VIC,China,VIC,Victoria,37466,7,0.169872,0.12223,0.182306
+China to VIC,China,VIC,Victoria,37466,8,0.196282,0.128471,0.18849
+China to VIC,China,VIC,Victoria,37466,9,0.222692,0.13532,0.195277
+China to VIC,China,VIC,Victoria,37466,10,0.249103,0.142724,0.202613
+China to VIC,China,VIC,Victoria,37466,11,0.275513,0.15063,0.210447
+China to VIC,China,VIC,Victoria,37466,12,0.301923,0.158985,0.218726
+China to VIC,China,VIC,Victoria,37466,13,0.328333,0.167737,0.227398
+China to VIC,China,VIC,Victoria,37466,14,0.354744,0.176832,0.23641
+China to VIC,China,VIC,Victoria,37466,15,0.381154,0.186218,0.24571
+China to VIC,China,VIC,Victoria,37466,16,0.407564,0.195842,0.255246
+China to VIC,China,VIC,Victoria,37466,17,0.433974,0.205651,0.264966
+China to VIC,China,VIC,Victoria,37466,18,0.460385,0.215592,0.274816
+China to VIC,China,VIC,Victoria,37466,19,0.486795,0.225612,0.284745
+China to VIC,China,VIC,Victoria,37466,20,0.513205,0.235658,0.2947
+China to VIC,China,VIC,Victoria,37466,21,0.539615,0.245679,0.304628
+China to VIC,China,VIC,Victoria,37466,22,0.566026,0.25562,0.314478
+China to VIC,China,VIC,Victoria,37466,23,0.592436,0.265428,0.324198
+China to VIC,China,VIC,Victoria,37466,24,0.618846,0.275052,0.333734
+China to VIC,China,VIC,Victoria,37466,25,0.645256,0.284438,0.343034
+China to VIC,China,VIC,Victoria,37466,26,0.671667,0.293533,0.352046
+China to VIC,China,VIC,Victoria,37466,27,0.698077,0.302285,0.360718
+China to VIC,China,VIC,Victoria,37466,28,0.724487,0.31064,0.368997
+China to VIC,China,VIC,Victoria,37466,29,0.750897,0.318546,0.376831
+China to VIC,China,VIC,Victoria,37466,30,0.777308,0.32595,0.384167
+China to VIC,China,VIC,Victoria,37466,31,0.803718,0.332799,0.390954
+China to VIC,China,VIC,Victoria,37466,32,0.830128,0.339041,0.397138
+China to VIC,China,VIC,Victoria,37466,33,0.856538,0.344621,0.402668
+China to VIC,China,VIC,Victoria,37466,34,0.882949,0.349488,0.40749
+China to VIC,China,VIC,Victoria,37466,35,0.909359,0.353589,0.411553
+China to VIC,China,VIC,Victoria,37466,36,0.935769,0.35687,0.414805
+China to VIC,China,VIC,Victoria,37466,37,0.962179,0.359279,0.417192
+China to VIC,China,VIC,Victoria,37466,38,0.98859,0.360763,0.418663
+China to VIC,China,VIC,Victoria,37466,39,1.015,0.36127,0.419165
+China to QLD,China,QLD,Queensland,13519,0,-0.015,0.160279,0.18203
+China to QLD,China,QLD,Queensland,13519,1,0.01141,0.16121,0.182959
+China to QLD,China,QLD,Queensland,13519,2,0.037821,0.163937,0.185681
+China to QLD,China,QLD,Queensland,13519,3,0.064231,0.168363,0.190099
+China to QLD,China,QLD,Queensland,13519,4,0.090641,0.174391,0.196116
+China to QLD,China,QLD,Queensland,13519,5,0.117051,0.181924,0.203636
+China to QLD,China,QLD,Queensland,13519,6,0.143462,0.190865,0.212561
+China to QLD,China,QLD,Queensland,13519,7,0.169872,0.201117,0.222794
+China to QLD,China,QLD,Queensland,13519,8,0.196282,0.212582,0.234239
+China to QLD,China,QLD,Queensland,13519,9,0.222692,0.225164,0.246799
+China to QLD,China,QLD,Queensland,13519,10,0.249103,0.238766,0.260376
+China to QLD,China,QLD,Queensland,13519,11,0.275513,0.25329,0.274874
+China to QLD,China,QLD,Queensland,13519,12,0.301923,0.268639,0.290196
+China to QLD,China,QLD,Queensland,13519,13,0.328333,0.284717,0.306244
+China to QLD,China,QLD,Queensland,13519,14,0.354744,0.301425,0.322923
+China to QLD,China,QLD,Queensland,13519,15,0.381154,0.318668,0.340135
+China to QLD,China,QLD,Queensland,13519,16,0.407564,0.336348,0.357783
+China to QLD,China,QLD,Queensland,13519,17,0.433974,0.354367,0.37577
+China to QLD,China,QLD,Queensland,13519,18,0.460385,0.37263,0.394
+China to QLD,China,QLD,Queensland,13519,19,0.486795,0.391037,0.412375
+China to QLD,China,QLD,Queensland,13519,20,0.513205,0.409494,0.430798
+China to QLD,China,QLD,Queensland,13519,21,0.539615,0.427902,0.449173
+China to QLD,China,QLD,Queensland,13519,22,0.566026,0.446164,0.467402
+China to QLD,China,QLD,Queensland,13519,23,0.592436,0.464183,0.485389
+China to QLD,China,QLD,Queensland,13519,24,0.618846,0.481863,0.503037
+China to QLD,China,QLD,Queensland,13519,25,0.645256,0.499106,0.520249
+China to QLD,China,QLD,Queensland,13519,26,0.671667,0.515815,0.536928
+China to QLD,China,QLD,Queensland,13519,27,0.698077,0.531892,0.552977
+China to QLD,China,QLD,Queensland,13519,28,0.724487,0.547241,0.568299
+China to QLD,China,QLD,Queensland,13519,29,0.750897,0.561766,0.582797
+China to QLD,China,QLD,Queensland,13519,30,0.777308,0.575367,0.596374
+China to QLD,China,QLD,Queensland,13519,31,0.803718,0.587949,0.608933
+China to QLD,China,QLD,Queensland,13519,32,0.830128,0.599415,0.620378
+China to QLD,China,QLD,Queensland,13519,33,0.856538,0.609666,0.630612
+China to QLD,China,QLD,Queensland,13519,34,0.882949,0.618607,0.639537
+China to QLD,China,QLD,Queensland,13519,35,0.909359,0.626141,0.647056
+China to QLD,China,QLD,Queensland,13519,36,0.935769,0.632169,0.653073
+China to QLD,China,QLD,Queensland,13519,37,0.962179,0.636595,0.657491
+China to QLD,China,QLD,Queensland,13519,38,0.98859,0.639321,0.660213
+China to QLD,China,QLD,Queensland,13519,39,1.015,0.640252,0.661142
+China to WA,China,WA,Western Australia,4994,0,-0.015,0.18203,0.190065
+China to WA,China,WA,Western Australia,4994,1,0.01141,0.183183,0.191217
+China to WA,China,WA,Western Australia,4994,2,0.037821,0.186561,0.194593
+China to WA,China,WA,Western Australia,4994,3,0.064231,0.192044,0.200073
+China to WA,China,WA,Western Australia,4994,4,0.090641,0.199511,0.207537
+China to WA,China,WA,Western Australia,4994,5,0.117051,0.208843,0.216863
+China to WA,China,WA,Western Australia,4994,6,0.143462,0.219919,0.227933
+China to WA,China,WA,Western Australia,4994,7,0.169872,0.232618,0.240626
+China to WA,China,WA,Western Australia,4994,8,0.196282,0.246821,0.254822
+China to WA,China,WA,Western Australia,4994,9,0.222692,0.262408,0.2704
+China to WA,China,WA,Western Australia,4994,10,0.249103,0.279257,0.28724
+China to WA,China,WA,Western Australia,4994,11,0.275513,0.297249,0.305222
+China to WA,China,WA,Western Australia,4994,12,0.301923,0.316263,0.324226
+China to WA,China,WA,Western Australia,4994,13,0.328333,0.33618,0.344132
+China to WA,China,WA,Western Australia,4994,14,0.354744,0.356878,0.364819
+China to WA,China,WA,Western Australia,4994,15,0.381154,0.378238,0.386168
+China to WA,China,WA,Western Australia,4994,16,0.407564,0.400139,0.408057
+China to WA,China,WA,Western Australia,4994,17,0.433974,0.422461,0.430367
+China to WA,China,WA,Western Australia,4994,18,0.460385,0.445083,0.452978
+China to WA,China,WA,Western Australia,4994,19,0.486795,0.467887,0.475769
+China to WA,China,WA,Western Australia,4994,20,0.513205,0.49075,0.49862
+China to WA,China,WA,Western Australia,4994,21,0.539615,0.513553,0.521411
+China to WA,China,WA,Western Australia,4994,22,0.566026,0.536176,0.544021
+China to WA,China,WA,Western Australia,4994,23,0.592436,0.558498,0.566332
+China to WA,China,WA,Western Australia,4994,24,0.618846,0.580399,0.588221
+China to WA,China,WA,Western Australia,4994,25,0.645256,0.601759,0.609569
+China to WA,China,WA,Western Australia,4994,26,0.671667,0.622457,0.630256
+China to WA,China,WA,Western Australia,4994,27,0.698077,0.642373,0.650162
+China to WA,China,WA,Western Australia,4994,28,0.724487,0.661388,0.669166
+China to WA,China,WA,Western Australia,4994,29,0.750897,0.67938,0.687149
+China to WA,China,WA,Western Australia,4994,30,0.777308,0.696229,0.703989
+China to WA,China,WA,Western Australia,4994,31,0.803718,0.711815,0.719567
+China to WA,China,WA,Western Australia,4994,32,0.830128,0.726018,0.733762
+China to WA,China,WA,Western Australia,4994,33,0.856538,0.738718,0.746455
+China to WA,China,WA,Western Australia,4994,34,0.882949,0.749794,0.757525
+China to WA,China,WA,Western Australia,4994,35,0.909359,0.759126,0.766852
+China to WA,China,WA,Western Australia,4994,36,0.935769,0.766593,0.774315
+China to WA,China,WA,Western Australia,4994,37,0.962179,0.772076,0.779795
+China to WA,China,WA,Western Australia,4994,38,0.98859,0.775454,0.783171
+China to WA,China,WA,Western Australia,4994,39,1.015,0.776606,0.784323
+China to SA,China,SA,South Australia,6199,0,-0.015,0.190065,0.200039
+China to SA,China,SA,South Australia,6199,1,0.01141,0.191376,0.201349
+China to SA,China,SA,South Australia,6199,2,0.037821,0.195216,0.205187
+China to SA,China,SA,South Australia,6199,3,0.064231,0.20145,0.211417
+China to SA,China,SA,South Australia,6199,4,0.090641,0.20994,0.219902
+China to SA,China,SA,South Australia,6199,5,0.117051,0.22055,0.230506
+China to SA,China,SA,South Australia,6199,6,0.143462,0.233142,0.243091
+China to SA,China,SA,South Australia,6199,7,0.169872,0.247581,0.257521
+China to SA,China,SA,South Australia,6199,8,0.196282,0.263729,0.27366
+China to SA,China,SA,South Australia,6199,9,0.222692,0.28145,0.291371
+China to SA,China,SA,South Australia,6199,10,0.249103,0.300607,0.310516
+China to SA,China,SA,South Australia,6199,11,0.275513,0.321063,0.33096
+China to SA,China,SA,South Australia,6199,12,0.301923,0.342682,0.352566
+China to SA,China,SA,South Australia,6199,13,0.328333,0.365326,0.375197
+China to SA,China,SA,South Australia,6199,14,0.354744,0.388859,0.398716
+China to SA,China,SA,South Australia,6199,15,0.381154,0.413144,0.422987
+China to SA,China,SA,South Australia,6199,16,0.407564,0.438044,0.447873
+China to SA,China,SA,South Australia,6199,17,0.433974,0.463423,0.473237
+China to SA,China,SA,South Australia,6199,18,0.460385,0.489144,0.498943
+China to SA,China,SA,South Australia,6199,19,0.486795,0.51507,0.524854
+China to SA,China,SA,South Australia,6199,20,0.513205,0.541065,0.550834
+China to SA,China,SA,South Australia,6199,21,0.539615,0.566991,0.576745
+China to SA,China,SA,South Australia,6199,22,0.566026,0.592712,0.60245
+China to SA,China,SA,South Australia,6199,23,0.592436,0.618091,0.627815
+China to SA,China,SA,South Australia,6199,24,0.618846,0.642991,0.652701
+China to SA,China,SA,South Australia,6199,25,0.645256,0.667277,0.676972
+China to SA,China,SA,South Australia,6199,26,0.671667,0.690809,0.700491
+China to SA,China,SA,South Australia,6199,27,0.698077,0.713453,0.723122
+China to SA,China,SA,South Australia,6199,28,0.724487,0.735072,0.744727
+China to SA,China,SA,South Australia,6199,29,0.750897,0.755528,0.765171
+China to SA,China,SA,South Australia,6199,30,0.777308,0.774685,0.784317
+China to SA,China,SA,South Australia,6199,31,0.803718,0.792406,0.802028
+China to SA,China,SA,South Australia,6199,32,0.830128,0.808554,0.818166
+China to SA,China,SA,South Australia,6199,33,0.856538,0.822993,0.832597
+China to SA,China,SA,South Australia,6199,34,0.882949,0.835585,0.845182
+China to SA,China,SA,South Australia,6199,35,0.909359,0.846195,0.855786
+China to SA,China,SA,South Australia,6199,36,0.935769,0.854685,0.864271
+China to SA,China,SA,South Australia,6199,37,0.962179,0.860919,0.870501
+China to SA,China,SA,South Australia,6199,38,0.98859,0.864759,0.874339
+China to SA,China,SA,South Australia,6199,39,1.015,0.86607,0.875649
+China to ACT,China,ACT,Australian Capital Territory,4178,0,-0.015,0.200039,0.206761
+China to ACT,China,ACT,Australian Capital Territory,4178,1,0.01141,0.201461,0.208182
+China to ACT,China,ACT,Australian Capital Territory,4178,2,0.037821,0.205628,0.212348
+China to ACT,China,ACT,Australian Capital Territory,4178,3,0.064231,0.212393,0.21911
+China to ACT,China,ACT,Australian Capital Territory,4178,4,0.090641,0.221606,0.22832
+China to ACT,China,ACT,Australian Capital Territory,4178,5,0.117051,0.233119,0.239829
+China to ACT,China,ACT,Australian Capital Territory,4178,6,0.143462,0.246784,0.253489
+China to ACT,China,ACT,Australian Capital Territory,4178,7,0.169872,0.262452,0.269151
+China to ACT,China,ACT,Australian Capital Territory,4178,8,0.196282,0.279975,0.286668
+China to ACT,China,ACT,Australian Capital Territory,4178,9,0.222692,0.299205,0.305891
+China to ACT,China,ACT,Australian Capital Territory,4178,10,0.249103,0.319993,0.326671
+China to ACT,China,ACT,Australian Capital Territory,4178,11,0.275513,0.342191,0.348861
+China to ACT,China,ACT,Australian Capital Territory,4178,12,0.301923,0.36565,0.372312
+China to ACT,China,ACT,Australian Capital Territory,4178,13,0.328333,0.390222,0.396875
+China to ACT,China,ACT,Australian Capital Territory,4178,14,0.354744,0.415758,0.422402
+China to ACT,China,ACT,Australian Capital Territory,4178,15,0.381154,0.442111,0.448745
+China to ACT,China,ACT,Australian Capital Territory,4178,16,0.407564,0.469132,0.475756
+China to ACT,China,ACT,Australian Capital Territory,4178,17,0.433974,0.496672,0.503286
+China to ACT,China,ACT,Australian Capital Territory,4178,18,0.460385,0.524583,0.531187
+China to ACT,China,ACT,Australian Capital Territory,4178,19,0.486795,0.552716,0.55931
+China to ACT,China,ACT,Australian Capital Territory,4178,20,0.513205,0.580924,0.587508
+China to ACT,China,ACT,Australian Capital Territory,4178,21,0.539615,0.609058,0.615631
+China to ACT,China,ACT,Australian Capital Territory,4178,22,0.566026,0.636969,0.643532
+China to ACT,China,ACT,Australian Capital Territory,4178,23,0.592436,0.664509,0.671062
+China to ACT,China,ACT,Australian Capital Territory,4178,24,0.618846,0.691529,0.698073
+China to ACT,China,ACT,Australian Capital Territory,4178,25,0.645256,0.717882,0.724416
+China to ACT,China,ACT,Australian Capital Territory,4178,26,0.671667,0.743419,0.749944
+China to ACT,China,ACT,Australian Capital Territory,4178,27,0.698077,0.767991,0.774507
+China to ACT,China,ACT,Australian Capital Territory,4178,28,0.724487,0.79145,0.797957
+China to ACT,China,ACT,Australian Capital Territory,4178,29,0.750897,0.813648,0.820147
+China to ACT,China,ACT,Australian Capital Territory,4178,30,0.777308,0.834435,0.840927
+China to ACT,China,ACT,Australian Capital Territory,4178,31,0.803718,0.853665,0.86015
+China to ACT,China,ACT,Australian Capital Territory,4178,32,0.830128,0.871188,0.877667
+China to ACT,China,ACT,Australian Capital Territory,4178,33,0.856538,0.886857,0.89333
+China to ACT,China,ACT,Australian Capital Territory,4178,34,0.882949,0.900522,0.90699
+China to ACT,China,ACT,Australian Capital Territory,4178,35,0.909359,0.912035,0.918499
+China to ACT,China,ACT,Australian Capital Territory,4178,36,0.935769,0.921248,0.927708
+China to ACT,China,ACT,Australian Capital Territory,4178,37,0.962179,0.928012,0.93447
+China to ACT,China,ACT,Australian Capital Territory,4178,38,0.98859,0.93218,0.938636
+China to ACT,China,ACT,Australian Capital Territory,4178,39,1.015,0.933602,0.940058
+China to TAS,China,TAS,Tasmania,450,0,-0.015,0.206761,0.207485
+China to TAS,China,TAS,Tasmania,450,1,0.01141,0.208238,0.208962
+China to TAS,China,TAS,Tasmania,450,2,0.037821,0.212569,0.213293
+China to TAS,China,TAS,Tasmania,450,3,0.064231,0.219598,0.220321
+China to TAS,China,TAS,Tasmania,450,4,0.090641,0.229171,0.229894
+China to TAS,China,TAS,Tasmania,450,5,0.117051,0.241134,0.241857
+China to TAS,China,TAS,Tasmania,450,6,0.143462,0.255333,0.256055
+China to TAS,China,TAS,Tasmania,450,7,0.169872,0.271613,0.272335
+China to TAS,China,TAS,Tasmania,450,8,0.196282,0.289821,0.290542
+China to TAS,China,TAS,Tasmania,450,9,0.222692,0.309803,0.310523
+China to TAS,China,TAS,Tasmania,450,10,0.249103,0.331403,0.332122
+China to TAS,China,TAS,Tasmania,450,11,0.275513,0.354468,0.355187
+China to TAS,China,TAS,Tasmania,450,12,0.301923,0.378844,0.379562
+China to TAS,China,TAS,Tasmania,450,13,0.328333,0.404377,0.405093
+China to TAS,China,TAS,Tasmania,450,14,0.354744,0.430911,0.431627
+China to TAS,China,TAS,Tasmania,450,15,0.381154,0.458294,0.459009
+China to TAS,China,TAS,Tasmania,450,16,0.407564,0.486371,0.487084
+China to TAS,China,TAS,Tasmania,450,17,0.433974,0.514987,0.5157
+China to TAS,China,TAS,Tasmania,450,18,0.460385,0.543989,0.5447
+China to TAS,China,TAS,Tasmania,450,19,0.486795,0.573222,0.573932
+China to TAS,China,TAS,Tasmania,450,20,0.513205,0.602532,0.603241
+China to TAS,China,TAS,Tasmania,450,21,0.539615,0.631765,0.632473
+China to TAS,China,TAS,Tasmania,450,22,0.566026,0.660767,0.661474
+China to TAS,China,TAS,Tasmania,450,23,0.592436,0.689384,0.690089
+China to TAS,China,TAS,Tasmania,450,24,0.618846,0.71746,0.718165
+China to TAS,China,TAS,Tasmania,450,25,0.645256,0.744843,0.745547
+China to TAS,China,TAS,Tasmania,450,26,0.671667,0.771378,0.77208
+China to TAS,China,TAS,Tasmania,450,27,0.698077,0.79691,0.797612
+China to TAS,China,TAS,Tasmania,450,28,0.724487,0.821286,0.821987
+China to TAS,China,TAS,Tasmania,450,29,0.750897,0.844351,0.845051
+China to TAS,China,TAS,Tasmania,450,30,0.777308,0.865952,0.866651
+China to TAS,China,TAS,Tasmania,450,31,0.803718,0.885933,0.886631
+China to TAS,China,TAS,Tasmania,450,32,0.830128,0.904141,0.904839
+China to TAS,China,TAS,Tasmania,450,33,0.856538,0.920422,0.921119
+China to TAS,China,TAS,Tasmania,450,34,0.882949,0.934621,0.935317
+China to TAS,China,TAS,Tasmania,450,35,0.909359,0.946584,0.94728
+China to TAS,China,TAS,Tasmania,450,36,0.935769,0.956157,0.956853
+China to TAS,China,TAS,Tasmania,450,37,0.962179,0.963185,0.963881
+China to TAS,China,TAS,Tasmania,450,38,0.98859,0.967516,0.968211
+China to TAS,China,TAS,Tasmania,450,39,1.015,0.968994,0.969689
+China to NT,China,NT,Northern Territory,204,0,-0.015,0.207485,0.207813
+China to NT,China,NT,Northern Territory,204,1,0.01141,0.20901,0.209338
+China to NT,China,NT,Northern Territory,204,2,0.037821,0.21348,0.213808
+China to NT,China,NT,Northern Territory,204,3,0.064231,0.220736,0.221064
+China to NT,China,NT,Northern Territory,204,4,0.090641,0.230618,0.230946
+China to NT,China,NT,Northern Territory,204,5,0.117051,0.242967,0.243294
+China to NT,China,NT,Northern Territory,204,6,0.143462,0.257624,0.257951
+China to NT,China,NT,Northern Territory,204,7,0.169872,0.27443,0.274757
+China to NT,China,NT,Northern Territory,204,8,0.196282,0.293225,0.293552
+China to NT,China,NT,Northern Territory,204,9,0.222692,0.313851,0.314178
+China to NT,China,NT,Northern Territory,204,10,0.249103,0.336149,0.336475
+China to NT,China,NT,Northern Territory,204,11,0.275513,0.359958,0.360284
+China to NT,China,NT,Northern Territory,204,12,0.301923,0.38512,0.385446
+China to NT,China,NT,Northern Territory,204,13,0.328333,0.411477,0.411801
+China to NT,China,NT,Northern Territory,204,14,0.354744,0.438867,0.439192
+China to NT,China,NT,Northern Territory,204,15,0.381154,0.467134,0.467458
+China to NT,China,NT,Northern Territory,204,16,0.407564,0.496116,0.49644
+China to NT,China,NT,Northern Territory,204,17,0.433974,0.525656,0.525979
+China to NT,China,NT,Northern Territory,204,18,0.460385,0.555593,0.555916
+China to NT,China,NT,Northern Territory,204,19,0.486795,0.58577,0.586092
+China to NT,China,NT,Northern Territory,204,20,0.513205,0.616026,0.616347
+China to NT,China,NT,Northern Territory,204,21,0.539615,0.646202,0.646523
+China to NT,China,NT,Northern Territory,204,22,0.566026,0.676139,0.67646
+China to NT,China,NT,Northern Territory,204,23,0.592436,0.705679,0.705999
+China to NT,China,NT,Northern Territory,204,24,0.618846,0.734661,0.734981
+China to NT,China,NT,Northern Territory,204,25,0.645256,0.762928,0.763247
+China to NT,China,NT,Northern Territory,204,26,0.671667,0.790319,0.790637
+China to NT,China,NT,Northern Territory,204,27,0.698077,0.816675,0.816993
+China to NT,China,NT,Northern Territory,204,28,0.724487,0.841837,0.842155
+China to NT,China,NT,Northern Territory,204,29,0.750897,0.865647,0.865964
+China to NT,China,NT,Northern Territory,204,30,0.777308,0.887944,0.888261
+China to NT,China,NT,Northern Territory,204,31,0.803718,0.90857,0.908887
+China to NT,China,NT,Northern Territory,204,32,0.830128,0.927365,0.927682
+China to NT,China,NT,Northern Territory,204,33,0.856538,0.944171,0.944487
+China to NT,China,NT,Northern Territory,204,34,0.882949,0.958828,0.959144
+China to NT,China,NT,Northern Territory,204,35,0.909359,0.971177,0.971493
+China to NT,China,NT,Northern Territory,204,36,0.935769,0.981059,0.981375
+China to NT,China,NT,Northern Territory,204,37,0.962179,0.988315,0.98863
+China to NT,China,NT,Northern Territory,204,38,0.98859,0.992785,0.9931
+China to NT,China,NT,Northern Territory,204,39,1.015,0.99431,0.994626
+India to NSW,India,NSW,New South Wales,24710,0,-0.015,0.225813,0.265569
+India to NSW,India,NSW,New South Wales,24710,1,0.01141,0.225561,0.265314
+India to NSW,India,NSW,New South Wales,24710,2,0.037821,0.224824,0.264568
+India to NSW,India,NSW,New South Wales,24710,3,0.064231,0.223628,0.263357
+India to NSW,India,NSW,New South Wales,24710,4,0.090641,0.221998,0.261708
+India to NSW,India,NSW,New South Wales,24710,5,0.117051,0.219961,0.259646
+India to NSW,India,NSW,New South Wales,24710,6,0.143462,0.217544,0.2572
+India to NSW,India,NSW,New South Wales,24710,7,0.169872,0.214772,0.254394
+India to NSW,India,NSW,New South Wales,24710,8,0.196282,0.211672,0.251257
+India to NSW,India,NSW,New South Wales,24710,9,0.222692,0.20827,0.247814
+India to NSW,India,NSW,New South Wales,24710,10,0.249103,0.204593,0.244092
+India to NSW,India,NSW,New South Wales,24710,11,0.275513,0.200666,0.240117
+India to NSW,India,NSW,New South Wales,24710,12,0.301923,0.196516,0.235917
+India to NSW,India,NSW,New South Wales,24710,13,0.328333,0.192169,0.231518
+India to NSW,India,NSW,New South Wales,24710,14,0.354744,0.187652,0.226945
+India to NSW,India,NSW,New South Wales,24710,15,0.381154,0.18299,0.222227
+India to NSW,India,NSW,New South Wales,24710,16,0.407564,0.17821,0.217389
+India to NSW,India,NSW,New South Wales,24710,17,0.433974,0.173338,0.212458
+India to NSW,India,NSW,New South Wales,24710,18,0.460385,0.1684,0.207461
+India to NSW,India,NSW,New South Wales,24710,19,0.486795,0.163424,0.202423
+India to NSW,India,NSW,New South Wales,24710,20,0.513205,0.158434,0.197373
+India to NSW,India,NSW,New South Wales,24710,21,0.539615,0.153457,0.192336
+India to NSW,India,NSW,New South Wales,24710,22,0.566026,0.148519,0.187338
+India to NSW,India,NSW,New South Wales,24710,23,0.592436,0.143647,0.182407
+India to NSW,India,NSW,New South Wales,24710,24,0.618846,0.138867,0.17757
+India to NSW,India,NSW,New South Wales,24710,25,0.645256,0.134205,0.172851
+India to NSW,India,NSW,New South Wales,24710,26,0.671667,0.129688,0.168279
+India to NSW,India,NSW,New South Wales,24710,27,0.698077,0.125341,0.163879
+India to NSW,India,NSW,New South Wales,24710,28,0.724487,0.121191,0.159679
+India to NSW,India,NSW,New South Wales,24710,29,0.750897,0.117264,0.155705
+India to NSW,India,NSW,New South Wales,24710,30,0.777308,0.113587,0.151983
+India to NSW,India,NSW,New South Wales,24710,31,0.803718,0.110185,0.14854
+India to NSW,India,NSW,New South Wales,24710,32,0.830128,0.107085,0.145402
+India to NSW,India,NSW,New South Wales,24710,33,0.856538,0.104313,0.142597
+India to NSW,India,NSW,New South Wales,24710,34,0.882949,0.101896,0.14015
+India to NSW,India,NSW,New South Wales,24710,35,0.909359,0.099859,0.138089
+India to NSW,India,NSW,New South Wales,24710,36,0.935769,0.098229,0.136439
+India to NSW,India,NSW,New South Wales,24710,37,0.962179,0.097033,0.135228
+India to NSW,India,NSW,New South Wales,24710,38,0.98859,0.096296,0.134482
+India to NSW,India,NSW,New South Wales,24710,39,1.015,0.096044,0.134227
+India to VIC,India,VIC,Victoria,40846,0,-0.015,0.265569,0.331287
+India to VIC,India,VIC,Victoria,40846,1,0.01141,0.265867,0.331579
+India to VIC,India,VIC,Victoria,40846,2,0.037821,0.266739,0.332437
+India to VIC,India,VIC,Victoria,40846,3,0.064231,0.268156,0.33383
+India to VIC,India,VIC,Victoria,40846,4,0.090641,0.270085,0.335726
+India to VIC,India,VIC,Victoria,40846,5,0.117051,0.272496,0.338096
+India to VIC,India,VIC,Victoria,40846,6,0.143462,0.275357,0.340909
+India to VIC,India,VIC,Victoria,40846,7,0.169872,0.278637,0.344134
+India to VIC,India,VIC,Victoria,40846,8,0.196282,0.282306,0.347741
+India to VIC,India,VIC,Victoria,40846,9,0.222692,0.286333,0.351699
+India to VIC,India,VIC,Victoria,40846,10,0.249103,0.290685,0.355978
+India to VIC,India,VIC,Victoria,40846,11,0.275513,0.295333,0.360547
+India to VIC,India,VIC,Victoria,40846,12,0.301923,0.300245,0.365376
+India to VIC,India,VIC,Victoria,40846,13,0.328333,0.30539,0.370434
+India to VIC,India,VIC,Victoria,40846,14,0.354744,0.310737,0.37569
+India to VIC,India,VIC,Victoria,40846,15,0.381154,0.316255,0.381114
+India to VIC,India,VIC,Victoria,40846,16,0.407564,0.321913,0.386676
+India to VIC,India,VIC,Victoria,40846,17,0.433974,0.327679,0.392345
+India to VIC,India,VIC,Victoria,40846,18,0.460385,0.333523,0.39809
+India to VIC,India,VIC,Victoria,40846,19,0.486795,0.339414,0.403881
+India to VIC,India,VIC,Victoria,40846,20,0.513205,0.34532,0.409688
+India to VIC,India,VIC,Victoria,40846,21,0.539615,0.351211,0.415479
+India to VIC,India,VIC,Victoria,40846,22,0.566026,0.357055,0.421224
+India to VIC,India,VIC,Victoria,40846,23,0.592436,0.362821,0.426893
+India to VIC,India,VIC,Victoria,40846,24,0.618846,0.368479,0.432454
+India to VIC,India,VIC,Victoria,40846,25,0.645256,0.373997,0.437879
+India to VIC,India,VIC,Victoria,40846,26,0.671667,0.379344,0.443135
+India to VIC,India,VIC,Victoria,40846,27,0.698077,0.384489,0.448193
+India to VIC,India,VIC,Victoria,40846,28,0.724487,0.389401,0.453022
+India to VIC,India,VIC,Victoria,40846,29,0.750897,0.394048,0.457591
+India to VIC,India,VIC,Victoria,40846,30,0.777308,0.398401,0.46187
+India to VIC,India,VIC,Victoria,40846,31,0.803718,0.402427,0.465828
+India to VIC,India,VIC,Victoria,40846,32,0.830128,0.406096,0.469435
+India to VIC,India,VIC,Victoria,40846,33,0.856538,0.409377,0.47266
+India to VIC,India,VIC,Victoria,40846,34,0.882949,0.412238,0.475473
+India to VIC,India,VIC,Victoria,40846,35,0.909359,0.414649,0.477843
+India to VIC,India,VIC,Victoria,40846,36,0.935769,0.416578,0.479739
+India to VIC,India,VIC,Victoria,40846,37,0.962179,0.417994,0.481132
+India to VIC,India,VIC,Victoria,40846,38,0.98859,0.418867,0.48199
+India to VIC,India,VIC,Victoria,40846,39,1.015,0.419165,0.482282
+India to QLD,India,QLD,Queensland,12228,0,-0.015,0.331287,0.35096
+India to QLD,India,QLD,Queensland,12228,1,0.01141,0.331926,0.351598
+India to QLD,India,QLD,Queensland,12228,2,0.037821,0.3338,0.353468
+India to QLD,India,QLD,Queensland,12228,3,0.064231,0.336842,0.356502
+India to QLD,India,QLD,Queensland,12228,4,0.090641,0.340984,0.360635
+India to QLD,India,QLD,Queensland,12228,5,0.117051,0.346161,0.3658
+India to QLD,India,QLD,Queensland,12228,6,0.143462,0.352306,0.37193
+India to QLD,India,QLD,Queensland,12228,7,0.169872,0.359351,0.378959
+India to QLD,India,QLD,Queensland,12228,8,0.196282,0.367231,0.38682
+India to QLD,India,QLD,Queensland,12228,9,0.222692,0.375878,0.395446
+India to QLD,India,QLD,Queensland,12228,10,0.249103,0.385225,0.404772
+India to QLD,India,QLD,Queensland,12228,11,0.275513,0.395207,0.41473
+India to QLD,India,QLD,Queensland,12228,12,0.301923,0.405756,0.425254
+India to QLD,India,QLD,Queensland,12228,13,0.328333,0.416805,0.436277
+India to QLD,India,QLD,Queensland,12228,14,0.354744,0.428288,0.447732
+India to QLD,India,QLD,Queensland,12228,15,0.381154,0.440137,0.459554
+India to QLD,India,QLD,Queensland,12228,16,0.407564,0.452288,0.471676
+India to QLD,India,QLD,Queensland,12228,17,0.433974,0.464671,0.48403
+India to QLD,India,QLD,Queensland,12228,18,0.460385,0.477222,0.496551
+India to QLD,India,QLD,Queensland,12228,19,0.486795,0.489872,0.509172
+India to QLD,India,QLD,Queensland,12228,20,0.513205,0.502556,0.521826
+India to QLD,India,QLD,Queensland,12228,21,0.539615,0.515207,0.534447
+India to QLD,India,QLD,Queensland,12228,22,0.566026,0.527758,0.546968
+India to QLD,India,QLD,Queensland,12228,23,0.592436,0.540141,0.559322
+India to QLD,India,QLD,Queensland,12228,24,0.618846,0.552291,0.571444
+India to QLD,India,QLD,Queensland,12228,25,0.645256,0.564141,0.583266
+India to QLD,India,QLD,Queensland,12228,26,0.671667,0.575624,0.594721
+India to QLD,India,QLD,Queensland,12228,27,0.698077,0.586673,0.605744
+India to QLD,India,QLD,Queensland,12228,28,0.724487,0.597222,0.616268
+India to QLD,India,QLD,Queensland,12228,29,0.750897,0.607203,0.626226
+India to QLD,India,QLD,Queensland,12228,30,0.777308,0.616551,0.635552
+India to QLD,India,QLD,Queensland,12228,31,0.803718,0.625198,0.644178
+India to QLD,India,QLD,Queensland,12228,32,0.830128,0.633077,0.652039
+India to QLD,India,QLD,Queensland,12228,33,0.856538,0.640123,0.659068
+India to QLD,India,QLD,Queensland,12228,34,0.882949,0.646267,0.665198
+India to QLD,India,QLD,Queensland,12228,35,0.909359,0.651444,0.670363
+India to QLD,India,QLD,Queensland,12228,36,0.935769,0.655587,0.674496
+India to QLD,India,QLD,Queensland,12228,37,0.962179,0.658629,0.67753
+India to QLD,India,QLD,Queensland,12228,38,0.98859,0.660503,0.6794
+India to QLD,India,QLD,Queensland,12228,39,1.015,0.661142,0.680038
+India to WA,India,WA,Western Australia,7637,0,-0.015,0.35096,0.363248
+India to WA,India,WA,Western Australia,7637,1,0.01141,0.3518,0.364087
+India to WA,India,WA,Western Australia,7637,2,0.037821,0.354262,0.366546
+India to WA,India,WA,Western Australia,7637,3,0.064231,0.358259,0.370538
+India to WA,India,WA,Western Australia,7637,4,0.090641,0.363701,0.375974
+India to WA,India,WA,Western Australia,7637,5,0.117051,0.370503,0.382768
+India to WA,India,WA,Western Australia,7637,6,0.143462,0.378576,0.390832
+India to WA,India,WA,Western Australia,7637,7,0.169872,0.387832,0.400078
+India to WA,India,WA,Western Australia,7637,8,0.196282,0.398184,0.410418
+India to WA,India,WA,Western Australia,7637,9,0.222692,0.409544,0.421766
+India to WA,India,WA,Western Australia,7637,10,0.249103,0.421825,0.434033
+India to WA,India,WA,Western Australia,7637,11,0.275513,0.434939,0.447132
+India to WA,India,WA,Western Australia,7637,12,0.301923,0.448797,0.460975
+India to WA,India,WA,Western Australia,7637,13,0.328333,0.463314,0.475475
+India to WA,India,WA,Western Australia,7637,14,0.354744,0.4784,0.490544
+India to WA,India,WA,Western Australia,7637,15,0.381154,0.493968,0.506095
+India to WA,India,WA,Western Australia,7637,16,0.407564,0.509931,0.52204
+India to WA,India,WA,Western Australia,7637,17,0.433974,0.526201,0.538291
+India to WA,India,WA,Western Australia,7637,18,0.460385,0.542689,0.554762
+India to WA,India,WA,Western Australia,7637,19,0.486795,0.55931,0.571363
+India to WA,India,WA,Western Australia,7637,20,0.513205,0.575974,0.588009
+India to WA,India,WA,Western Australia,7637,21,0.539615,0.592594,0.60461
+India to WA,India,WA,Western Australia,7637,22,0.566026,0.609083,0.621081
+India to WA,India,WA,Western Australia,7637,23,0.592436,0.625353,0.637332
+India to WA,India,WA,Western Australia,7637,24,0.618846,0.641316,0.653277
+India to WA,India,WA,Western Australia,7637,25,0.645256,0.656884,0.668828
+India to WA,India,WA,Western Australia,7637,26,0.671667,0.67197,0.683897
+India to WA,India,WA,Western Australia,7637,27,0.698077,0.686486,0.698397
+India to WA,India,WA,Western Australia,7637,28,0.724487,0.700345,0.71224
+India to WA,India,WA,Western Australia,7637,29,0.750897,0.713459,0.725339
+India to WA,India,WA,Western Australia,7637,30,0.777308,0.725739,0.737606
+India to WA,India,WA,Western Australia,7637,31,0.803718,0.7371,0.748954
+India to WA,India,WA,Western Australia,7637,32,0.830128,0.747452,0.759294
+India to WA,India,WA,Western Australia,7637,33,0.856538,0.756708,0.76854
+India to WA,India,WA,Western Australia,7637,34,0.882949,0.764781,0.776604
+India to WA,India,WA,Western Australia,7637,35,0.909359,0.771582,0.783398
+India to WA,India,WA,Western Australia,7637,36,0.935769,0.777025,0.788834
+India to WA,India,WA,Western Australia,7637,37,0.962179,0.781021,0.792826
+India to WA,India,WA,Western Australia,7637,38,0.98859,0.783483,0.795285
+India to WA,India,WA,Western Australia,7637,39,1.015,0.784323,0.796125
+India to SA,India,SA,South Australia,8182,0,-0.015,0.363248,0.376412
+India to SA,India,SA,South Australia,8182,1,0.01141,0.364241,0.377404
+India to SA,India,SA,South Australia,8182,2,0.037821,0.367152,0.380312
+India to SA,India,SA,South Australia,8182,3,0.064231,0.371877,0.385032
+India to SA,India,SA,South Australia,8182,4,0.090641,0.378312,0.391461
+India to SA,India,SA,South Australia,8182,5,0.117051,0.386354,0.399495
+India to SA,India,SA,South Australia,8182,6,0.143462,0.395899,0.40903
+India to SA,India,SA,South Australia,8182,7,0.169872,0.406844,0.419964
+India to SA,India,SA,South Australia,8182,8,0.196282,0.419084,0.432191
+India to SA,India,SA,South Australia,8182,9,0.222692,0.432516,0.44561
+India to SA,India,SA,South Australia,8182,10,0.249103,0.447037,0.460116
+India to SA,India,SA,South Australia,8182,11,0.275513,0.462542,0.475605
+India to SA,India,SA,South Australia,8182,12,0.301923,0.478929,0.491975
+India to SA,India,SA,South Australia,8182,13,0.328333,0.496092,0.509121
+India to SA,India,SA,South Australia,8182,14,0.354744,0.51393,0.526941
+India to SA,India,SA,South Australia,8182,15,0.381154,0.532338,0.54533
+India to SA,India,SA,South Australia,8182,16,0.407564,0.551212,0.564185
+India to SA,India,SA,South Australia,8182,17,0.433974,0.570449,0.583402
+India to SA,India,SA,South Australia,8182,18,0.460385,0.589945,0.602879
+India to SA,India,SA,South Australia,8182,19,0.486795,0.609597,0.62251
+India to SA,India,SA,South Australia,8182,20,0.513205,0.6293,0.642194
+India to SA,India,SA,South Australia,8182,21,0.539615,0.648952,0.661825
+India to SA,India,SA,South Australia,8182,22,0.566026,0.668448,0.681302
+India to SA,India,SA,South Australia,8182,23,0.592436,0.687685,0.700519
+India to SA,India,SA,South Australia,8182,24,0.618846,0.706559,0.719374
+India to SA,India,SA,South Australia,8182,25,0.645256,0.724967,0.737763
+India to SA,India,SA,South Australia,8182,26,0.671667,0.742804,0.755582
+India to SA,India,SA,South Australia,8182,27,0.698077,0.759968,0.772729
+India to SA,India,SA,South Australia,8182,28,0.724487,0.776354,0.789099
+India to SA,India,SA,South Australia,8182,29,0.750897,0.79186,0.804588
+India to SA,India,SA,South Australia,8182,30,0.777308,0.80638,0.819094
+India to SA,India,SA,South Australia,8182,31,0.803718,0.819813,0.832513
+India to SA,India,SA,South Australia,8182,32,0.830128,0.832053,0.84474
+India to SA,India,SA,South Australia,8182,33,0.856538,0.842997,0.855674
+India to SA,India,SA,South Australia,8182,34,0.882949,0.852542,0.865209
+India to SA,India,SA,South Australia,8182,35,0.909359,0.860584,0.873243
+India to SA,India,SA,South Australia,8182,36,0.935769,0.86702,0.879672
+India to SA,India,SA,South Australia,8182,37,0.962179,0.871745,0.884392
+India to SA,India,SA,South Australia,8182,38,0.98859,0.874656,0.8873
+India to SA,India,SA,South Australia,8182,39,1.015,0.875649,0.888292
+India to ACT,India,ACT,Australian Capital Territory,2013,0,-0.015,0.376412,0.37965
+India to ACT,India,ACT,Australian Capital Territory,2013,1,0.01141,0.377504,0.380743
+India to ACT,India,ACT,Australian Capital Territory,2013,2,0.037821,0.380706,0.383944
+India to ACT,India,ACT,Australian Capital Territory,2013,3,0.064231,0.385904,0.389141
+India to ACT,India,ACT,Australian Capital Territory,2013,4,0.090641,0.392983,0.396218
+India to ACT,India,ACT,Australian Capital Territory,2013,5,0.117051,0.401829,0.405062
+India to ACT,India,ACT,Australian Capital Territory,2013,6,0.143462,0.412329,0.41556
+India to ACT,India,ACT,Australian Capital Territory,2013,7,0.169872,0.424368,0.427596
+India to ACT,India,ACT,Australian Capital Territory,2013,8,0.196282,0.437832,0.441057
+India to ACT,India,ACT,Australian Capital Territory,2013,9,0.222692,0.452608,0.455829
+India to ACT,India,ACT,Australian Capital Territory,2013,10,0.249103,0.468581,0.471798
+India to ACT,India,ACT,Australian Capital Territory,2013,11,0.275513,0.485637,0.48885
+India to ACT,India,ACT,Australian Capital Territory,2013,12,0.301923,0.503662,0.506872
+India to ACT,India,ACT,Australian Capital Territory,2013,13,0.328333,0.522542,0.525748
+India to ACT,India,ACT,Australian Capital Territory,2013,14,0.354744,0.542164,0.545365
+India to ACT,India,ACT,Australian Capital Territory,2013,15,0.381154,0.562412,0.565609
+India to ACT,India,ACT,Australian Capital Territory,2013,16,0.407564,0.583174,0.586366
+India to ACT,India,ACT,Australian Capital Territory,2013,17,0.433974,0.604335,0.607522
+India to ACT,India,ACT,Australian Capital Territory,2013,18,0.460385,0.625781,0.628963
+India to ACT,India,ACT,Australian Capital Territory,2013,19,0.486795,0.647398,0.650575
+India to ACT,India,ACT,Australian Capital Territory,2013,20,0.513205,0.669072,0.672244
+India to ACT,India,ACT,Australian Capital Territory,2013,21,0.539615,0.690689,0.693856
+India to ACT,India,ACT,Australian Capital Territory,2013,22,0.566026,0.712134,0.715297
+India to ACT,India,ACT,Australian Capital Territory,2013,23,0.592436,0.733295,0.736453
+India to ACT,India,ACT,Australian Capital Territory,2013,24,0.618846,0.754057,0.75721
+India to ACT,India,ACT,Australian Capital Territory,2013,25,0.645256,0.774306,0.777454
+India to ACT,India,ACT,Australian Capital Territory,2013,26,0.671667,0.793927,0.797071
+India to ACT,India,ACT,Australian Capital Territory,2013,27,0.698077,0.812808,0.815947
+India to ACT,India,ACT,Australian Capital Territory,2013,28,0.724487,0.830833,0.833968
+India to ACT,India,ACT,Australian Capital Territory,2013,29,0.750897,0.847889,0.85102
+India to ACT,India,ACT,Australian Capital Territory,2013,30,0.777308,0.863862,0.86699
+India to ACT,India,ACT,Australian Capital Territory,2013,31,0.803718,0.878637,0.881762
+India to ACT,India,ACT,Australian Capital Territory,2013,32,0.830128,0.892101,0.895223
+India to ACT,India,ACT,Australian Capital Territory,2013,33,0.856538,0.90414,0.907259
+India to ACT,India,ACT,Australian Capital Territory,2013,34,0.882949,0.91464,0.917756
+India to ACT,India,ACT,Australian Capital Territory,2013,35,0.909359,0.923486,0.926601
+India to ACT,India,ACT,Australian Capital Territory,2013,36,0.935769,0.930565,0.933678
+India to ACT,India,ACT,Australian Capital Territory,2013,37,0.962179,0.935763,0.938874
+India to ACT,India,ACT,Australian Capital Territory,2013,38,0.98859,0.938965,0.942076
+India to ACT,India,ACT,Australian Capital Territory,2013,39,1.015,0.940058,0.943168
+India to TAS,India,TAS,Tasmania,690,0,-0.015,0.37965,0.38076
+India to TAS,India,TAS,Tasmania,690,1,0.01141,0.380794,0.381904
+India to TAS,India,TAS,Tasmania,690,2,0.037821,0.384146,0.385256
+India to TAS,India,TAS,Tasmania,690,3,0.064231,0.389587,0.390697
+India to TAS,India,TAS,Tasmania,690,4,0.090641,0.396998,0.398107
+India to TAS,India,TAS,Tasmania,690,5,0.117051,0.406258,0.407366
+India to TAS,India,TAS,Tasmania,690,6,0.143462,0.41725,0.418357
+India to TAS,India,TAS,Tasmania,690,7,0.169872,0.429852,0.430959
+India to TAS,India,TAS,Tasmania,690,8,0.196282,0.443947,0.445052
+India to TAS,India,TAS,Tasmania,690,9,0.222692,0.459414,0.460519
+India to TAS,India,TAS,Tasmania,690,10,0.249103,0.476135,0.477238
+India to TAS,India,TAS,Tasmania,690,11,0.275513,0.49399,0.495091
+India to TAS,India,TAS,Tasmania,690,12,0.301923,0.512859,0.513959
+India to TAS,India,TAS,Tasmania,690,13,0.328333,0.532623,0.533722
+India to TAS,India,TAS,Tasmania,690,14,0.354744,0.553164,0.554261
+India to TAS,India,TAS,Tasmania,690,15,0.381154,0.57436,0.575456
+India to TAS,India,TAS,Tasmania,690,16,0.407564,0.596094,0.597188
+India to TAS,India,TAS,Tasmania,690,17,0.433974,0.618246,0.619338
+India to TAS,India,TAS,Tasmania,690,18,0.460385,0.640696,0.641787
+India to TAS,India,TAS,Tasmania,690,19,0.486795,0.663325,0.664414
+India to TAS,India,TAS,Tasmania,690,20,0.513205,0.686014,0.687101
+India to TAS,India,TAS,Tasmania,690,21,0.539615,0.708643,0.709729
+India to TAS,India,TAS,Tasmania,690,22,0.566026,0.731093,0.732177
+India to TAS,India,TAS,Tasmania,690,23,0.592436,0.753245,0.754327
+India to TAS,India,TAS,Tasmania,690,24,0.618846,0.774979,0.77606
+India to TAS,India,TAS,Tasmania,690,25,0.645256,0.796176,0.797255
+India to TAS,India,TAS,Tasmania,690,26,0.671667,0.816716,0.817794
+India to TAS,India,TAS,Tasmania,690,27,0.698077,0.83648,0.837557
+India to TAS,India,TAS,Tasmania,690,28,0.724487,0.85535,0.856424
+India to TAS,India,TAS,Tasmania,690,29,0.750897,0.873204,0.874278
+India to TAS,India,TAS,Tasmania,690,30,0.777308,0.889925,0.890997
+India to TAS,India,TAS,Tasmania,690,31,0.803718,0.905392,0.906463
+India to TAS,India,TAS,Tasmania,690,32,0.830128,0.919487,0.920557
+India to TAS,India,TAS,Tasmania,690,33,0.856538,0.93209,0.933159
+India to TAS,India,TAS,Tasmania,690,34,0.882949,0.943081,0.944149
+India to TAS,India,TAS,Tasmania,690,35,0.909359,0.952342,0.953409
+India to TAS,India,TAS,Tasmania,690,36,0.935769,0.959752,0.960819
+India to TAS,India,TAS,Tasmania,690,37,0.962179,0.965193,0.966259
+India to TAS,India,TAS,Tasmania,690,38,0.98859,0.968545,0.969611
+India to TAS,India,TAS,Tasmania,690,39,1.015,0.969689,0.970755
+India to NT,India,NT,Northern Territory,750,0,-0.015,0.38076,0.381967
+India to NT,India,NT,Northern Territory,750,1,0.01141,0.381951,0.383157
+India to NT,India,NT,Northern Territory,750,2,0.037821,0.385438,0.386644
+India to NT,India,NT,Northern Territory,750,3,0.064231,0.391099,0.392305
+India to NT,India,NT,Northern Territory,750,4,0.090641,0.398808,0.400014
+India to NT,India,NT,Northern Territory,750,5,0.117051,0.408443,0.409647
+India to NT,India,NT,Northern Territory,750,6,0.143462,0.419878,0.421082
+India to NT,India,NT,Northern Territory,750,7,0.169872,0.43299,0.434192
+India to NT,India,NT,Northern Territory,750,8,0.196282,0.447653,0.448855
+India to NT,India,NT,Northern Territory,750,9,0.222692,0.463745,0.464946
+India to NT,India,NT,Northern Territory,750,10,0.249103,0.481141,0.48234
+India to NT,India,NT,Northern Territory,750,11,0.275513,0.499717,0.500914
+India to NT,India,NT,Northern Territory,750,12,0.301923,0.519348,0.520544
+India to NT,India,NT,Northern Territory,750,13,0.328333,0.539911,0.541105
+India to NT,India,NT,Northern Territory,750,14,0.354744,0.56128,0.562473
+India to NT,India,NT,Northern Territory,750,15,0.381154,0.583333,0.584524
+India to NT,India,NT,Northern Territory,750,16,0.407564,0.605945,0.607134
+India to NT,India,NT,Northern Territory,750,17,0.433974,0.628991,0.630178
+India to NT,India,NT,Northern Territory,750,18,0.460385,0.652348,0.653533
+India to NT,India,NT,Northern Territory,750,19,0.486795,0.675891,0.677074
+India to NT,India,NT,Northern Territory,750,20,0.513205,0.699496,0.700677
+India to NT,India,NT,Northern Territory,750,21,0.539615,0.723038,0.724219
+India to NT,India,NT,Northern Territory,750,22,0.566026,0.746395,0.747573
+India to NT,India,NT,Northern Territory,750,23,0.592436,0.769441,0.770618
+India to NT,India,NT,Northern Territory,750,24,0.618846,0.792053,0.793228
+India to NT,India,NT,Northern Territory,750,25,0.645256,0.814106,0.815279
+India to NT,India,NT,Northern Territory,750,26,0.671667,0.835475,0.836647
+India to NT,India,NT,Northern Territory,750,27,0.698077,0.856038,0.857208
+India to NT,India,NT,Northern Territory,750,28,0.724487,0.875669,0.876837
+India to NT,India,NT,Northern Territory,750,29,0.750897,0.894245,0.895411
+India to NT,India,NT,Northern Territory,750,30,0.777308,0.911641,0.912806
+India to NT,India,NT,Northern Territory,750,31,0.803718,0.927733,0.928897
+India to NT,India,NT,Northern Territory,750,32,0.830128,0.942397,0.94356
+India to NT,India,NT,Northern Territory,750,33,0.856538,0.955508,0.95667
+India to NT,India,NT,Northern Territory,750,34,0.882949,0.966943,0.968104
+India to NT,India,NT,Northern Territory,750,35,0.909359,0.976578,0.977738
+India to NT,India,NT,Northern Territory,750,36,0.935769,0.984287,0.985447
+India to NT,India,NT,Northern Territory,750,37,0.962179,0.989948,0.991107
+India to NT,India,NT,Northern Territory,750,38,0.98859,0.993436,0.994595
+India to NT,India,NT,Northern Territory,750,39,1.015,0.994626,0.995785
+Nepal to NSW,Nepal,NSW,New South Wales,32898,0,-0.015,0.399967,0.452897
+Nepal to NSW,Nepal,NSW,New South Wales,32898,1,0.01141,0.399452,0.452378
+Nepal to NSW,Nepal,NSW,New South Wales,32898,2,0.037821,0.397942,0.450856
+Nepal to NSW,Nepal,NSW,New South Wales,32898,3,0.064231,0.395492,0.448386
+Nepal to NSW,Nepal,NSW,New South Wales,32898,4,0.090641,0.392154,0.445023
+Nepal to NSW,Nepal,NSW,New South Wales,32898,5,0.117051,0.387984,0.440819
+Nepal to NSW,Nepal,NSW,New South Wales,32898,6,0.143462,0.383033,0.43583
+Nepal to NSW,Nepal,NSW,New South Wales,32898,7,0.169872,0.377357,0.430109
+Nepal to NSW,Nepal,NSW,New South Wales,32898,8,0.196282,0.371009,0.423711
+Nepal to NSW,Nepal,NSW,New South Wales,32898,9,0.222692,0.364043,0.41669
+Nepal to NSW,Nepal,NSW,New South Wales,32898,10,0.249103,0.356513,0.4091
+Nepal to NSW,Nepal,NSW,New South Wales,32898,11,0.275513,0.348471,0.400995
+Nepal to NSW,Nepal,NSW,New South Wales,32898,12,0.301923,0.339973,0.39243
+Nepal to NSW,Nepal,NSW,New South Wales,32898,13,0.328333,0.331072,0.383459
+Nepal to NSW,Nepal,NSW,New South Wales,32898,14,0.354744,0.321821,0.374135
+Nepal to NSW,Nepal,NSW,New South Wales,32898,15,0.381154,0.312274,0.364513
+Nepal to NSW,Nepal,NSW,New South Wales,32898,16,0.407564,0.302486,0.354648
+Nepal to NSW,Nepal,NSW,New South Wales,32898,17,0.433974,0.292509,0.344592
+Nepal to NSW,Nepal,NSW,New South Wales,32898,18,0.460385,0.282398,0.334402
+Nepal to NSW,Nepal,NSW,New South Wales,32898,19,0.486795,0.272207,0.32413
+Nepal to NSW,Nepal,NSW,New South Wales,32898,20,0.513205,0.261988,0.313831
+Nepal to NSW,Nepal,NSW,New South Wales,32898,21,0.539615,0.251796,0.303559
+Nepal to NSW,Nepal,NSW,New South Wales,32898,22,0.566026,0.241685,0.293368
+Nepal to NSW,Nepal,NSW,New South Wales,32898,23,0.592436,0.231709,0.283313
+Nepal to NSW,Nepal,NSW,New South Wales,32898,24,0.618846,0.22192,0.273447
+Nepal to NSW,Nepal,NSW,New South Wales,32898,25,0.645256,0.212374,0.263825
+Nepal to NSW,Nepal,NSW,New South Wales,32898,26,0.671667,0.203123,0.254502
+Nepal to NSW,Nepal,NSW,New South Wales,32898,27,0.698077,0.194221,0.24553
+Nepal to NSW,Nepal,NSW,New South Wales,32898,28,0.724487,0.185723,0.236965
+Nepal to NSW,Nepal,NSW,New South Wales,32898,29,0.750897,0.177682,0.22886
+Nepal to NSW,Nepal,NSW,New South Wales,32898,30,0.777308,0.170151,0.22127
+Nepal to NSW,Nepal,NSW,New South Wales,32898,31,0.803718,0.163185,0.214249
+Nepal to NSW,Nepal,NSW,New South Wales,32898,32,0.830128,0.156837,0.207851
+Nepal to NSW,Nepal,NSW,New South Wales,32898,33,0.856538,0.151161,0.202131
+Nepal to NSW,Nepal,NSW,New South Wales,32898,34,0.882949,0.146211,0.197141
+Nepal to NSW,Nepal,NSW,New South Wales,32898,35,0.909359,0.14204,0.192938
+Nepal to NSW,Nepal,NSW,New South Wales,32898,36,0.935769,0.138703,0.189574
+Nepal to NSW,Nepal,NSW,New South Wales,32898,37,0.962179,0.136252,0.187104
+Nepal to NSW,Nepal,NSW,New South Wales,32898,38,0.98859,0.134743,0.185583
+Nepal to NSW,Nepal,NSW,New South Wales,32898,39,1.015,0.134227,0.185063
+Nepal to VIC,Nepal,VIC,Victoria,8044,0,-0.015,0.452897,0.465839
+Nepal to VIC,Nepal,VIC,Victoria,8044,1,0.01141,0.452954,0.465895
+Nepal to VIC,Nepal,VIC,Victoria,8044,2,0.037821,0.453121,0.466059
+Nepal to VIC,Nepal,VIC,Victoria,8044,3,0.064231,0.453392,0.466325
+Nepal to VIC,Nepal,VIC,Victoria,8044,4,0.090641,0.453761,0.466688
+Nepal to VIC,Nepal,VIC,Victoria,8044,5,0.117051,0.454222,0.467141
+Nepal to VIC,Nepal,VIC,Victoria,8044,6,0.143462,0.45477,0.467679
+Nepal to VIC,Nepal,VIC,Victoria,8044,7,0.169872,0.455397,0.468296
+Nepal to VIC,Nepal,VIC,Victoria,8044,8,0.196282,0.456099,0.468985
+Nepal to VIC,Nepal,VIC,Victoria,8044,9,0.222692,0.456869,0.469742
+Nepal to VIC,Nepal,VIC,Victoria,8044,10,0.249103,0.457702,0.470561
+Nepal to VIC,Nepal,VIC,Victoria,8044,11,0.275513,0.458591,0.471434
+Nepal to VIC,Nepal,VIC,Victoria,8044,12,0.301923,0.459531,0.472358
+Nepal to VIC,Nepal,VIC,Victoria,8044,13,0.328333,0.460515,0.473325
+Nepal to VIC,Nepal,VIC,Victoria,8044,14,0.354744,0.461538,0.47433
+Nepal to VIC,Nepal,VIC,Victoria,8044,15,0.381154,0.462594,0.475367
+Nepal to VIC,Nepal,VIC,Victoria,8044,16,0.407564,0.463676,0.476431
+Nepal to VIC,Nepal,VIC,Victoria,8044,17,0.433974,0.46478,0.477515
+Nepal to VIC,Nepal,VIC,Victoria,8044,18,0.460385,0.465898,0.478613
+Nepal to VIC,Nepal,VIC,Victoria,8044,19,0.486795,0.467025,0.479721
+Nepal to VIC,Nepal,VIC,Victoria,8044,20,0.513205,0.468155,0.480831
+Nepal to VIC,Nepal,VIC,Victoria,8044,21,0.539615,0.469282,0.481938
+Nepal to VIC,Nepal,VIC,Victoria,8044,22,0.566026,0.4704,0.483037
+Nepal to VIC,Nepal,VIC,Victoria,8044,23,0.592436,0.471503,0.484121
+Nepal to VIC,Nepal,VIC,Victoria,8044,24,0.618846,0.472585,0.485184
+Nepal to VIC,Nepal,VIC,Victoria,8044,25,0.645256,0.473641,0.486222
+Nepal to VIC,Nepal,VIC,Victoria,8044,26,0.671667,0.474664,0.487227
+Nepal to VIC,Nepal,VIC,Victoria,8044,27,0.698077,0.475648,0.488194
+Nepal to VIC,Nepal,VIC,Victoria,8044,28,0.724487,0.476588,0.489117
+Nepal to VIC,Nepal,VIC,Victoria,8044,29,0.750897,0.477477,0.489991
+Nepal to VIC,Nepal,VIC,Victoria,8044,30,0.777308,0.47831,0.490809
+Nepal to VIC,Nepal,VIC,Victoria,8044,31,0.803718,0.47908,0.491566
+Nepal to VIC,Nepal,VIC,Victoria,8044,32,0.830128,0.479782,0.492256
+Nepal to VIC,Nepal,VIC,Victoria,8044,33,0.856538,0.48041,0.492872
+Nepal to VIC,Nepal,VIC,Victoria,8044,34,0.882949,0.480957,0.49341
+Nepal to VIC,Nepal,VIC,Victoria,8044,35,0.909359,0.481418,0.493863
+Nepal to VIC,Nepal,VIC,Victoria,8044,36,0.935769,0.481787,0.494226
+Nepal to VIC,Nepal,VIC,Victoria,8044,37,0.962179,0.482058,0.494492
+Nepal to VIC,Nepal,VIC,Victoria,8044,38,0.98859,0.482225,0.494656
+Nepal to VIC,Nepal,VIC,Victoria,8044,39,1.015,0.482282,0.494712
+Nepal to QLD,Nepal,QLD,Queensland,3536,0,-0.015,0.465839,0.471528
+Nepal to QLD,Nepal,QLD,Queensland,3536,1,0.01141,0.466254,0.471943
+Nepal to QLD,Nepal,QLD,Queensland,3536,2,0.037821,0.467471,0.473159
+Nepal to QLD,Nepal,QLD,Queensland,3536,3,0.064231,0.469446,0.475132
+Nepal to QLD,Nepal,QLD,Queensland,3536,4,0.090641,0.472137,0.477819
+Nepal to QLD,Nepal,QLD,Queensland,3536,5,0.117051,0.475498,0.481177
+Nepal to QLD,Nepal,QLD,Queensland,3536,6,0.143462,0.479489,0.485163
+Nepal to QLD,Nepal,QLD,Queensland,3536,7,0.169872,0.484064,0.489734
+Nepal to QLD,Nepal,QLD,Queensland,3536,8,0.196282,0.48918,0.494845
+Nepal to QLD,Nepal,QLD,Queensland,3536,9,0.222692,0.494795,0.500454
+Nepal to QLD,Nepal,QLD,Queensland,3536,10,0.249103,0.500865,0.506518
+Nepal to QLD,Nepal,QLD,Queensland,3536,11,0.275513,0.507347,0.512993
+Nepal to QLD,Nepal,QLD,Queensland,3536,12,0.301923,0.514197,0.519835
+Nepal to QLD,Nepal,QLD,Queensland,3536,13,0.328333,0.521372,0.527003
+Nepal to QLD,Nepal,QLD,Queensland,3536,14,0.354744,0.528829,0.534452
+Nepal to QLD,Nepal,QLD,Queensland,3536,15,0.381154,0.536524,0.542138
+Nepal to QLD,Nepal,QLD,Queensland,3536,16,0.407564,0.544414,0.55002
+Nepal to QLD,Nepal,QLD,Queensland,3536,17,0.433974,0.552455,0.558053
+Nepal to QLD,Nepal,QLD,Queensland,3536,18,0.460385,0.560605,0.566195
+Nepal to QLD,Nepal,QLD,Queensland,3536,19,0.486795,0.56882,0.574401
+Nepal to QLD,Nepal,QLD,Queensland,3536,20,0.513205,0.577057,0.582629
+Nepal to QLD,Nepal,QLD,Queensland,3536,21,0.539615,0.585272,0.590835
+Nepal to QLD,Nepal,QLD,Queensland,3536,22,0.566026,0.593422,0.598977
+Nepal to QLD,Nepal,QLD,Queensland,3536,23,0.592436,0.601463,0.60701
+Nepal to QLD,Nepal,QLD,Queensland,3536,24,0.618846,0.609353,0.614891
+Nepal to QLD,Nepal,QLD,Queensland,3536,25,0.645256,0.617048,0.622578
+Nepal to QLD,Nepal,QLD,Queensland,3536,26,0.671667,0.624505,0.630027
+Nepal to QLD,Nepal,QLD,Queensland,3536,27,0.698077,0.63168,0.637195
+Nepal to QLD,Nepal,QLD,Queensland,3536,28,0.724487,0.63853,0.644037
+Nepal to QLD,Nepal,QLD,Queensland,3536,29,0.750897,0.645011,0.650512
+Nepal to QLD,Nepal,QLD,Queensland,3536,30,0.777308,0.651081,0.656576
+Nepal to QLD,Nepal,QLD,Queensland,3536,31,0.803718,0.656696,0.662185
+Nepal to QLD,Nepal,QLD,Queensland,3536,32,0.830128,0.661813,0.667296
+Nepal to QLD,Nepal,QLD,Queensland,3536,33,0.856538,0.666388,0.671867
+Nepal to QLD,Nepal,QLD,Queensland,3536,34,0.882949,0.670378,0.675853
+Nepal to QLD,Nepal,QLD,Queensland,3536,35,0.909359,0.67374,0.679211
+Nepal to QLD,Nepal,QLD,Queensland,3536,36,0.935769,0.67643,0.681898
+Nepal to QLD,Nepal,QLD,Queensland,3536,37,0.962179,0.678406,0.683871
+Nepal to QLD,Nepal,QLD,Queensland,3536,38,0.98859,0.679622,0.685087
+Nepal to QLD,Nepal,QLD,Queensland,3536,39,1.015,0.680038,0.685502
+Nepal to WA,Nepal,WA,Western Australia,2886,0,-0.015,0.471528,0.476171
+Nepal to WA,Nepal,WA,Western Australia,2886,1,0.01141,0.472157,0.4768
+Nepal to WA,Nepal,WA,Western Australia,2886,2,0.037821,0.474002,0.478643
+Nepal to WA,Nepal,WA,Western Australia,2886,3,0.064231,0.476995,0.481635
+Nepal to WA,Nepal,WA,Western Australia,2886,4,0.090641,0.481071,0.485709
+Nepal to WA,Nepal,WA,Western Australia,2886,5,0.117051,0.486166,0.490801
+Nepal to WA,Nepal,WA,Western Australia,2886,6,0.143462,0.492213,0.496844
+Nepal to WA,Nepal,WA,Western Australia,2886,7,0.169872,0.499146,0.503773
+Nepal to WA,Nepal,WA,Western Australia,2886,8,0.196282,0.506899,0.511523
+Nepal to WA,Nepal,WA,Western Australia,2886,9,0.222692,0.515409,0.520027
+Nepal to WA,Nepal,WA,Western Australia,2886,10,0.249103,0.524607,0.52922
+Nepal to WA,Nepal,WA,Western Australia,2886,11,0.275513,0.534429,0.539037
+Nepal to WA,Nepal,WA,Western Australia,2886,12,0.301923,0.54481,0.549412
+Nepal to WA,Nepal,WA,Western Australia,2886,13,0.328333,0.555683,0.560278
+Nepal to WA,Nepal,WA,Western Australia,2886,14,0.354744,0.566983,0.571572
+Nepal to WA,Nepal,WA,Western Australia,2886,15,0.381154,0.578643,0.583226
+Nepal to WA,Nepal,WA,Western Australia,2886,16,0.407564,0.5906,0.595176
+Nepal to WA,Nepal,WA,Western Australia,2886,17,0.433974,0.602786,0.607355
+Nepal to WA,Nepal,WA,Western Australia,2886,18,0.460385,0.615137,0.619699
+Nepal to WA,Nepal,WA,Western Australia,2886,19,0.486795,0.627585,0.63214
+Nepal to WA,Nepal,WA,Western Australia,2886,20,0.513205,0.640067,0.644615
+Nepal to WA,Nepal,WA,Western Australia,2886,21,0.539615,0.652516,0.657057
+Nepal to WA,Nepal,WA,Western Australia,2886,22,0.566026,0.664867,0.6694
+Nepal to WA,Nepal,WA,Western Australia,2886,23,0.592436,0.677053,0.68158
+Nepal to WA,Nepal,WA,Western Australia,2886,24,0.618846,0.689009,0.693529
+Nepal to WA,Nepal,WA,Western Australia,2886,25,0.645256,0.70067,0.705184
+Nepal to WA,Nepal,WA,Western Australia,2886,26,0.671667,0.71197,0.716477
+Nepal to WA,Nepal,WA,Western Australia,2886,27,0.698077,0.722843,0.727344
+Nepal to WA,Nepal,WA,Western Australia,2886,28,0.724487,0.733223,0.737719
+Nepal to WA,Nepal,WA,Western Australia,2886,29,0.750897,0.743046,0.747535
+Nepal to WA,Nepal,WA,Western Australia,2886,30,0.777308,0.752244,0.756729
+Nepal to WA,Nepal,WA,Western Australia,2886,31,0.803718,0.760753,0.765233
+Nepal to WA,Nepal,WA,Western Australia,2886,32,0.830128,0.768507,0.772982
+Nepal to WA,Nepal,WA,Western Australia,2886,33,0.856538,0.77544,0.779911
+Nepal to WA,Nepal,WA,Western Australia,2886,34,0.882949,0.781487,0.785955
+Nepal to WA,Nepal,WA,Western Australia,2886,35,0.909359,0.786581,0.791046
+Nepal to WA,Nepal,WA,Western Australia,2886,36,0.935769,0.790658,0.795121
+Nepal to WA,Nepal,WA,Western Australia,2886,37,0.962179,0.793651,0.798112
+Nepal to WA,Nepal,WA,Western Australia,2886,38,0.98859,0.795495,0.799955
+Nepal to WA,Nepal,WA,Western Australia,2886,39,1.015,0.796125,0.800584
+Nepal to SA,Nepal,SA,South Australia,2496,0,-0.015,0.476171,0.480187
+Nepal to SA,Nepal,SA,South Australia,2496,1,0.01141,0.47697,0.480986
+Nepal to SA,Nepal,SA,South Australia,2496,2,0.037821,0.479312,0.483326
+Nepal to SA,Nepal,SA,South Australia,2496,3,0.064231,0.483112,0.487125
+Nepal to SA,Nepal,SA,South Australia,2496,4,0.090641,0.488288,0.492299
+Nepal to SA,Nepal,SA,South Australia,2496,5,0.117051,0.494756,0.498765
+Nepal to SA,Nepal,SA,South Australia,2496,6,0.143462,0.502433,0.506439
+Nepal to SA,Nepal,SA,South Australia,2496,7,0.169872,0.511236,0.515238
+Nepal to SA,Nepal,SA,South Australia,2496,8,0.196282,0.52108,0.525079
+Nepal to SA,Nepal,SA,South Australia,2496,9,0.222692,0.531884,0.535878
+Nepal to SA,Nepal,SA,South Australia,2496,10,0.249103,0.543563,0.547552
+Nepal to SA,Nepal,SA,South Australia,2496,11,0.275513,0.556033,0.560018
+Nepal to SA,Nepal,SA,South Australia,2496,12,0.301923,0.569213,0.573193
+Nepal to SA,Nepal,SA,South Australia,2496,13,0.328333,0.583018,0.586992
+Nepal to SA,Nepal,SA,South Australia,2496,14,0.354744,0.597364,0.601333
+Nepal to SA,Nepal,SA,South Australia,2496,15,0.381154,0.612169,0.616133
+Nepal to SA,Nepal,SA,South Australia,2496,16,0.407564,0.62735,0.631307
+Nepal to SA,Nepal,SA,South Australia,2496,17,0.433974,0.642822,0.646774
+Nepal to SA,Nepal,SA,South Australia,2496,18,0.460385,0.658503,0.662448
+Nepal to SA,Nepal,SA,South Australia,2496,19,0.486795,0.674308,0.678248
+Nepal to SA,Nepal,SA,South Australia,2496,20,0.513205,0.690156,0.694089
+Nepal to SA,Nepal,SA,South Australia,2496,21,0.539615,0.705961,0.709888
+Nepal to SA,Nepal,SA,South Australia,2496,22,0.566026,0.721642,0.725563
+Nepal to SA,Nepal,SA,South Australia,2496,23,0.592436,0.737114,0.741029
+Nepal to SA,Nepal,SA,South Australia,2496,24,0.618846,0.752294,0.756204
+Nepal to SA,Nepal,SA,South Australia,2496,25,0.645256,0.7671,0.771003
+Nepal to SA,Nepal,SA,South Australia,2496,26,0.671667,0.781446,0.785344
+Nepal to SA,Nepal,SA,South Australia,2496,27,0.698077,0.795251,0.799144
+Nepal to SA,Nepal,SA,South Australia,2496,28,0.724487,0.80843,0.812318
+Nepal to SA,Nepal,SA,South Australia,2496,29,0.750897,0.820901,0.824784
+Nepal to SA,Nepal,SA,South Australia,2496,30,0.777308,0.83258,0.836458
+Nepal to SA,Nepal,SA,South Australia,2496,31,0.803718,0.843383,0.847258
+Nepal to SA,Nepal,SA,South Australia,2496,32,0.830128,0.853228,0.857099
+Nepal to SA,Nepal,SA,South Australia,2496,33,0.856538,0.862031,0.865898
+Nepal to SA,Nepal,SA,South Australia,2496,34,0.882949,0.869708,0.873572
+Nepal to SA,Nepal,SA,South Australia,2496,35,0.909359,0.876176,0.880037
+Nepal to SA,Nepal,SA,South Australia,2496,36,0.935769,0.881352,0.885211
+Nepal to SA,Nepal,SA,South Australia,2496,37,0.962179,0.885152,0.88901
+Nepal to SA,Nepal,SA,South Australia,2496,38,0.98859,0.887493,0.891351
+Nepal to SA,Nepal,SA,South Australia,2496,39,1.015,0.888292,0.892149
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,0,-0.015,0.480187,0.482141
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,1,0.01141,0.481085,0.483038
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,2,0.037821,0.483715,0.485668
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,3,0.064231,0.487984,0.489936
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,4,0.090641,0.493799,0.49575
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,5,0.117051,0.501066,0.503015
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,6,0.143462,0.50969,0.511638
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,7,0.169872,0.519579,0.521525
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,8,0.196282,0.530638,0.532583
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,9,0.222692,0.542775,0.544718
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,10,0.249103,0.555895,0.557836
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,11,0.275513,0.569905,0.571843
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,12,0.301923,0.584711,0.586647
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,13,0.328333,0.600219,0.602153
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,14,0.354744,0.616337,0.618267
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,15,0.381154,0.632969,0.634897
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,16,0.407564,0.650023,0.651948
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,17,0.433974,0.667404,0.669326
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,18,0.460385,0.68502,0.686939
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,19,0.486795,0.702776,0.704692
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,20,0.513205,0.720579,0.722492
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,21,0.539615,0.738336,0.740246
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,22,0.566026,0.755951,0.757859
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,23,0.592436,0.773333,0.775237
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,24,0.618846,0.790387,0.792288
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,25,0.645256,0.807019,0.808918
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,26,0.671667,0.823136,0.825032
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,27,0.698077,0.838645,0.840538
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,28,0.724487,0.853451,0.855342
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,29,0.750897,0.86746,0.869349
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,30,0.777308,0.880581,0.882467
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,31,0.803718,0.892717,0.894602
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,32,0.830128,0.903777,0.905659
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,33,0.856538,0.913666,0.915547
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,34,0.882949,0.92229,0.92417
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,35,0.909359,0.929557,0.931435
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,36,0.935769,0.935371,0.937248
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,37,0.962179,0.939641,0.941517
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,38,0.98859,0.942271,0.944147
+Nepal to ACT,Nepal,ACT,Australian Capital Territory,1214,39,1.015,0.943168,0.945044
+Nepal to TAS,Nepal,TAS,Tasmania,877,0,-0.015,0.482141,0.483552
+Nepal to TAS,Nepal,TAS,Tasmania,877,1,0.01141,0.483088,0.484499
+Nepal to TAS,Nepal,TAS,Tasmania,877,2,0.037821,0.485864,0.487274
+Nepal to TAS,Nepal,TAS,Tasmania,877,3,0.064231,0.490369,0.491779
+Nepal to TAS,Nepal,TAS,Tasmania,877,4,0.090641,0.496506,0.497915
+Nepal to TAS,Nepal,TAS,Tasmania,877,5,0.117051,0.504175,0.505583
+Nepal to TAS,Nepal,TAS,Tasmania,877,6,0.143462,0.513277,0.514684
+Nepal to TAS,Nepal,TAS,Tasmania,877,7,0.169872,0.523713,0.525119
+Nepal to TAS,Nepal,TAS,Tasmania,877,8,0.196282,0.535385,0.53679
+Nepal to TAS,Nepal,TAS,Tasmania,877,9,0.222692,0.548194,0.549597
+Nepal to TAS,Nepal,TAS,Tasmania,877,10,0.249103,0.56204,0.563442
+Nepal to TAS,Nepal,TAS,Tasmania,877,11,0.275513,0.576826,0.578226
+Nepal to TAS,Nepal,TAS,Tasmania,877,12,0.301923,0.592451,0.59385
+Nepal to TAS,Nepal,TAS,Tasmania,877,13,0.328333,0.608818,0.610215
+Nepal to TAS,Nepal,TAS,Tasmania,877,14,0.354744,0.625828,0.627223
+Nepal to TAS,Nepal,TAS,Tasmania,877,15,0.381154,0.643381,0.644774
+Nepal to TAS,Nepal,TAS,Tasmania,877,16,0.407564,0.661379,0.66277
+Nepal to TAS,Nepal,TAS,Tasmania,877,17,0.433974,0.679723,0.681112
+Nepal to TAS,Nepal,TAS,Tasmania,877,18,0.460385,0.698314,0.6997
+Nepal to TAS,Nepal,TAS,Tasmania,877,19,0.486795,0.717053,0.718438
+Nepal to TAS,Nepal,TAS,Tasmania,877,20,0.513205,0.735842,0.737224
+Nepal to TAS,Nepal,TAS,Tasmania,877,21,0.539615,0.754582,0.755961
+Nepal to TAS,Nepal,TAS,Tasmania,877,22,0.566026,0.773173,0.77455
+Nepal to TAS,Nepal,TAS,Tasmania,877,23,0.592436,0.791517,0.792892
+Nepal to TAS,Nepal,TAS,Tasmania,877,24,0.618846,0.809515,0.810888
+Nepal to TAS,Nepal,TAS,Tasmania,877,25,0.645256,0.827068,0.828439
+Nepal to TAS,Nepal,TAS,Tasmania,877,26,0.671667,0.844077,0.845447
+Nepal to TAS,Nepal,TAS,Tasmania,877,27,0.698077,0.860444,0.861812
+Nepal to TAS,Nepal,TAS,Tasmania,877,28,0.724487,0.87607,0.877436
+Nepal to TAS,Nepal,TAS,Tasmania,877,29,0.750897,0.890856,0.89222
+Nepal to TAS,Nepal,TAS,Tasmania,877,30,0.777308,0.904702,0.906065
+Nepal to TAS,Nepal,TAS,Tasmania,877,31,0.803718,0.917511,0.918872
+Nepal to TAS,Nepal,TAS,Tasmania,877,32,0.830128,0.929183,0.930543
+Nepal to TAS,Nepal,TAS,Tasmania,877,33,0.856538,0.939619,0.940978
+Nepal to TAS,Nepal,TAS,Tasmania,877,34,0.882949,0.948721,0.950079
+Nepal to TAS,Nepal,TAS,Tasmania,877,35,0.909359,0.95639,0.957747
+Nepal to TAS,Nepal,TAS,Tasmania,877,36,0.935769,0.962526,0.963882
+Nepal to TAS,Nepal,TAS,Tasmania,877,37,0.962179,0.967032,0.968388
+Nepal to TAS,Nepal,TAS,Tasmania,877,38,0.98859,0.969808,0.971163
+Nepal to TAS,Nepal,TAS,Tasmania,877,39,1.015,0.970755,0.97211
+Nepal to NT,Nepal,NT,Northern Territory,1073,0,-0.015,0.483552,0.485278
+Nepal to NT,Nepal,NT,Northern Territory,1073,1,0.01141,0.484545,0.486271
+Nepal to NT,Nepal,NT,Northern Territory,1073,2,0.037821,0.487455,0.489181
+Nepal to NT,Nepal,NT,Northern Territory,1073,3,0.064231,0.492178,0.493903
+Nepal to NT,Nepal,NT,Northern Territory,1073,4,0.090641,0.498611,0.500336
+Nepal to NT,Nepal,NT,Northern Territory,1073,5,0.117051,0.506651,0.508374
+Nepal to NT,Nepal,NT,Northern Territory,1073,6,0.143462,0.516193,0.517915
+Nepal to NT,Nepal,NT,Northern Territory,1073,7,0.169872,0.527134,0.528854
+Nepal to NT,Nepal,NT,Northern Territory,1073,8,0.196282,0.53937,0.541089
+Nepal to NT,Nepal,NT,Northern Territory,1073,9,0.222692,0.552797,0.554515
+Nepal to NT,Nepal,NT,Northern Territory,1073,10,0.249103,0.567313,0.569028
+Nepal to NT,Nepal,NT,Northern Territory,1073,11,0.275513,0.582813,0.584527
+Nepal to NT,Nepal,NT,Northern Territory,1073,12,0.301923,0.599195,0.600905
+Nepal to NT,Nepal,NT,Northern Territory,1073,13,0.328333,0.616353,0.618061
+Nepal to NT,Nepal,NT,Northern Territory,1073,14,0.354744,0.634184,0.635891
+Nepal to NT,Nepal,NT,Northern Territory,1073,15,0.381154,0.652586,0.65429
+Nepal to NT,Nepal,NT,Northern Territory,1073,16,0.407564,0.671454,0.673155
+Nepal to NT,Nepal,NT,Northern Territory,1073,17,0.433974,0.690685,0.692383
+Nepal to NT,Nepal,NT,Northern Territory,1073,18,0.460385,0.710174,0.711871
+Nepal to NT,Nepal,NT,Northern Territory,1073,19,0.486795,0.72982,0.731513
+Nepal to NT,Nepal,NT,Northern Territory,1073,20,0.513205,0.749517,0.751207
+Nepal to NT,Nepal,NT,Northern Territory,1073,21,0.539615,0.769162,0.77085
+Nepal to NT,Nepal,NT,Northern Territory,1073,22,0.566026,0.788651,0.790337
+Nepal to NT,Nepal,NT,Northern Territory,1073,23,0.592436,0.807882,0.809565
+Nepal to NT,Nepal,NT,Northern Territory,1073,24,0.618846,0.82675,0.828431
+Nepal to NT,Nepal,NT,Northern Territory,1073,25,0.645256,0.845152,0.84683
+Nepal to NT,Nepal,NT,Northern Territory,1073,26,0.671667,0.862983,0.864659
+Nepal to NT,Nepal,NT,Northern Territory,1073,27,0.698077,0.880142,0.881815
+Nepal to NT,Nepal,NT,Northern Territory,1073,28,0.724487,0.896523,0.898194
+Nepal to NT,Nepal,NT,Northern Territory,1073,29,0.750897,0.912023,0.913692
+Nepal to NT,Nepal,NT,Northern Territory,1073,30,0.777308,0.926539,0.928206
+Nepal to NT,Nepal,NT,Northern Territory,1073,31,0.803718,0.939966,0.941632
+Nepal to NT,Nepal,NT,Northern Territory,1073,32,0.830128,0.952203,0.953866
+Nepal to NT,Nepal,NT,Northern Territory,1073,33,0.856538,0.963143,0.964806
+Nepal to NT,Nepal,NT,Northern Territory,1073,34,0.882949,0.972685,0.974346
+Nepal to NT,Nepal,NT,Northern Territory,1073,35,0.909359,0.980725,0.982385
+Nepal to NT,Nepal,NT,Northern Territory,1073,36,0.935769,0.987158,0.988817
+Nepal to NT,Nepal,NT,Northern Territory,1073,37,0.962179,0.991881,0.99354
+Nepal to NT,Nepal,NT,Northern Territory,1073,38,0.98859,0.994791,0.99645
+Nepal to NT,Nepal,NT,Northern Territory,1073,39,1.015,0.995785,0.997443
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,0,-0.015,0.503278,0.517399
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,1,0.01141,0.502661,0.516781
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,2,0.037821,0.500853,0.51497
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,3,0.064231,0.497919,0.512031
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,4,0.090641,0.493922,0.508027
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,5,0.117051,0.488928,0.503024
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,6,0.143462,0.483,0.497086
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,7,0.169872,0.476203,0.490277
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,8,0.196282,0.468602,0.482663
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,9,0.222692,0.46026,0.474306
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,10,0.249103,0.451243,0.465273
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,11,0.275513,0.441613,0.455627
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,12,0.301923,0.431437,0.445432
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,13,0.328333,0.420778,0.434754
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,14,0.354744,0.4097,0.423657
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,15,0.381154,0.398269,0.412206
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,16,0.407564,0.386547,0.400464
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,17,0.433974,0.374601,0.388496
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,18,0.460385,0.362493,0.376367
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,19,0.486795,0.350289,0.364142
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,20,0.513205,0.338052,0.351884
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,21,0.539615,0.325848,0.339658
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,22,0.566026,0.313741,0.327529
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,23,0.592436,0.301794,0.315562
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,24,0.618846,0.290073,0.30382
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,25,0.645256,0.278641,0.292368
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,26,0.671667,0.267563,0.281271
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,27,0.698077,0.256904,0.270593
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,28,0.724487,0.246728,0.260399
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,29,0.750897,0.237099,0.250753
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,30,0.777308,0.228081,0.241719
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,31,0.803718,0.219739,0.233363
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,32,0.830128,0.212138,0.225748
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,33,0.856538,0.205341,0.218939
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,34,0.882949,0.199413,0.213001
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,35,0.909359,0.194419,0.207998
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,36,0.935769,0.190422,0.203995
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,37,0.962179,0.187488,0.201055
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,38,0.98859,0.18568,0.199244
+Vietnam to NSW,Vietnam,NSW,New South Wales,8777,39,1.015,0.185063,0.198626
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,0,-0.015,0.517399,0.533566
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,1,0.01141,0.517355,0.53352
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,2,0.037821,0.517226,0.533388
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,3,0.064231,0.517017,0.533173
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,4,0.090641,0.516732,0.53288
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,5,0.117051,0.516376,0.532514
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,6,0.143462,0.515954,0.532079
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,7,0.169872,0.515469,0.531581
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,8,0.196282,0.514927,0.531024
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,9,0.222692,0.514332,0.530412
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,10,0.249103,0.513689,0.529751
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,11,0.275513,0.513003,0.529045
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,12,0.301923,0.512277,0.528299
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,13,0.328333,0.511518,0.527518
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,14,0.354744,0.510728,0.526706
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,15,0.381154,0.509913,0.525868
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,16,0.407564,0.509077,0.525009
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,17,0.433974,0.508225,0.524133
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,18,0.460385,0.507362,0.523245
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,19,0.486795,0.506492,0.522351
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,20,0.513205,0.50562,0.521454
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,21,0.539615,0.50475,0.520559
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,22,0.566026,0.503886,0.519672
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,23,0.592436,0.503035,0.518796
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,24,0.618846,0.502199,0.517937
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,25,0.645256,0.501384,0.517099
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,26,0.671667,0.500594,0.516287
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,27,0.698077,0.499834,0.515505
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,28,0.724487,0.499109,0.514759
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,29,0.750897,0.498422,0.514054
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,30,0.777308,0.497779,0.513393
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,31,0.803718,0.497185,0.512781
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,32,0.830128,0.496643,0.512224
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,33,0.856538,0.496158,0.511726
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,34,0.882949,0.495735,0.511291
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,35,0.909359,0.495379,0.510925
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,36,0.935769,0.495094,0.510632
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,37,0.962179,0.494885,0.510417
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,38,0.98859,0.494756,0.510284
+Vietnam to VIC,Vietnam,VIC,Victoria,10048,39,1.015,0.494712,0.510239
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,0,-0.015,0.533566,0.536748
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,1,0.01141,0.53386,0.537042
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,2,0.037821,0.534723,0.537905
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,3,0.064231,0.536124,0.539305
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,4,0.090641,0.538033,0.541211
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,5,0.117051,0.540417,0.543594
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,6,0.143462,0.543247,0.546422
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,7,0.169872,0.546493,0.549664
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,8,0.196282,0.550122,0.553291
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,9,0.222692,0.554105,0.55727
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,10,0.249103,0.558411,0.561572
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,11,0.275513,0.563008,0.566166
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,12,0.301923,0.567867,0.571021
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,13,0.328333,0.572956,0.576106
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,14,0.354744,0.578246,0.581391
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,15,0.381154,0.583704,0.586845
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,16,0.407564,0.5893,0.592437
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,17,0.433974,0.595004,0.598136
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,18,0.460385,0.600785,0.603912
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,19,0.486795,0.606612,0.609734
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,20,0.513205,0.612455,0.615572
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,21,0.539615,0.618282,0.621394
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,22,0.566026,0.624063,0.62717
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,23,0.592436,0.629767,0.63287
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,24,0.618846,0.635363,0.638462
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,25,0.645256,0.640822,0.643915
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,26,0.671667,0.646111,0.6492
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,27,0.698077,0.6512,0.654285
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,28,0.724487,0.656059,0.65914
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,29,0.750897,0.660657,0.663734
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,30,0.777308,0.664962,0.668036
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,31,0.803718,0.668945,0.672015
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,32,0.830128,0.672575,0.675642
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,33,0.856538,0.67582,0.678884
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,34,0.882949,0.67865,0.681712
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,35,0.909359,0.681035,0.684095
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,36,0.935769,0.682943,0.686002
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,37,0.962179,0.684344,0.687401
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,38,0.98859,0.685207,0.688264
+Vietnam to QLD,Vietnam,QLD,Queensland,1978,39,1.015,0.685502,0.688558
+Vietnam to WA,Vietnam,WA,Western Australia,1540,0,-0.015,0.536748,0.539226
+Vietnam to WA,Vietnam,WA,Western Australia,1540,1,0.01141,0.53726,0.539737
+Vietnam to WA,Vietnam,WA,Western Australia,1540,2,0.037821,0.538758,0.541235
+Vietnam to WA,Vietnam,WA,Western Australia,1540,3,0.064231,0.541191,0.543667
+Vietnam to WA,Vietnam,WA,Western Australia,1540,4,0.090641,0.544505,0.54698
+Vietnam to WA,Vietnam,WA,Western Australia,1540,5,0.117051,0.548646,0.551119
+Vietnam to WA,Vietnam,WA,Western Australia,1540,6,0.143462,0.553561,0.556032
+Vietnam to WA,Vietnam,WA,Western Australia,1540,7,0.169872,0.559196,0.561665
+Vietnam to WA,Vietnam,WA,Western Australia,1540,8,0.196282,0.565498,0.567965
+Vietnam to WA,Vietnam,WA,Western Australia,1540,9,0.222692,0.572415,0.574879
+Vietnam to WA,Vietnam,WA,Western Australia,1540,10,0.249103,0.579891,0.582353
+Vietnam to WA,Vietnam,WA,Western Australia,1540,11,0.275513,0.587875,0.590334
+Vietnam to WA,Vietnam,WA,Western Australia,1540,12,0.301923,0.596312,0.598768
+Vietnam to WA,Vietnam,WA,Western Australia,1540,13,0.328333,0.60515,0.607602
+Vietnam to WA,Vietnam,WA,Western Australia,1540,14,0.354744,0.614335,0.616783
+Vietnam to WA,Vietnam,WA,Western Australia,1540,15,0.381154,0.623813,0.626258
+Vietnam to WA,Vietnam,WA,Western Australia,1540,16,0.407564,0.633531,0.635973
+Vietnam to WA,Vietnam,WA,Western Australia,1540,17,0.433974,0.643436,0.645874
+Vietnam to WA,Vietnam,WA,Western Australia,1540,18,0.460385,0.653475,0.655909
+Vietnam to WA,Vietnam,WA,Western Australia,1540,19,0.486795,0.663593,0.666024
+Vietnam to WA,Vietnam,WA,Western Australia,1540,20,0.513205,0.673739,0.676166
+Vietnam to WA,Vietnam,WA,Western Australia,1540,21,0.539615,0.683857,0.68628
+Vietnam to WA,Vietnam,WA,Western Australia,1540,22,0.566026,0.693896,0.696315
+Vietnam to WA,Vietnam,WA,Western Australia,1540,23,0.592436,0.703801,0.706217
+Vietnam to WA,Vietnam,WA,Western Australia,1540,24,0.618846,0.713519,0.715931
+Vietnam to WA,Vietnam,WA,Western Australia,1540,25,0.645256,0.722998,0.725406
+Vietnam to WA,Vietnam,WA,Western Australia,1540,26,0.671667,0.732182,0.734587
+Vietnam to WA,Vietnam,WA,Western Australia,1540,27,0.698077,0.74102,0.743422
+Vietnam to WA,Vietnam,WA,Western Australia,1540,28,0.724487,0.749457,0.751856
+Vietnam to WA,Vietnam,WA,Western Australia,1540,29,0.750897,0.757441,0.759837
+Vietnam to WA,Vietnam,WA,Western Australia,1540,30,0.777308,0.764918,0.767311
+Vietnam to WA,Vietnam,WA,Western Australia,1540,31,0.803718,0.771834,0.774224
+Vietnam to WA,Vietnam,WA,Western Australia,1540,32,0.830128,0.778136,0.780524
+Vietnam to WA,Vietnam,WA,Western Australia,1540,33,0.856538,0.783772,0.786158
+Vietnam to WA,Vietnam,WA,Western Australia,1540,34,0.882949,0.788686,0.791071
+Vietnam to WA,Vietnam,WA,Western Australia,1540,35,0.909359,0.792827,0.79521
+Vietnam to WA,Vietnam,WA,Western Australia,1540,36,0.935769,0.796141,0.798522
+Vietnam to WA,Vietnam,WA,Western Australia,1540,37,0.962179,0.798574,0.800954
+Vietnam to WA,Vietnam,WA,Western Australia,1540,38,0.98859,0.800073,0.802453
+Vietnam to WA,Vietnam,WA,Western Australia,1540,39,1.015,0.800584,0.802964
+Vietnam to SA,Vietnam,SA,South Australia,2190,0,-0.015,0.539226,0.542749
+Vietnam to SA,Vietnam,SA,South Australia,2190,1,0.01141,0.53991,0.543433
+Vietnam to SA,Vietnam,SA,South Australia,2190,2,0.037821,0.541915,0.545437
+Vietnam to SA,Vietnam,SA,South Australia,2190,3,0.064231,0.545169,0.548691
+Vietnam to SA,Vietnam,SA,South Australia,2190,4,0.090641,0.549602,0.553121
+Vietnam to SA,Vietnam,SA,South Australia,2190,5,0.117051,0.555141,0.558658
+Vietnam to SA,Vietnam,SA,South Australia,2190,6,0.143462,0.561715,0.56523
+Vietnam to SA,Vietnam,SA,South Australia,2190,7,0.169872,0.569253,0.572765
+Vietnam to SA,Vietnam,SA,South Australia,2190,8,0.196282,0.577684,0.581192
+Vietnam to SA,Vietnam,SA,South Australia,2190,9,0.222692,0.586935,0.59044
+Vietnam to SA,Vietnam,SA,South Australia,2190,10,0.249103,0.596937,0.600437
+Vietnam to SA,Vietnam,SA,South Australia,2190,11,0.275513,0.607616,0.611113
+Vietnam to SA,Vietnam,SA,South Australia,2190,12,0.301923,0.618903,0.622395
+Vietnam to SA,Vietnam,SA,South Australia,2190,13,0.328333,0.630724,0.634212
+Vietnam to SA,Vietnam,SA,South Australia,2190,14,0.354744,0.64301,0.646493
+Vietnam to SA,Vietnam,SA,South Australia,2190,15,0.381154,0.655689,0.659166
+Vietnam to SA,Vietnam,SA,South Australia,2190,16,0.407564,0.668689,0.672161
+Vietnam to SA,Vietnam,SA,South Australia,2190,17,0.433974,0.681938,0.685406
+Vietnam to SA,Vietnam,SA,South Australia,2190,18,0.460385,0.695367,0.698829
+Vietnam to SA,Vietnam,SA,South Australia,2190,19,0.486795,0.708902,0.712359
+Vietnam to SA,Vietnam,SA,South Australia,2190,20,0.513205,0.722473,0.725924
+Vietnam to SA,Vietnam,SA,South Australia,2190,21,0.539615,0.736008,0.739454
+Vietnam to SA,Vietnam,SA,South Australia,2190,22,0.566026,0.749437,0.752877
+Vietnam to SA,Vietnam,SA,South Australia,2190,23,0.592436,0.762686,0.766122
+Vietnam to SA,Vietnam,SA,South Australia,2190,24,0.618846,0.775686,0.779116
+Vietnam to SA,Vietnam,SA,South Australia,2190,25,0.645256,0.788365,0.79179
+Vietnam to SA,Vietnam,SA,South Australia,2190,26,0.671667,0.800651,0.804071
+Vietnam to SA,Vietnam,SA,South Australia,2190,27,0.698077,0.812472,0.815888
+Vietnam to SA,Vietnam,SA,South Australia,2190,28,0.724487,0.823759,0.82717
+Vietnam to SA,Vietnam,SA,South Australia,2190,29,0.750897,0.834438,0.837845
+Vietnam to SA,Vietnam,SA,South Australia,2190,30,0.777308,0.84444,0.847842
+Vietnam to SA,Vietnam,SA,South Australia,2190,31,0.803718,0.853691,0.85709
+Vietnam to SA,Vietnam,SA,South Australia,2190,32,0.830128,0.862122,0.865518
+Vietnam to SA,Vietnam,SA,South Australia,2190,33,0.856538,0.86966,0.873053
+Vietnam to SA,Vietnam,SA,South Australia,2190,34,0.882949,0.876234,0.879625
+Vietnam to SA,Vietnam,SA,South Australia,2190,35,0.909359,0.881773,0.885161
+Vietnam to SA,Vietnam,SA,South Australia,2190,36,0.935769,0.886206,0.889592
+Vietnam to SA,Vietnam,SA,South Australia,2190,37,0.962179,0.88946,0.892845
+Vietnam to SA,Vietnam,SA,South Australia,2190,38,0.98859,0.891465,0.894849
+Vietnam to SA,Vietnam,SA,South Australia,2190,39,1.015,0.892149,0.895533
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,0,-0.015,0.542749,0.543275
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,1,0.01141,0.543529,0.544055
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,2,0.037821,0.545815,0.546341
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,3,0.064231,0.549524,0.55005
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,4,0.090641,0.554577,0.555102
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,5,0.117051,0.560891,0.561416
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,6,0.143462,0.568385,0.56891
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,7,0.169872,0.576977,0.577502
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,8,0.196282,0.586587,0.587111
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,9,0.222692,0.597133,0.597657
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,10,0.249103,0.608534,0.609056
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,11,0.275513,0.620707,0.621229
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,12,0.301923,0.633572,0.634094
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,13,0.328333,0.647048,0.647569
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,14,0.354744,0.661053,0.661573
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,15,0.381154,0.675505,0.676024
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,16,0.407564,0.690323,0.690842
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,17,0.433974,0.705427,0.705944
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,18,0.460385,0.720733,0.72125
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,19,0.486795,0.736162,0.736678
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,20,0.513205,0.751632,0.752147
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,21,0.539615,0.76706,0.767575
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,22,0.566026,0.782367,0.782881
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,23,0.592436,0.79747,0.797983
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,24,0.618846,0.812289,0.812801
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,25,0.645256,0.826741,0.827252
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,26,0.671667,0.840746,0.841256
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,27,0.698077,0.854221,0.854731
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,28,0.724487,0.867086,0.867596
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,29,0.750897,0.87926,0.879769
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,30,0.777308,0.89066,0.891168
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,31,0.803718,0.901206,0.901714
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,32,0.830128,0.910816,0.911323
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,33,0.856538,0.919409,0.919915
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,34,0.882949,0.926903,0.927409
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,35,0.909359,0.933217,0.933723
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,36,0.935769,0.938269,0.938775
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,37,0.962179,0.941979,0.942484
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,38,0.98859,0.944264,0.94477
+Vietnam to ACT,Vietnam,ACT,Australian Capital Territory,327,39,1.015,0.945044,0.94555
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,0,-0.015,0.543275,0.543557
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,1,0.01141,0.544107,0.544388
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,2,0.037821,0.546543,0.546824
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,3,0.064231,0.550497,0.550779
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,4,0.090641,0.555883,0.556165
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,5,0.117051,0.562614,0.562895
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,6,0.143462,0.570602,0.570883
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,7,0.169872,0.579762,0.580042
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,8,0.196282,0.590006,0.590286
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,9,0.222692,0.601247,0.601527
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,10,0.249103,0.6134,0.613679
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,11,0.275513,0.626376,0.626656
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,12,0.301923,0.64009,0.640369
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,13,0.328333,0.654455,0.654733
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,14,0.354744,0.669383,0.669662
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,15,0.381154,0.684789,0.685067
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,16,0.407564,0.700585,0.700862
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,17,0.433974,0.716685,0.716962
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,18,0.460385,0.733001,0.733278
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,19,0.486795,0.749448,0.749724
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,20,0.513205,0.765938,0.766214
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,21,0.539615,0.782385,0.78266
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,22,0.566026,0.798701,0.798976
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,23,0.592436,0.814801,0.815075
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,24,0.618846,0.830597,0.830871
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,25,0.645256,0.846002,0.846276
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,26,0.671667,0.860931,0.861204
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,27,0.698077,0.875296,0.875568
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,28,0.724487,0.88901,0.889282
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,29,0.750897,0.901986,0.902258
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,30,0.777308,0.914139,0.91441
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,31,0.803718,0.92538,0.925652
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,32,0.830128,0.935624,0.935895
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,33,0.856538,0.944784,0.945055
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,34,0.882949,0.952772,0.953043
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,35,0.909359,0.959502,0.959773
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,36,0.935769,0.964888,0.965159
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,37,0.962179,0.968843,0.969113
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,38,0.98859,0.971279,0.971549
+Vietnam to TAS,Vietnam,TAS,Tasmania,175,39,1.015,0.97211,0.972381
+Vietnam to NT,Vietnam,NT,Northern Territory,199,0,-0.015,0.543557,0.543877
+Vietnam to NT,Vietnam,NT,Northern Territory,199,1,0.01141,0.544437,0.544757
+Vietnam to NT,Vietnam,NT,Northern Territory,199,2,0.037821,0.547015,0.547336
+Vietnam to NT,Vietnam,NT,Northern Territory,199,3,0.064231,0.551201,0.551521
+Vietnam to NT,Vietnam,NT,Northern Territory,199,4,0.090641,0.556901,0.557221
+Vietnam to NT,Vietnam,NT,Northern Territory,199,5,0.117051,0.564025,0.564345
+Vietnam to NT,Vietnam,NT,Northern Territory,199,6,0.143462,0.57248,0.572799
+Vietnam to NT,Vietnam,NT,Northern Territory,199,7,0.169872,0.582175,0.582494
+Vietnam to NT,Vietnam,NT,Northern Territory,199,8,0.196282,0.593017,0.593336
+Vietnam to NT,Vietnam,NT,Northern Territory,199,9,0.222692,0.604915,0.605234
+Vietnam to NT,Vietnam,NT,Northern Territory,199,10,0.249103,0.617778,0.618096
+Vietnam to NT,Vietnam,NT,Northern Territory,199,11,0.275513,0.631512,0.63183
+Vietnam to NT,Vietnam,NT,Northern Territory,199,12,0.301923,0.646027,0.646345
+Vietnam to NT,Vietnam,NT,Northern Territory,199,13,0.328333,0.661231,0.661548
+Vietnam to NT,Vietnam,NT,Northern Territory,199,14,0.354744,0.677032,0.677348
+Vietnam to NT,Vietnam,NT,Northern Territory,199,15,0.381154,0.693337,0.693653
+Vietnam to NT,Vietnam,NT,Northern Territory,199,16,0.407564,0.710056,0.710371
+Vietnam to NT,Vietnam,NT,Northern Territory,199,17,0.433974,0.727096,0.727411
+Vietnam to NT,Vietnam,NT,Northern Territory,199,18,0.460385,0.744366,0.74468
+Vietnam to NT,Vietnam,NT,Northern Territory,199,19,0.486795,0.761773,0.762087
+Vietnam to NT,Vietnam,NT,Northern Territory,199,20,0.513205,0.779226,0.77954
+Vietnam to NT,Vietnam,NT,Northern Territory,199,21,0.539615,0.796634,0.796947
+Vietnam to NT,Vietnam,NT,Northern Territory,199,22,0.566026,0.813904,0.814216
+Vietnam to NT,Vietnam,NT,Northern Territory,199,23,0.592436,0.830944,0.831256
+Vietnam to NT,Vietnam,NT,Northern Territory,199,24,0.618846,0.847662,0.847974
+Vietnam to NT,Vietnam,NT,Northern Territory,199,25,0.645256,0.863968,0.864279
+Vietnam to NT,Vietnam,NT,Northern Territory,199,26,0.671667,0.879769,0.880079
+Vietnam to NT,Vietnam,NT,Northern Territory,199,27,0.698077,0.894972,0.895283
+Vietnam to NT,Vietnam,NT,Northern Territory,199,28,0.724487,0.909487,0.909797
+Vietnam to NT,Vietnam,NT,Northern Territory,199,29,0.750897,0.923222,0.923532
+Vietnam to NT,Vietnam,NT,Northern Territory,199,30,0.777308,0.936084,0.936394
+Vietnam to NT,Vietnam,NT,Northern Territory,199,31,0.803718,0.947983,0.948291
+Vietnam to NT,Vietnam,NT,Northern Territory,199,32,0.830128,0.958825,0.959134
+Vietnam to NT,Vietnam,NT,Northern Territory,199,33,0.856538,0.96852,0.968828
+Vietnam to NT,Vietnam,NT,Northern Territory,199,34,0.882949,0.976975,0.977283
+Vietnam to NT,Vietnam,NT,Northern Territory,199,35,0.909359,0.984098,0.984406
+Vietnam to NT,Vietnam,NT,Northern Territory,199,36,0.935769,0.989799,0.990106
+Vietnam to NT,Vietnam,NT,Northern Territory,199,37,0.962179,0.993984,0.994292
+Vietnam to NT,Vietnam,NT,Northern Territory,199,38,0.98859,0.996563,0.99687
+Vietnam to NT,Vietnam,NT,Northern Territory,199,39,1.015,0.997443,0.99775
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,0,-0.015,0.561877,0.578985
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,1,0.01141,0.561173,0.578279
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,2,0.037821,0.559109,0.576212
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,3,0.064231,0.55576,0.572856
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,4,0.090641,0.551197,0.568285
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,5,0.117051,0.545496,0.562573
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,6,0.143462,0.53873,0.555794
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,7,0.169872,0.530971,0.548021
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,8,0.196282,0.522294,0.539327
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,9,0.222692,0.512771,0.529787
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,10,0.249103,0.502477,0.519474
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,11,0.275513,0.491485,0.508462
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,12,0.301923,0.479869,0.496823
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,13,0.328333,0.467701,0.484633
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,14,0.354744,0.455055,0.471964
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,15,0.381154,0.442006,0.45889
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,16,0.407564,0.428626,0.445485
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,17,0.433974,0.414988,0.431822
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,18,0.460385,0.401167,0.417975
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,19,0.486795,0.387236,0.404018
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,20,0.513205,0.373268,0.390024
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,21,0.539615,0.359336,0.376066
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,22,0.566026,0.345515,0.362219
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,23,0.592436,0.331877,0.348556
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,24,0.618846,0.318497,0.335151
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,25,0.645256,0.305448,0.322077
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,26,0.671667,0.292802,0.309408
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,27,0.698077,0.280634,0.297218
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,28,0.724487,0.269018,0.28558
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,29,0.750897,0.258026,0.274567
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,30,0.777308,0.247732,0.264254
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,31,0.803718,0.23821,0.254714
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,32,0.830128,0.229532,0.246021
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,33,0.856538,0.221774,0.238247
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,34,0.882949,0.215007,0.231468
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,35,0.909359,0.209306,0.225756
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,36,0.935769,0.204744,0.221186
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,37,0.962179,0.201394,0.21783
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,38,0.98859,0.19933,0.215762
+Bangladesh to NSW,Bangladesh,NSW,New South Wales,10633,39,1.015,0.198626,0.215057
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,0,-0.015,0.578985,0.58746
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,1,0.01141,0.578851,0.587326
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,2,0.037821,0.578461,0.586934
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,3,0.064231,0.577827,0.586297
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,4,0.090641,0.576963,0.585429
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,5,0.117051,0.575885,0.584345
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,6,0.143462,0.574604,0.583058
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,7,0.169872,0.573136,0.581583
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,8,0.196282,0.571493,0.579933
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,9,0.222692,0.569691,0.578122
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,10,0.249103,0.567743,0.576164
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,11,0.275513,0.565663,0.574074
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,12,0.301923,0.563464,0.571865
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,13,0.328333,0.561162,0.569551
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,14,0.354744,0.558769,0.567146
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,15,0.381154,0.556299,0.564664
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,16,0.407564,0.553767,0.562119
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,17,0.433974,0.551186,0.559526
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,18,0.460385,0.54857,0.556898
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,19,0.486795,0.545934,0.554248
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,20,0.513205,0.54329,0.551592
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,21,0.539615,0.540654,0.548942
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,22,0.566026,0.538038,0.546314
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,23,0.592436,0.535457,0.54372
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,24,0.618846,0.532925,0.541176
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,25,0.645256,0.530455,0.538694
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,26,0.671667,0.528062,0.536289
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,27,0.698077,0.525759,0.533975
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,28,0.724487,0.523561,0.531766
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,29,0.750897,0.521481,0.529676
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,30,0.777308,0.519532,0.527718
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,31,0.803718,0.51773,0.525907
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,32,0.830128,0.516088,0.524257
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,33,0.856538,0.51462,0.522782
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,34,0.882949,0.513339,0.521495
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,35,0.909359,0.51226,0.520411
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,36,0.935769,0.511397,0.519543
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,37,0.962179,0.510763,0.518906
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,38,0.98859,0.510372,0.518513
+Bangladesh to VIC,Bangladesh,VIC,Victoria,5268,39,1.015,0.510239,0.51838
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,0,-0.015,0.58746,0.589492
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,1,0.01141,0.587656,0.589688
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,2,0.037821,0.588231,0.590262
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,3,0.064231,0.589163,0.591194
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,4,0.090641,0.590433,0.592462
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,5,0.117051,0.592019,0.594048
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,6,0.143462,0.593903,0.59593
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,7,0.169872,0.596062,0.598087
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,8,0.196282,0.598477,0.6005
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,9,0.222692,0.601127,0.603148
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,10,0.249103,0.603992,0.606011
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,11,0.275513,0.607051,0.609068
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,12,0.301923,0.610284,0.612298
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,13,0.328333,0.613671,0.615682
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,14,0.354744,0.61719,0.619199
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,15,0.381154,0.620822,0.622828
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,16,0.407564,0.624546,0.626549
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,17,0.433974,0.628342,0.630341
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,18,0.460385,0.632188,0.634185
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,19,0.486795,0.636066,0.638059
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,20,0.513205,0.639953,0.641943
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,21,0.539615,0.64383,0.645818
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,22,0.566026,0.647677,0.649661
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,23,0.592436,0.651472,0.653454
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,24,0.618846,0.655196,0.657175
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,25,0.645256,0.658828,0.660804
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,26,0.671667,0.662348,0.66432
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,27,0.698077,0.665734,0.667704
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,28,0.724487,0.668967,0.670934
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,29,0.750897,0.672026,0.673991
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,30,0.777308,0.674891,0.676854
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,31,0.803718,0.677542,0.679502
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,32,0.830128,0.679957,0.681915
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,33,0.856538,0.682116,0.684073
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,34,0.882949,0.683999,0.685954
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,35,0.909359,0.685586,0.68754
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,36,0.935769,0.686856,0.688809
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,37,0.962179,0.687788,0.68974
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,38,0.98859,0.688362,0.690314
+Bangladesh to QLD,Bangladesh,QLD,Queensland,1263,39,1.015,0.688558,0.69051
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,0,-0.015,0.589492,0.593709
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,1,0.01141,0.589906,0.594123
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,2,0.037821,0.591119,0.595335
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,3,0.064231,0.593088,0.597302
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,4,0.090641,0.595769,0.599981
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,5,0.117051,0.599119,0.603328
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,6,0.143462,0.603095,0.607302
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,7,0.169872,0.607655,0.611858
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,8,0.196282,0.612754,0.616953
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,9,0.222692,0.61835,0.622545
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,10,0.249103,0.6244,0.628589
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,11,0.275513,0.630859,0.635044
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,12,0.301923,0.637686,0.641866
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,13,0.328333,0.644837,0.649011
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,14,0.354744,0.652268,0.656436
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,15,0.381154,0.659937,0.664099
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,16,0.407564,0.6678,0.671956
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,17,0.433974,0.675814,0.679964
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,18,0.460385,0.683937,0.68808
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,19,0.486795,0.692124,0.696261
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,20,0.513205,0.700332,0.704463
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,21,0.539615,0.708519,0.712643
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,22,0.566026,0.716642,0.720759
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,23,0.592436,0.724656,0.728767
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,24,0.618846,0.732519,0.736624
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,25,0.645256,0.740188,0.744287
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,26,0.671667,0.747619,0.751713
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,27,0.698077,0.75477,0.758858
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,28,0.724487,0.761597,0.765679
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,29,0.750897,0.768056,0.772134
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,30,0.777308,0.774106,0.778179
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,31,0.803718,0.779702,0.78377
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,32,0.830128,0.784801,0.788865
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,33,0.856538,0.789361,0.793421
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,34,0.882949,0.793337,0.797395
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,35,0.909359,0.796688,0.800743
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,36,0.935769,0.799369,0.803422
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,37,0.962179,0.801337,0.805389
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,38,0.98859,0.80255,0.8066
+Bangladesh to WA,Bangladesh,WA,Western Australia,2621,39,1.015,0.802964,0.807014
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,0,-0.015,0.593709,0.596063
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,1,0.01141,0.594294,0.596648
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,2,0.037821,0.596009,0.598362
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,3,0.064231,0.598792,0.601145
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,4,0.090641,0.602583,0.604934
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,5,0.117051,0.60732,0.60967
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,6,0.143462,0.612943,0.61529
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,7,0.169872,0.619389,0.621735
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,8,0.196282,0.626599,0.628943
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,9,0.222692,0.634511,0.636852
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,10,0.249103,0.643064,0.645403
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,11,0.275513,0.652198,0.654533
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,12,0.301923,0.66185,0.664183
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,13,0.328333,0.67196,0.67429
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,14,0.354744,0.682467,0.684794
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,15,0.381154,0.69331,0.695633
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,16,0.407564,0.704428,0.706747
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,17,0.433974,0.715759,0.718075
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,18,0.460385,0.727243,0.729555
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,19,0.486795,0.738818,0.741127
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,20,0.513205,0.750424,0.75273
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,21,0.539615,0.762,0.764302
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,22,0.566026,0.773484,0.775782
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,23,0.592436,0.784815,0.78711
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,24,0.618846,0.795933,0.798224
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,25,0.645256,0.806776,0.809064
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,26,0.671667,0.817283,0.819568
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,27,0.698077,0.827393,0.829675
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,28,0.724487,0.837045,0.839324
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,29,0.750897,0.846178,0.848454
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,30,0.777308,0.854732,0.857005
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,31,0.803718,0.862644,0.864914
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,32,0.830128,0.869853,0.872122
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,33,0.856538,0.8763,0.878567
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,34,0.882949,0.881923,0.884187
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,35,0.909359,0.88666,0.888923
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,36,0.935769,0.89045,0.892713
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,37,0.962179,0.893234,0.895495
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,38,0.98859,0.894948,0.897209
+Bangladesh to SA,Bangladesh,SA,South Australia,1463,39,1.015,0.895533,0.897794
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,0,-0.015,0.596063,0.596469
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,1,0.01141,0.596741,0.597146
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,2,0.037821,0.598726,0.599132
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,3,0.064231,0.601949,0.602354
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,4,0.090641,0.606338,0.606743
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,5,0.117051,0.611823,0.612228
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,6,0.143462,0.618334,0.618738
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,7,0.169872,0.625798,0.626202
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,8,0.196282,0.634147,0.63455
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,9,0.222692,0.643308,0.643712
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,10,0.249103,0.653212,0.653615
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,11,0.275513,0.663788,0.66419
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,12,0.301923,0.674964,0.675366
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,13,0.328333,0.686671,0.687072
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,14,0.354744,0.698837,0.699238
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,15,0.381154,0.711392,0.711792
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,16,0.407564,0.724265,0.724665
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,17,0.433974,0.737386,0.737785
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,18,0.460385,0.750683,0.751082
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,19,0.486795,0.764087,0.764485
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,20,0.513205,0.777526,0.777923
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,21,0.539615,0.790929,0.791326
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,22,0.566026,0.804227,0.804623
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,23,0.592436,0.817347,0.817743
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,24,0.618846,0.830221,0.830615
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,25,0.645256,0.842776,0.84317
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,26,0.671667,0.854942,0.855336
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,27,0.698077,0.866649,0.867042
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,28,0.724487,0.877825,0.878218
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,29,0.750897,0.888401,0.888793
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,30,0.777308,0.898305,0.898696
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,31,0.803718,0.907466,0.907857
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,32,0.830128,0.915814,0.916205
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,33,0.856538,0.923279,0.92367
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,34,0.882949,0.929789,0.93018
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,35,0.909359,0.935275,0.935664
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,36,0.935769,0.939664,0.940054
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,37,0.962179,0.942887,0.943276
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,38,0.98859,0.944872,0.945262
+Bangladesh to ACT,Bangladesh,ACT,Australian Capital Territory,252,39,1.015,0.94555,0.945939
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,0,-0.015,0.596469,0.597151
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,1,0.01141,0.597197,0.59788
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,2,0.037821,0.599333,0.600015
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,3,0.064231,0.602799,0.603481
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,4,0.090641,0.607521,0.608202
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,5,0.117051,0.61342,0.614101
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,6,0.143462,0.620423,0.621103
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,7,0.169872,0.628452,0.629132
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,8,0.196282,0.637432,0.638111
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,9,0.222692,0.647286,0.647965
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,10,0.249103,0.657939,0.658617
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,11,0.275513,0.669314,0.669991
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,12,0.301923,0.681335,0.682012
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,13,0.328333,0.693927,0.694603
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,14,0.354744,0.707013,0.707688
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,15,0.381154,0.720518,0.721191
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,16,0.407564,0.734365,0.735037
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,17,0.433974,0.748477,0.749149
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,18,0.460385,0.76278,0.76345
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,19,0.486795,0.777197,0.777866
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,20,0.513205,0.791652,0.79232
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,21,0.539615,0.806069,0.806736
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,22,0.566026,0.820372,0.821038
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,23,0.592436,0.834485,0.83515
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,24,0.618846,0.848331,0.848996
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,25,0.645256,0.861836,0.862499
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,26,0.671667,0.874922,0.875584
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,27,0.698077,0.887514,0.888175
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,28,0.724487,0.899535,0.900196
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,29,0.750897,0.910911,0.91157
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,30,0.777308,0.921563,0.922222
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,31,0.803718,0.931418,0.932076
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,32,0.830128,0.940397,0.941055
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,33,0.856538,0.948426,0.949083
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,34,0.882949,0.955429,0.956085
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,35,0.909359,0.961329,0.961985
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,36,0.935769,0.96605,0.966706
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,37,0.962179,0.969516,0.970172
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,38,0.98859,0.971652,0.972307
+Bangladesh to TAS,Bangladesh,TAS,Tasmania,424,39,1.015,0.972381,0.973036
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,0,-0.015,0.597151,0.597909
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,1,0.01141,0.597927,0.598685
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,2,0.037821,0.600203,0.600961
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,3,0.064231,0.603897,0.604655
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,4,0.090641,0.608929,0.609685
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,5,0.117051,0.615216,0.615972
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,6,0.143462,0.622678,0.623434
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,7,0.169872,0.631235,0.63199
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,8,0.196282,0.640804,0.641559
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,9,0.222692,0.651306,0.652059
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,10,0.249103,0.662658,0.663411
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,11,0.275513,0.67478,0.675532
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,12,0.301923,0.687591,0.688342
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,13,0.328333,0.70101,0.70176
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,14,0.354744,0.714955,0.715704
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,15,0.381154,0.729347,0.730095
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,16,0.407564,0.744103,0.74485
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,17,0.433974,0.759142,0.759888
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,18,0.460385,0.774385,0.775129
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,19,0.486795,0.789748,0.790492
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,20,0.513205,0.805153,0.805895
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,21,0.539615,0.820516,0.821257
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,22,0.566026,0.835759,0.836499
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,23,0.592436,0.850798,0.851537
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,24,0.618846,0.865554,0.866292
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,25,0.645256,0.879945,0.880682
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,26,0.671667,0.893891,0.894627
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,27,0.698077,0.90731,0.908044
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,28,0.724487,0.920121,0.920854
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,29,0.750897,0.932243,0.932976
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,30,0.777308,0.943595,0.944327
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,31,0.803718,0.954097,0.954828
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,32,0.830128,0.963666,0.964397
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,33,0.856538,0.972223,0.972952
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,34,0.882949,0.979685,0.980414
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,35,0.909359,0.985972,0.986701
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,36,0.935769,0.991004,0.991732
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,37,0.962179,0.994698,0.995426
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,38,0.98859,0.996973,0.997701
+Bangladesh to NT,Bangladesh,NT,Northern Territory,471,39,1.015,0.99775,0.998478
+Other countries to NSW,Other countries,NSW,New South Wales,82972,0,-0.015,0.615909,0.749403
+Other countries to NSW,Other countries,NSW,New South Wales,82972,1,0.01141,0.615131,0.748616
+Other countries to NSW,Other countries,NSW,New South Wales,82972,2,0.037821,0.612854,0.746308
+Other countries to NSW,Other countries,NSW,New South Wales,82972,3,0.064231,0.609158,0.742563
+Other countries to NSW,Other countries,NSW,New South Wales,82972,4,0.090641,0.604123,0.737462
+Other countries to NSW,Other countries,NSW,New South Wales,82972,5,0.117051,0.597832,0.731088
+Other countries to NSW,Other countries,NSW,New South Wales,82972,6,0.143462,0.590365,0.723523
+Other countries to NSW,Other countries,NSW,New South Wales,82972,7,0.169872,0.581803,0.714848
+Other countries to NSW,Other countries,NSW,New South Wales,82972,8,0.196282,0.572228,0.705147
+Other countries to NSW,Other countries,NSW,New South Wales,82972,9,0.222692,0.56172,0.6945
+Other countries to NSW,Other countries,NSW,New South Wales,82972,10,0.249103,0.55036,0.682991
+Other countries to NSW,Other countries,NSW,New South Wales,82972,11,0.275513,0.53823,0.670701
+Other countries to NSW,Other countries,NSW,New South Wales,82972,12,0.301923,0.525411,0.657713
+Other countries to NSW,Other countries,NSW,New South Wales,82972,13,0.328333,0.511984,0.644109
+Other countries to NSW,Other countries,NSW,New South Wales,82972,14,0.354744,0.49803,0.629971
+Other countries to NSW,Other countries,NSW,New South Wales,82972,15,0.381154,0.483629,0.615381
+Other countries to NSW,Other countries,NSW,New South Wales,82972,16,0.407564,0.468864,0.600421
+Other countries to NSW,Other countries,NSW,New South Wales,82972,17,0.433974,0.453815,0.585174
+Other countries to NSW,Other countries,NSW,New South Wales,82972,18,0.460385,0.438563,0.569721
+Other countries to NSW,Other countries,NSW,New South Wales,82972,19,0.486795,0.42319,0.554145
+Other countries to NSW,Other countries,NSW,New South Wales,82972,20,0.513205,0.407776,0.538528
+Other countries to NSW,Other countries,NSW,New South Wales,82972,21,0.539615,0.392402,0.522952
+Other countries to NSW,Other countries,NSW,New South Wales,82972,22,0.566026,0.37715,0.507499
+Other countries to NSW,Other countries,NSW,New South Wales,82972,23,0.592436,0.362101,0.492252
+Other countries to NSW,Other countries,NSW,New South Wales,82972,24,0.618846,0.347336,0.477292
+Other countries to NSW,Other countries,NSW,New South Wales,82972,25,0.645256,0.332936,0.462702
+Other countries to NSW,Other countries,NSW,New South Wales,82972,26,0.671667,0.318981,0.448564
+Other countries to NSW,Other countries,NSW,New South Wales,82972,27,0.698077,0.305554,0.43496
+Other countries to NSW,Other countries,NSW,New South Wales,82972,28,0.724487,0.292735,0.421972
+Other countries to NSW,Other countries,NSW,New South Wales,82972,29,0.750897,0.280605,0.409682
+Other countries to NSW,Other countries,NSW,New South Wales,82972,30,0.777308,0.269246,0.398173
+Other countries to NSW,Other countries,NSW,New South Wales,82972,31,0.803718,0.258738,0.387526
+Other countries to NSW,Other countries,NSW,New South Wales,82972,32,0.830128,0.249162,0.377825
+Other countries to NSW,Other countries,NSW,New South Wales,82972,33,0.856538,0.2406,0.36915
+Other countries to NSW,Other countries,NSW,New South Wales,82972,34,0.882949,0.233133,0.361585
+Other countries to NSW,Other countries,NSW,New South Wales,82972,35,0.909359,0.226842,0.35521
+Other countries to NSW,Other countries,NSW,New South Wales,82972,36,0.935769,0.221808,0.35011
+Other countries to NSW,Other countries,NSW,New South Wales,82972,37,0.962179,0.218111,0.346365
+Other countries to NSW,Other countries,NSW,New South Wales,82972,38,0.98859,0.215834,0.344057
+Other countries to NSW,Other countries,NSW,New South Wales,82972,39,1.015,0.215057,0.34327
+Other countries to VIC,Other countries,VIC,Victoria,67220,0,-0.015,0.749403,0.857554
+Other countries to VIC,Other countries,VIC,Victoria,67220,1,0.01141,0.748955,0.857098
+Other countries to VIC,Other countries,VIC,Victoria,67220,2,0.037821,0.747643,0.855761
+Other countries to VIC,Other countries,VIC,Victoria,67220,3,0.064231,0.745512,0.853591
+Other countries to VIC,Other countries,VIC,Victoria,67220,4,0.090641,0.742611,0.850636
+Other countries to VIC,Other countries,VIC,Victoria,67220,5,0.117051,0.738985,0.846943
+Other countries to VIC,Other countries,VIC,Victoria,67220,6,0.143462,0.734681,0.84256
+Other countries to VIC,Other countries,VIC,Victoria,67220,7,0.169872,0.729747,0.837534
+Other countries to VIC,Other countries,VIC,Victoria,67220,8,0.196282,0.724228,0.831913
+Other countries to VIC,Other countries,VIC,Victoria,67220,9,0.222692,0.718172,0.825745
+Other countries to VIC,Other countries,VIC,Victoria,67220,10,0.249103,0.711625,0.819077
+Other countries to VIC,Other countries,VIC,Victoria,67220,11,0.275513,0.704635,0.811956
+Other countries to VIC,Other countries,VIC,Victoria,67220,12,0.301923,0.697247,0.804431
+Other countries to VIC,Other countries,VIC,Victoria,67220,13,0.328333,0.689508,0.79655
+Other countries to VIC,Other countries,VIC,Victoria,67220,14,0.354744,0.681466,0.788358
+Other countries to VIC,Other countries,VIC,Victoria,67220,15,0.381154,0.673166,0.779905
+Other countries to VIC,Other countries,VIC,Victoria,67220,16,0.407564,0.664657,0.771238
+Other countries to VIC,Other countries,VIC,Victoria,67220,17,0.433974,0.655983,0.762404
+Other countries to VIC,Other countries,VIC,Victoria,67220,18,0.460385,0.647193,0.753451
+Other countries to VIC,Other countries,VIC,Victoria,67220,19,0.486795,0.638333,0.744427
+Other countries to VIC,Other countries,VIC,Victoria,67220,20,0.513205,0.629449,0.735379
+Other countries to VIC,Other countries,VIC,Victoria,67220,21,0.539615,0.620589,0.726354
+Other countries to VIC,Other countries,VIC,Victoria,67220,22,0.566026,0.611799,0.717402
+Other countries to VIC,Other countries,VIC,Victoria,67220,23,0.592436,0.603126,0.708568
+Other countries to VIC,Other countries,VIC,Victoria,67220,24,0.618846,0.594616,0.6999
+Other countries to VIC,Other countries,VIC,Victoria,67220,25,0.645256,0.586317,0.691447
+Other countries to VIC,Other countries,VIC,Victoria,67220,26,0.671667,0.578275,0.683256
+Other countries to VIC,Other countries,VIC,Victoria,67220,27,0.698077,0.570536,0.675374
+Other countries to VIC,Other countries,VIC,Victoria,67220,28,0.724487,0.563148,0.667849
+Other countries to VIC,Other countries,VIC,Victoria,67220,29,0.750897,0.556157,0.660729
+Other countries to VIC,Other countries,VIC,Victoria,67220,30,0.777308,0.54961,0.654061
+Other countries to VIC,Other countries,VIC,Victoria,67220,31,0.803718,0.543554,0.647893
+Other countries to VIC,Other countries,VIC,Victoria,67220,32,0.830128,0.538036,0.642272
+Other countries to VIC,Other countries,VIC,Victoria,67220,33,0.856538,0.533101,0.637246
+Other countries to VIC,Other countries,VIC,Victoria,67220,34,0.882949,0.528798,0.632863
+Other countries to VIC,Other countries,VIC,Victoria,67220,35,0.909359,0.525172,0.62917
+Other countries to VIC,Other countries,VIC,Victoria,67220,36,0.935769,0.52227,0.626215
+Other countries to VIC,Other countries,VIC,Victoria,67220,37,0.962179,0.52014,0.624045
+Other countries to VIC,Other countries,VIC,Victoria,67220,38,0.98859,0.518827,0.622708
+Other countries to VIC,Other countries,VIC,Victoria,67220,39,1.015,0.51838,0.622252
+Other countries to QLD,Other countries,QLD,Queensland,44068,0,-0.015,0.857554,0.928455
+Other countries to QLD,Other countries,QLD,Queensland,44068,1,0.01141,0.85723,0.928126
+Other countries to QLD,Other countries,QLD,Queensland,44068,2,0.037821,0.856281,0.927161
+Other countries to QLD,Other countries,QLD,Queensland,44068,3,0.064231,0.854741,0.925595
+Other countries to QLD,Other countries,QLD,Queensland,44068,4,0.090641,0.852643,0.923461
+Other countries to QLD,Other countries,QLD,Queensland,44068,5,0.117051,0.850021,0.920796
+Other countries to QLD,Other countries,QLD,Queensland,44068,6,0.143462,0.846909,0.917632
+Other countries to QLD,Other countries,QLD,Queensland,44068,7,0.169872,0.843341,0.914004
+Other countries to QLD,Other countries,QLD,Queensland,44068,8,0.196282,0.839351,0.909947
+Other countries to QLD,Other countries,QLD,Queensland,44068,9,0.222692,0.834972,0.905494
+Other countries to QLD,Other countries,QLD,Queensland,44068,10,0.249103,0.830238,0.900681
+Other countries to QLD,Other countries,QLD,Queensland,44068,11,0.275513,0.825183,0.895541
+Other countries to QLD,Other countries,QLD,Queensland,44068,12,0.301923,0.819841,0.89011
+Other countries to QLD,Other countries,QLD,Queensland,44068,13,0.328333,0.814246,0.88442
+Other countries to QLD,Other countries,QLD,Queensland,44068,14,0.354744,0.808431,0.878507
+Other countries to QLD,Other countries,QLD,Queensland,44068,15,0.381154,0.80243,0.872406
+Other countries to QLD,Other countries,QLD,Queensland,44068,16,0.407564,0.796277,0.866149
+Other countries to QLD,Other countries,QLD,Queensland,44068,17,0.433974,0.790006,0.859773
+Other countries to QLD,Other countries,QLD,Queensland,44068,18,0.460385,0.78365,0.85331
+Other countries to QLD,Other countries,QLD,Queensland,44068,19,0.486795,0.777243,0.846796
+Other countries to QLD,Other countries,QLD,Queensland,44068,20,0.513205,0.77082,0.840265
+Other countries to QLD,Other countries,QLD,Queensland,44068,21,0.539615,0.764414,0.833751
+Other countries to QLD,Other countries,QLD,Queensland,44068,22,0.566026,0.758058,0.827289
+Other countries to QLD,Other countries,QLD,Queensland,44068,23,0.592436,0.751787,0.820912
+Other countries to QLD,Other countries,QLD,Queensland,44068,24,0.618846,0.745634,0.814656
+Other countries to QLD,Other countries,QLD,Queensland,44068,25,0.645256,0.739633,0.808554
+Other countries to QLD,Other countries,QLD,Queensland,44068,26,0.671667,0.733818,0.802641
+Other countries to QLD,Other countries,QLD,Queensland,44068,27,0.698077,0.728222,0.796952
+Other countries to QLD,Other countries,QLD,Queensland,44068,28,0.724487,0.72288,0.79152
+Other countries to QLD,Other countries,QLD,Queensland,44068,29,0.750897,0.717825,0.78638
+Other countries to QLD,Other countries,QLD,Queensland,44068,30,0.777308,0.713092,0.781567
+Other countries to QLD,Other countries,QLD,Queensland,44068,31,0.803718,0.708713,0.777115
+Other countries to QLD,Other countries,QLD,Queensland,44068,32,0.830128,0.704722,0.773057
+Other countries to QLD,Other countries,QLD,Queensland,44068,33,0.856538,0.701154,0.76943
+Other countries to QLD,Other countries,QLD,Queensland,44068,34,0.882949,0.698043,0.766266
+Other countries to QLD,Other countries,QLD,Queensland,44068,35,0.909359,0.695421,0.7636
+Other countries to QLD,Other countries,QLD,Queensland,44068,36,0.935769,0.693323,0.761467
+Other countries to QLD,Other countries,QLD,Queensland,44068,37,0.962179,0.691783,0.759901
+Other countries to QLD,Other countries,QLD,Queensland,44068,38,0.98859,0.690834,0.758936
+Other countries to QLD,Other countries,QLD,Queensland,44068,39,1.015,0.69051,0.758606
+Other countries to WA,Other countries,WA,Western Australia,26569,0,-0.015,0.928455,0.971202
+Other countries to WA,Other countries,WA,Western Australia,26569,1,0.01141,0.92822,0.970963
+Other countries to WA,Other countries,WA,Western Australia,26569,2,0.037821,0.92753,0.970264
+Other countries to WA,Other countries,WA,Western Australia,26569,3,0.064231,0.92641,0.969128
+Other countries to WA,Other countries,WA,Western Australia,26569,4,0.090641,0.924885,0.967582
+Other countries to WA,Other countries,WA,Western Australia,26569,5,0.117051,0.922979,0.965649
+Other countries to WA,Other countries,WA,Western Australia,26569,6,0.143462,0.920716,0.963356
+Other countries to WA,Other countries,WA,Western Australia,26569,7,0.169872,0.918123,0.960726
+Other countries to WA,Other countries,WA,Western Australia,26569,8,0.196282,0.915222,0.957784
+Other countries to WA,Other countries,WA,Western Australia,26569,9,0.222692,0.912038,0.954557
+Other countries to WA,Other countries,WA,Western Australia,26569,10,0.249103,0.908597,0.951067
+Other countries to WA,Other countries,WA,Western Australia,26569,11,0.275513,0.904922,0.947341
+Other countries to WA,Other countries,WA,Western Australia,26569,12,0.301923,0.901038,0.943404
+Other countries to WA,Other countries,WA,Western Australia,26569,13,0.328333,0.89697,0.939279
+Other countries to WA,Other countries,WA,Western Australia,26569,14,0.354744,0.892743,0.934993
+Other countries to WA,Other countries,WA,Western Australia,26569,15,0.381154,0.88838,0.930569
+Other countries to WA,Other countries,WA,Western Australia,26569,16,0.407564,0.883907,0.926034
+Other countries to WA,Other countries,WA,Western Australia,26569,17,0.433974,0.879348,0.921411
+Other countries to WA,Other countries,WA,Western Australia,26569,18,0.460385,0.874727,0.916726
+Other countries to WA,Other countries,WA,Western Australia,26569,19,0.486795,0.870069,0.912003
+Other countries to WA,Other countries,WA,Western Australia,26569,20,0.513205,0.8654,0.907269
+Other countries to WA,Other countries,WA,Western Australia,26569,21,0.539615,0.860742,0.902546
+Other countries to WA,Other countries,WA,Western Australia,26569,22,0.566026,0.856121,0.897861
+Other countries to WA,Other countries,WA,Western Australia,26569,23,0.592436,0.851562,0.893239
+Other countries to WA,Other countries,WA,Western Australia,26569,24,0.618846,0.847089,0.888703
+Other countries to WA,Other countries,WA,Western Australia,26569,25,0.645256,0.842726,0.88428
+Other countries to WA,Other countries,WA,Western Australia,26569,26,0.671667,0.838499,0.879993
+Other countries to WA,Other countries,WA,Western Australia,26569,27,0.698077,0.834431,0.875869
+Other countries to WA,Other countries,WA,Western Australia,26569,28,0.724487,0.830547,0.871931
+Other countries to WA,Other countries,WA,Western Australia,26569,29,0.750897,0.826872,0.868205
+Other countries to WA,Other countries,WA,Western Australia,26569,30,0.777308,0.823431,0.864715
+Other countries to WA,Other countries,WA,Western Australia,26569,31,0.803718,0.820247,0.861488
+Other countries to WA,Other countries,WA,Western Australia,26569,32,0.830128,0.817346,0.858546
+Other countries to WA,Other countries,WA,Western Australia,26569,33,0.856538,0.814753,0.855916
+Other countries to WA,Other countries,WA,Western Australia,26569,34,0.882949,0.81249,0.853623
+Other countries to WA,Other countries,WA,Western Australia,26569,35,0.909359,0.810584,0.85169
+Other countries to WA,Other countries,WA,Western Australia,26569,36,0.935769,0.809059,0.850144
+Other countries to WA,Other countries,WA,Western Australia,26569,37,0.962179,0.807939,0.849008
+Other countries to WA,Other countries,WA,Western Australia,26569,38,0.98859,0.807249,0.848309
+Other countries to WA,Other countries,WA,Western Australia,26569,39,1.015,0.807014,0.84807
+Other countries to SA,Other countries,SA,South Australia,11524,0,-0.015,0.971202,0.989743
+Other countries to SA,Other countries,SA,South Australia,11524,1,0.01141,0.97106,0.989599
+Other countries to SA,Other countries,SA,South Australia,11524,2,0.037821,0.970643,0.989178
+Other countries to SA,Other countries,SA,South Australia,11524,3,0.064231,0.969966,0.988495
+Other countries to SA,Other countries,SA,South Australia,11524,4,0.090641,0.969044,0.987563
+Other countries to SA,Other countries,SA,South Australia,11524,5,0.117051,0.967892,0.9864
+Other countries to SA,Other countries,SA,South Australia,11524,6,0.143462,0.966524,0.985019
+Other countries to SA,Other countries,SA,South Australia,11524,7,0.169872,0.964956,0.983435
+Other countries to SA,Other countries,SA,South Australia,11524,8,0.196282,0.963203,0.981664
+Other countries to SA,Other countries,SA,South Australia,11524,9,0.222692,0.961279,0.97972
+Other countries to SA,Other countries,SA,South Australia,11524,10,0.249103,0.959198,0.977619
+Other countries to SA,Other countries,SA,South Australia,11524,11,0.275513,0.956977,0.975376
+Other countries to SA,Other countries,SA,South Australia,11524,12,0.301923,0.954629,0.973005
+Other countries to SA,Other countries,SA,South Australia,11524,13,0.328333,0.95217,0.970521
+Other countries to SA,Other countries,SA,South Australia,11524,14,0.354744,0.949615,0.96794
+Other countries to SA,Other countries,SA,South Australia,11524,15,0.381154,0.946978,0.965277
+Other countries to SA,Other countries,SA,South Australia,11524,16,0.407564,0.944274,0.962546
+Other countries to SA,Other countries,SA,South Australia,11524,17,0.433974,0.941518,0.959762
+Other countries to SA,Other countries,SA,South Australia,11524,18,0.460385,0.938725,0.956941
+Other countries to SA,Other countries,SA,South Australia,11524,19,0.486795,0.93591,0.954098
+Other countries to SA,Other countries,SA,South Australia,11524,20,0.513205,0.933087,0.951247
+Other countries to SA,Other countries,SA,South Australia,11524,21,0.539615,0.930271,0.948403
+Other countries to SA,Other countries,SA,South Australia,11524,22,0.566026,0.927478,0.945583
+Other countries to SA,Other countries,SA,South Australia,11524,23,0.592436,0.924722,0.942799
+Other countries to SA,Other countries,SA,South Australia,11524,24,0.618846,0.922018,0.940068
+Other countries to SA,Other countries,SA,South Australia,11524,25,0.645256,0.919381,0.937405
+Other countries to SA,Other countries,SA,South Australia,11524,26,0.671667,0.916826,0.934824
+Other countries to SA,Other countries,SA,South Australia,11524,27,0.698077,0.914367,0.93234
+Other countries to SA,Other countries,SA,South Australia,11524,28,0.724487,0.912019,0.929969
+Other countries to SA,Other countries,SA,South Australia,11524,29,0.750897,0.909798,0.927725
+Other countries to SA,Other countries,SA,South Australia,11524,30,0.777308,0.907718,0.925624
+Other countries to SA,Other countries,SA,South Australia,11524,31,0.803718,0.905793,0.923681
+Other countries to SA,Other countries,SA,South Australia,11524,32,0.830128,0.90404,0.92191
+Other countries to SA,Other countries,SA,South Australia,11524,33,0.856538,0.902472,0.920326
+Other countries to SA,Other countries,SA,South Australia,11524,34,0.882949,0.901104,0.918945
+Other countries to SA,Other countries,SA,South Australia,11524,35,0.909359,0.899952,0.917781
+Other countries to SA,Other countries,SA,South Australia,11524,36,0.935769,0.89903,0.91685
+Other countries to SA,Other countries,SA,South Australia,11524,37,0.962179,0.898353,0.916167
+Other countries to SA,Other countries,SA,South Australia,11524,38,0.98859,0.897936,0.915745
+Other countries to SA,Other countries,SA,South Australia,11524,39,1.015,0.897794,0.915602
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,0,-0.015,0.989743,0.995006
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,1,0.01141,0.989658,0.994921
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,2,0.037821,0.989409,0.994671
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,3,0.064231,0.989005,0.994265
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,4,0.090641,0.988455,0.993712
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,5,0.117051,0.987768,0.993021
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,6,0.143462,0.986952,0.992201
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,7,0.169872,0.986016,0.991261
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,8,0.196282,0.98497,0.99021
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,9,0.222692,0.983822,0.989056
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,10,0.249103,0.98258,0.987809
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,11,0.275513,0.981255,0.986477
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,12,0.301923,0.979854,0.98507
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,13,0.328333,0.978387,0.983595
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,14,0.354744,0.976862,0.982063
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,15,0.381154,0.975288,0.980482
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,16,0.407564,0.973675,0.978861
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,17,0.433974,0.97203,0.977209
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,18,0.460385,0.970363,0.975534
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,19,0.486795,0.968683,0.973846
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,20,0.513205,0.966999,0.972154
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,21,0.539615,0.965319,0.970466
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,22,0.566026,0.963652,0.968791
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,23,0.592436,0.962008,0.967139
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,24,0.618846,0.960394,0.965517
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,25,0.645256,0.958821,0.963936
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,26,0.671667,0.957296,0.962404
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,27,0.698077,0.955828,0.96093
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,28,0.724487,0.954428,0.959522
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,29,0.750897,0.953102,0.958191
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,30,0.777308,0.951861,0.956943
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,31,0.803718,0.950712,0.95579
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,32,0.830128,0.949666,0.954738
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,33,0.856538,0.94873,0.953798
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,34,0.882949,0.947914,0.952978
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,35,0.909359,0.947227,0.952288
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,36,0.935769,0.946677,0.951735
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,37,0.962179,0.946273,0.951329
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,38,0.98859,0.946024,0.951079
+Other countries to ACT,Other countries,ACT,Australian Capital Territory,3271,39,1.015,0.945939,0.950994
+Other countries to TAS,Other countries,TAS,Tasmania,2119,0,-0.015,0.995006,0.998415
+Other countries to TAS,Other countries,TAS,Tasmania,2119,1,0.01141,0.994963,0.998372
+Other countries to TAS,Other countries,TAS,Tasmania,2119,2,0.037821,0.994839,0.998247
+Other countries to TAS,Other countries,TAS,Tasmania,2119,3,0.064231,0.994636,0.998043
+Other countries to TAS,Other countries,TAS,Tasmania,2119,4,0.090641,0.99436,0.997765
+Other countries to TAS,Other countries,TAS,Tasmania,2119,5,0.117051,0.994015,0.997418
+Other countries to TAS,Other countries,TAS,Tasmania,2119,6,0.143462,0.993606,0.997007
+Other countries to TAS,Other countries,TAS,Tasmania,2119,7,0.169872,0.993137,0.996534
+Other countries to TAS,Other countries,TAS,Tasmania,2119,8,0.196282,0.992612,0.996006
+Other countries to TAS,Other countries,TAS,Tasmania,2119,9,0.222692,0.992036,0.995427
+Other countries to TAS,Other countries,TAS,Tasmania,2119,10,0.249103,0.991413,0.994801
+Other countries to TAS,Other countries,TAS,Tasmania,2119,11,0.275513,0.990749,0.994132
+Other countries to TAS,Other countries,TAS,Tasmania,2119,12,0.301923,0.990046,0.993425
+Other countries to TAS,Other countries,TAS,Tasmania,2119,13,0.328333,0.98931,0.992684
+Other countries to TAS,Other countries,TAS,Tasmania,2119,14,0.354744,0.988545,0.991915
+Other countries to TAS,Other countries,TAS,Tasmania,2119,15,0.381154,0.987756,0.991121
+Other countries to TAS,Other countries,TAS,Tasmania,2119,16,0.407564,0.986947,0.990306
+Other countries to TAS,Other countries,TAS,Tasmania,2119,17,0.433974,0.986122,0.989477
+Other countries to TAS,Other countries,TAS,Tasmania,2119,18,0.460385,0.985286,0.988636
+Other countries to TAS,Other countries,TAS,Tasmania,2119,19,0.486795,0.984443,0.987788
+Other countries to TAS,Other countries,TAS,Tasmania,2119,20,0.513205,0.983599,0.986938
+Other countries to TAS,Other countries,TAS,Tasmania,2119,21,0.539615,0.982756,0.98609
+Other countries to TAS,Other countries,TAS,Tasmania,2119,22,0.566026,0.98192,0.985249
+Other countries to TAS,Other countries,TAS,Tasmania,2119,23,0.592436,0.981095,0.984419
+Other countries to TAS,Other countries,TAS,Tasmania,2119,24,0.618846,0.980286,0.983605
+Other countries to TAS,Other countries,TAS,Tasmania,2119,25,0.645256,0.979497,0.982811
+Other countries to TAS,Other countries,TAS,Tasmania,2119,26,0.671667,0.978732,0.982041
+Other countries to TAS,Other countries,TAS,Tasmania,2119,27,0.698077,0.977996,0.981301
+Other countries to TAS,Other countries,TAS,Tasmania,2119,28,0.724487,0.977293,0.980594
+Other countries to TAS,Other countries,TAS,Tasmania,2119,29,0.750897,0.976629,0.979925
+Other countries to TAS,Other countries,TAS,Tasmania,2119,30,0.777308,0.976006,0.979299
+Other countries to TAS,Other countries,TAS,Tasmania,2119,31,0.803718,0.97543,0.978719
+Other countries to TAS,Other countries,TAS,Tasmania,2119,32,0.830128,0.974905,0.978191
+Other countries to TAS,Other countries,TAS,Tasmania,2119,33,0.856538,0.974436,0.977719
+Other countries to TAS,Other countries,TAS,Tasmania,2119,34,0.882949,0.974027,0.977307
+Other countries to TAS,Other countries,TAS,Tasmania,2119,35,0.909359,0.973682,0.97696
+Other countries to TAS,Other countries,TAS,Tasmania,2119,36,0.935769,0.973406,0.976683
+Other countries to TAS,Other countries,TAS,Tasmania,2119,37,0.962179,0.973203,0.976479
+Other countries to TAS,Other countries,TAS,Tasmania,2119,38,0.98859,0.973079,0.976353
+Other countries to TAS,Other countries,TAS,Tasmania,2119,39,1.015,0.973036,0.97631
+Other countries to NT,Other countries,NT,Northern Territory,985,0,-0.015,0.998415,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,1,0.01141,0.998415,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,2,0.037821,0.998416,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,3,0.064231,0.998416,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,4,0.090641,0.998417,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,5,0.117051,0.998418,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,6,0.143462,0.998419,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,7,0.169872,0.998421,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,8,0.196282,0.998422,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,9,0.222692,0.998424,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,10,0.249103,0.998425,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,11,0.275513,0.998427,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,12,0.301923,0.998429,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,13,0.328333,0.998431,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,14,0.354744,0.998434,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,15,0.381154,0.998436,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,16,0.407564,0.998438,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,17,0.433974,0.998441,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,18,0.460385,0.998443,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,19,0.486795,0.998445,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,20,0.513205,0.998448,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,21,0.539615,0.99845,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,22,0.566026,0.998453,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,23,0.592436,0.998455,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,24,0.618846,0.998457,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,25,0.645256,0.998459,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,26,0.671667,0.998462,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,27,0.698077,0.998464,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,28,0.724487,0.998466,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,29,0.750897,0.998468,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,30,0.777308,0.998469,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,31,0.803718,0.998471,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,32,0.830128,0.998473,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,33,0.856538,0.998474,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,34,0.882949,0.998475,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,35,0.909359,0.998476,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,36,0.935769,0.998477,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,37,0.962179,0.998477,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,38,0.98859,0.998478,1.0
+Other countries to NT,Other countries,NT,Northern Territory,985,39,1.015,0.998478,1.0
