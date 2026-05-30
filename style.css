@@ -1,3 +1,74 @@
+.chapter-intro {
+  background: #ffffff;
+  border-left: 6px solid #1f6f8b;
+  padding: 28px 32px;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.chapter-label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #1f6f8b;
+  margin-bottom: 8px;
+}
+
+.chart-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  background: #f1f5f9;
+  border-left: 4px solid #2f6f88;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.source-note {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #666;
+}
+
+.takeaway-section {
+  background: #12355b;
+  color: white;
+  padding: 44px;
+  border-radius: 18px;
+  margin: 56px 0;
+}
+
+.takeaway-section h2 {
+  color: white;
+  margin-top: 0;
+}
+
+.takeaway-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.takeaway-card {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 22px;
+  border-radius: 14px;
+}
+
+.takeaway-card h3 {
+  margin-top: 0;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .takeaway-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
 #top-countries-bar,
 #yearly-trend-line,
 #state-bar,

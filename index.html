@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,183 +16,304 @@
 </head>
 
 <body>
-<header class="hero">
-  <div class="hero-content">
-    <p class="eyebrow">FIT2179 Data Visualisation 2</p>
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">FIT2179 Data Visualisation 2</p>
 
-    <h1>Who Studies in Australia?</h1>
+      <h1>Who Studies in Australia?</h1>
 
-    <p class="subtitle">
-      International student enrolments in Australia are concentrated in a few major source countries,
-      a few large states, and a rapidly changing post-pandemic migration landscape.
-    </p>
+      <p class="subtitle">
+        International student enrolments in Australia are concentrated in a few major source countries,
+        a few large states, and a rapidly changing post-pandemic migration landscape.
+      </p>
 
-    <div class="hero-stats">
-      <div class="stat-card">
-        <span class="stat-number">565,601</span>
-        <span class="stat-label">YTD enrolments in Jan 2026</span>
-      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-number">565,601</span>
+          <span class="stat-label">YTD enrolments in Jan 2026</span>
+        </div>
 
-      <div class="stat-card">
-        <span class="stat-number">129,164</span>
-        <span class="stat-label">enrolments from China</span>
-      </div>
+        <div class="stat-card">
+          <span class="stat-number">129,164</span>
+          <span class="stat-label">enrolments from China</span>
+        </div>
 
-      <div class="stat-card">
-        <span class="stat-number">NSW + VIC</span>
-        <span class="stat-label">largest study destinations</span>
+        <div class="stat-card">
+          <span class="stat-number">NSW + VIC</span>
+          <span class="stat-label">largest study destinations</span>
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
 
   <main>
-    
-    <section class="section">
+
+    <section class="section chapter-intro">
+      <p class="chapter-label">Overview</p>
       <h2>Australia’s international student population</h2>
       <p>
-        International students are an important part of Australia’s education system.
-        This visualisation explores their source countries, study locations, and changes over time.
+        International students are an important part of Australia’s education system and migration story.
+        This visualisation explores where international students come from, where they study in Australia,
+        and how student visa migration has changed over time. It combines Department of Education enrolment
+        data with Australian Bureau of Statistics migration data to show both the education and population-flow
+        sides of the story.
+      </p>
+    </section>
+
+    <section class="section chapter-intro">
+      <p class="chapter-label">Chapter 1</p>
+      <h2>Who comes to Australia?</h2>
+      <p>
+        Australia’s international student population is not evenly spread across the world.
+        A small number of source countries account for a large share of enrolments, meaning changes in these
+        countries can strongly affect Australia’s education sector.
       </p>
     </section>
 
     <section class="section grid-two">
       <div class="chart-card">
         <h2>Top source countries</h2>
-        <p>Which countries send the most international students to Australia?</p>
+        <p>
+          Which countries send the most international students to Australia?
+        </p>
         <div id="top-countries-bar"></div>
+        <p class="chart-note">
+          <strong>Key takeaway:</strong> China remains the largest source country for international student
+          enrolments, followed by India and Nepal. Bangladesh also appears in the top five, showing the importance
+          of South Asian countries in Australia’s international education system.
+        </p>
       </div>
 
       <div class="chart-card">
         <h2>Enrolments over time</h2>
-        <p>How have international student enrolments changed over time?</p>
+        <p>
+          How have international student enrolments changed over time?
+        </p>
         <div id="yearly-trend-line"></div>
+        <p class="chart-note">
+          <strong>Key takeaway:</strong> Enrolments fell sharply around the border closure period, reached a low
+          point in 2022, and then rebounded strongly from 2023 onwards. The 2026 value is January year-to-date data,
+          not a complete full-year total.
+        </p>
       </div>
+    </section>
+
+    <section class="section chapter-intro">
+      <p class="chapter-label">Chapter 2</p>
+      <h2>What and where do they study?</h2>
+      <p>
+        The student population is also uneven inside Australia. Enrolments are concentrated in the largest study
+        destinations, especially New South Wales and Victoria, while sector data shows that Higher Education remains
+        the dominant part of international education.
+      </p>
     </section>
 
     <section class="section grid-two">
       <div class="chart-card">
-  <h2>How has the sector mix changed?</h2>
-  <p>
-    Higher Education remains the largest sector, while VET has become a much larger part of international enrolments after the post-pandemic rebound.
-  </p>
-  <div id="sector-trend"></div>
-</div>
+        <h2>How has the sector mix changed?</h2>
+        <p>
+          Higher Education remains the largest sector, while VET has become a much larger part of international
+          enrolments after the post-pandemic rebound.
+        </p>
+        <div id="sector-trend"></div>
+        <p class="chart-note">
+          <strong>Key takeaway:</strong> Higher Education remains the largest sector across the period, while VET
+          has become a much more visible part of the enrolment mix after the post-pandemic rebound.
+        </p>
+      </div>
 
       <div class="chart-card">
         <h2>Sector breakdown of enrolments, Jan 2026</h2>
         <p>
-        In January 2026 YTD data, Higher Education dominates international student enrolments,
-        followed by the VET sector.
-      </p>
+          In January 2026 YTD data, Higher Education dominates international student enrolments, followed by the
+          VET sector.
+        </p>
         <div id="sector-breakdown"></div>
+        <p class="chart-note">
+          <strong>Key takeaway:</strong> Higher Education accounts for the largest share of international
+          enrolments, followed by VET. Smaller sectors such as Schools, ELICOS and Non-award study make up a much
+          smaller share.
+        </p>
       </div>
     </section>
+
     <section class="section chart-card">
       <h2>Where do international students study in Australia?</h2>
       <p>
-        International student enrolments are concentrated in New South Wales and Victoria,
-        with smaller but still significant populations in Queensland, Western Australia and South Australia.
+        This map shows how international student enrolments are distributed across Australian states and territories.
       </p>
       <div id="australia-bubble-map"></div>
-    </section>
-    <section class="section">
-  <h2>International students in the migration picture</h2>
-  <p>
-    The Department of Education data shows where international students are enrolled.
-    ABS migration data adds another layer: how student visa arrivals and departures affect Australia's population flows.
-  </p>
-</section>
-
-<section class="section chart-card">
-  <h2>Student visa arrivals and departures over time</h2>
-  <p>
-    Student migration dropped sharply during the border closure period, then rebounded strongly after 2021–22.
-    The black line shows net student migration: arrivals minus departures.
-  </p>
-  <div id="abs-student-migration-trend"></div>
-</section>
-
-<section class="section grid-two">
-  <div class="chart-card">
-    <h2>Enrolments vs net migration by state</h2>
-    <p>
-      This chart combines Department enrolment data with ABS migration flow data.
-      Larger states have the largest absolute student migration gains.
-    </p>
-    <div id="combined-state-migration-enrolments"></div>
-  </div>
-
-  <div class="chart-card">
-    <h2>Temporary visa arrivals</h2>
-    <p>
-      In 2024–25, student visas formed the largest temporary visa migrant arrival group.
-    </p>
-    <div id="abs-temp-visa-lollipop"></div>
-  </div>
-</section>
-
-<section class="section chart-card">
-  <h2>What type of student visas drive migrant arrivals?</h2>
-  <p>
-    Higher education made up the largest share of student visa migrant arrivals in 2024–25,
-    showing that universities remain central to Australia's international student migration story.
-  </p>
-  <div id="abs-student-arrival-composition"></div>
-</section>
-
-<section class="section chart-card">
-  <h2>How did student migration change across Australia?</h2>
-  <p>
-    This interactive choropleth map shows net student migration by state and territory.
-    Use the slider to compare financial years from 2004–05 to 2024–25.
-  </p>
-  <div id="abs-state-net-heatmap"></div>
-</section>
-</main>
-  <footer class="site-footer">
-  <div class="footer-content">
-    <div class="footer-brand">
-      <h2>Who Studies in Australia?</h2>
-      <p>
-        A FIT2179 Data Visualisation 2 project exploring international student enrolments,
-        source countries, study locations, and student migration flows in Australia.
+      <p class="chart-note">
+        <strong>Key takeaway:</strong> New South Wales and Victoria dominate the enrolment map. Queensland, Western
+        Australia and South Australia form a second tier, while Tasmania and the Northern Territory have much smaller
+        international student populations.
       </p>
-    </div>
+    </section>
 
-    <div class="footer-grid">
-      <div class="footer-block">
-        <h3>Data sources</h3>
+    <section class="section chapter-intro">
+      <p class="chapter-label">Chapter 3</p>
+      <h2>Why migration data matters</h2>
+      <p>
+        Enrolments show where students are studying, but migration data shows how students move in and out of
+        Australia. The ABS data adds a wider population perspective by tracking student visa arrivals, departures and
+        net migration.
+      </p>
+    </section>
+
+    <section class="section chart-card">
+      <h2>Student visa arrivals and departures over time</h2>
+      <p>
+        Student migration dropped sharply during the border closure period, then rebounded strongly after 2021–22.
+        The black line shows net student migration: arrivals minus departures.
+      </p>
+      <div id="abs-student-migration-trend"></div>
+      <p class="chart-note">
+        <strong>Key takeaway:</strong> Student migration collapsed during the border closure period, when departures
+        were high and arrivals were extremely low. After borders reopened, arrivals rebounded quickly and net student
+        migration became strongly positive again.
+      </p>
+    </section>
+
+    <section class="section grid-two">
+      <div class="chart-card">
+        <h2>Temporary visa arrivals</h2>
         <p>
-          Australian Government Department of Education — International student data, January 2026.
+          This chart places student visas within the broader temporary visa migration picture.
         </p>
-        <p>
-          Australian Bureau of Statistics — Overseas Migration, 2024–25 financial year.
+        <div id="abs-temp-visa-lollipop"></div>
+        <p class="chart-note">
+          <strong>Key takeaway:</strong> In 2024–25, student visas were the largest selected temporary visa migrant
+          arrival group, showing that international students are also a major part of Australia’s temporary migration
+          system.
         </p>
       </div>
 
-      <div class="footer-block">
-        <h3>Project details</h3>
-        <p>Created by Ridwan Abdullah Rafi</p>
-        <p>FIT2179 Data Visualisation 2</p>
-        <p>Monash University, 2026</p>
-      </div>
-
-      <div class="footer-block">
-        <h3>Tools used</h3>
-        <p>Vega-Lite, HTML, CSS, JavaScript, GitHub Pages</p>
+      <div class="chart-card">
+        <h2>What type of student visas drive migrant arrivals?</h2>
         <p>
-          Generative AI was used to assist with coding, debugging, writing, and design refinement.
+          Student visa arrivals are not evenly split across education types.
+        </p>
+        <div id="abs-student-arrival-composition"></div>
+        <p class="chart-note">
+          <strong>Key takeaway:</strong> Most student visa migrant arrivals in 2024–25 were linked to Higher Education,
+          reinforcing the central role of universities in Australia’s international student migration story.
         </p>
       </div>
-    </div>
+    </section>
 
-    <div class="footer-bottom">
-      <p>© 2026 Ridwan Abdullah Rafi. Public visualisation created for academic purposes.</p>
-      <p>Last updated: May 2026</p>
+    <section class="section chapter-intro">
+      <p class="chapter-label">Chapter 4</p>
+      <h2>Where is student migration concentrated?</h2>
+      <p>
+        The migration data also has a strong state pattern. The largest enrolment states are also the places gaining
+        the largest numbers of student migrants, although the scale of migration varies over time.
+      </p>
+    </section>
+
+    <section class="section chart-card">
+      <h2>Enrolments vs net migration by state</h2>
+      <p>
+        This chart combines Department of Education enrolment data with ABS migration flow data to compare the size of
+        international student enrolments with net student migration.
+      </p>
+      <div id="combined-state-migration-enrolments"></div>
+      <p class="chart-note">
+        <strong>Key takeaway:</strong> States with larger enrolment populations also tend to record larger net student
+        migration gains. New South Wales and Victoria stand out because they combine high enrolment numbers with high
+        student migration flows.
+      </p>
+    </section>
+
+    <section class="section chart-card">
+      <h2>How did student migration change across Australia?</h2>
+      <p>
+        This interactive choropleth map shows net student migration by state and territory. Use the slider to compare
+        financial years from 2004–05 to 2024–25.
+      </p>
+      <div id="abs-state-net-heatmap"></div>
+      <p class="chart-note">
+        <strong>Key takeaway:</strong> The choropleth map shows how net student migration varies by state and financial
+        year. The slider reveals the sharp negative impact of 2020–21 and the strong rebound from 2022–23 onwards.
+      </p>
+    </section>
+
+    <section class="takeaway-section">
+      <h2>Key takeaways</h2>
+
+      <div class="takeaway-grid">
+        <div class="takeaway-card">
+          <h3>1. Source countries are concentrated</h3>
+          <p>
+            A small group of countries contributes a large share of international student enrolments, especially China,
+            India and Nepal.
+          </p>
+        </div>
+
+        <div class="takeaway-card">
+          <h3>2. Study destinations are uneven</h3>
+          <p>
+            New South Wales and Victoria dominate international enrolments, while smaller states and territories attract
+            much smaller student populations.
+          </p>
+        </div>
+
+        <div class="takeaway-card">
+          <h3>3. Students shape migration flows</h3>
+          <p>
+            ABS migration data shows that student visa arrivals are a major part of Australia’s temporary migration
+            system, especially after the post-pandemic rebound.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h2>Who Studies in Australia?</h2>
+        <p>
+          A FIT2179 Data Visualisation 2 project exploring international student enrolments, source countries,
+          study locations, and student migration flows in Australia.
+        </p>
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-block">
+          <h3>Data sources</h3>
+          <p>
+            Australian Government Department of Education — International student data, January 2026.
+          </p>
+          <p>
+            Australian Bureau of Statistics — Overseas Migration, 2024–25 financial year.
+          </p>
+        </div>
+
+        <div class="footer-block">
+          <h3>Project details</h3>
+          <p>Created by Ridwan Abdullah Rafi</p>
+          <p>FIT2179 Data Visualisation 2</p>
+          <p>Monash University, 2026</p>
+        </div>
+
+        <div class="footer-block">
+          <h3>Tools used</h3>
+          <p>Vega-Lite, HTML, CSS, JavaScript, GitHub Pages</p>
+          <p>
+            Generative AI was used to assist with coding, debugging, writing, and design refinement.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Ridwan Abdullah Rafi. Public visualisation created for academic purposes.</p>
+        <p>Last updated: May 2026</p>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
+
   <script src="js/vega_embed.js"></script>
 </body>
+
 </html>

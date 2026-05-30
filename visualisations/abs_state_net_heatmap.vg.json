@@ -155,7 +155,7 @@
       "type": "quantitative"
     },
     "text": {
-      "field": "state_code",
+      "field": "state",
       "type": "nominal"
     }
   }
