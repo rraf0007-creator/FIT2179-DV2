@@ -1,0 +1,7 @@
+container,container_label,x0,x1,y0,y1,x_label,y_label
+Asia,Asia (85.2%),0.5,74.5,0.5,99.5,0.85,1.6
+Rest of world,Rest of world (14.8%),75.0,99.5,0.5,99.5,75.35,1.6
+Americas,Americas (8.7%),75.0,99.5,0.5,57.9465,75.35,1.6
+Europe,Europe (3.0%),75.0,99.5,58.2965,78.094,75.35,59.3965
+Africa,Africa (2.3%),75.0,99.5,78.444,93.907,75.35,79.544
+Oceania,Oceania (0.8%),75.0,99.5,94.257,99.5,75.35,95.357

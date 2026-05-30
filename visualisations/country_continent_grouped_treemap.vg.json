@@ -1,0 +1,195 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 430,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "left": 4,
+    "right": 4,
+    "top": 4,
+    "bottom": 4
+  },
+  "data": {
+    "url": "data/country_continent_grouped_treemap.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "white",
+        "strokeWidth": 2,
+        "cornerRadius": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "x0",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": null
+        },
+        "x2": {
+          "field": "x1"
+        },
+        "y": {
+          "field": "y0",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ],
+            "reverse": true
+          },
+          "axis": null
+        },
+        "y2": {
+          "field": "y1"
+        },
+        "color": {
+          "field": "continent",
+          "type": "nominal",
+          "legend": {
+            "title": "Continent",
+            "orient": "right"
+          },
+          "scale": {
+            "domain": [
+              "Asia",
+              "Americas",
+              "Europe",
+              "Africa",
+              "Oceania"
+            ],
+            "range": [
+              "#e39a3b",
+              "#5f7daa",
+              "#8bb8b3",
+              "#75a85b",
+              "#b37aa8"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "continent",
+            "type": "nominal",
+            "title": "Continent"
+          },
+          {
+            "field": "tooltip_note",
+            "type": "nominal",
+            "title": "Country / group"
+          },
+          {
+            "field": "students",
+            "type": "quantitative",
+            "title": "Students",
+            "format": ","
+          },
+          {
+            "field": "share_total",
+            "type": "quantitative",
+            "title": "Share of total",
+            "format": ".1%"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontWeight": "bold",
+        "baseline": "bottom"
+      },
+      "encoding": {
+        "x": {
+          "field": "x_mid",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": null
+        },
+        "y": {
+          "field": "y_mid",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ],
+            "reverse": true
+          },
+          "axis": null
+        },
+        "text": {
+          "field": "label"
+        },
+        "size": {
+          "field": "font_size",
+          "type": "quantitative",
+          "legend": null
+        },
+        "color": {
+          "value": "#111111"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "baseline": "top",
+        "dy": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "x_mid",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": null
+        },
+        "y": {
+          "field": "y_mid",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ],
+            "reverse": true
+          },
+          "axis": null
+        },
+        "text": {
+          "field": "label_pct"
+        },
+        "color": {
+          "value": "#111111"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Inter, Arial, sans-serif"
+  }
+}

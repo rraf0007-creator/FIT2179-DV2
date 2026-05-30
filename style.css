@@ -1,6 +1,14 @@
 #country-state-sankey {
   width: 100%;
-  min-height: 560px;
+  min-height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+
+#country-state-sankey .vega-embed {
+  margin: 0 auto;
 }
 
 .chapter-intro {

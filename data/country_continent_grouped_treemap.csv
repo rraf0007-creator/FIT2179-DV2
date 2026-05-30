@@ -1,0 +1,9 @@
+continent,country_group,students,share_total,x0,x1,y0,y1,x_mid,y_mid,label,label_pct,font_size,tooltip_note
+Asia,China,129164,0.2284,0.35,56.7466,0.35,39.6483,28.5483,19.9992,China,22.8%,15,China
+Asia,India,97056,0.1716,57.4466,99.65,0.35,39.6483,78.5483,19.9992,India,17.2%,15,India
+Asia,Other Asia,202698,0.3584,0.35,99.65,40.3483,75.4848,50.0,57.9166,Other Asia,35.8%,15,All remaining Asian source countries
+Asia,Nepal,53024,0.0937,0.35,99.65,76.1848,84.86,50.0,80.5224,Nepal,9.4%,13,Nepal
+Americas,Americas,49065,0.0867,0.35,58.2551,85.56,99.65,29.3026,92.605,Americas,8.7%,12,Americas
+Europe,Europe,16909,0.0299,58.9551,78.4553,85.56,99.65,68.7052,92.605,Europe,3.0%,11,Europe
+Africa,Africa,13207,0.0234,79.1553,94.2333,85.56,99.65,86.6943,92.605,Africa,2.3%,11,Africa
+Oceania,Oceania,4478,0.0079,94.9333,99.65,85.56,99.65,97.2917,92.605,OC,0.8%,10,Oceania

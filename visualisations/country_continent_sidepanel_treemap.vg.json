@@ -1,0 +1,205 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 560,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "left": 4,
+    "right": 95,
+    "top": 8,
+    "bottom": 4
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/country_continent_sidepanel_treemap.csv"
+      },
+      "mark": {
+        "type": "rect",
+        "stroke": "white",
+        "strokeWidth": 2,
+        "cornerRadius": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "x0",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] },
+          "axis": null
+        },
+        "x2": { "field": "x1" },
+        "y": {
+          "field": "y0",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 100],
+            "reverse": true
+          },
+          "axis": null
+        },
+        "y2": { "field": "y1" },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Asia", "Americas", "Europe", "Africa", "Oceania"],
+            "range": ["#e39a3b", "#5f7daa", "#8bb8b3", "#75a85b", "#b37aa8"]
+          },
+          "legend": {
+            "title": "Continent",
+            "orient": "right",
+            "labelFontSize": 12,
+            "titleFontSize": 13,
+            "symbolSize": 170
+          }
+        },
+        "tooltip": [
+          { "field": "group", "type": "nominal", "title": "Continent" },
+          { "field": "tooltip_note", "type": "nominal", "title": "Country / group" },
+          { "field": "students", "type": "quantitative", "title": "Students", "format": "," },
+          { "field": "share_total", "type": "quantitative", "title": "Share of total", "format": ".1%" }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/continent_sidepanel_boundaries.csv"
+      },
+      "mark": {
+        "type": "rect",
+        "fillOpacity": 0,
+        "stroke": "#24467f",
+        "strokeWidth": 2.5
+      },
+      "encoding": {
+        "x": {
+          "field": "x0",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] },
+          "axis": null
+        },
+        "x2": { "field": "x1" },
+        "y": {
+          "field": "y0",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 100],
+            "reverse": true
+          },
+          "axis": null
+        },
+        "y2": { "field": "y1" }
+      }
+    },
+    {
+      "data": {
+        "url": "data/continent_sidepanel_boundaries.csv"
+      },
+      "transform": [
+        { "filter": "datum.container != 'Rest of world'" }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 6,
+        "dy": 6,
+        "fontWeight": "bold",
+        "fontSize": 12,
+        "color": "#1f3d73"
+      },
+      "encoding": {
+        "x": {
+          "field": "x0",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] },
+          "axis": null
+        },
+        "y": {
+          "field": "y0",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 100],
+            "reverse": true
+          },
+          "axis": null
+        },
+        "text": { "field": "container_label" }
+      }
+    },
+    {
+      "data": {
+        "url": "data/country_continent_sidepanel_treemap.csv"
+      },
+      "mark": {
+        "type": "text",
+        "fontWeight": "bold",
+        "baseline": "middle",
+        "align": "center",
+        "limit": 180
+      },
+      "encoding": {
+        "x": {
+          "field": "x_mid",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] },
+          "axis": null
+        },
+        "y": {
+          "field": "y_mid",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 100],
+            "reverse": true
+          },
+          "axis": null
+        },
+        "text": { "field": "label" },
+        "size": {
+          "field": "font_size",
+          "type": "quantitative",
+          "legend": null
+        },
+        "color": { "value": "#111111" }
+      }
+    },
+    {
+      "data": {
+        "url": "data/country_continent_sidepanel_treemap.csv"
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 14,
+        "baseline": "top",
+        "dy": 20,
+        "align": "center"
+      },
+      "encoding": {
+        "x": {
+          "field": "x_mid",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] },
+          "axis": null
+        },
+        "y": {
+          "field": "y_mid",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 100],
+            "reverse": true
+          },
+          "axis": null
+        },
+        "text": { "field": "label_pct" },
+        "color": { "value": "#111111" }
+      }
+    }
+  ],
+  "config": {
+    "view": { "stroke": null },
+    "font": "Inter, Arial, sans-serif"
+  }
+}

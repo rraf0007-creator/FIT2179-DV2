@@ -1,0 +1,17 @@
+group,tile,students,share_total,x0,x1,y0,y1,x_mid,y_mid,label,label_pct,font_size,tooltip_note
+Asia,China,129164,0.228372,0.5,42.6088,0.5,43.5,21.5544,22.0,China,22.8%,8,China
+Asia,India,97056,0.171603,42.8588,74.5,0.5,43.5,58.6794,22.0,India,17.2%,8,India
+Asia,Nepal,53024,0.093751,0.5,28.4539,43.75,65.75,14.4769,54.75,Nepal,9.4%,6,Nepal
+Asia,Other Asia,86868,0.15359,28.7039,74.5,43.75,65.75,51.6019,54.75,Others,15.4%,5,All remaining Asian source countries
+Asia,Vietnam,25234,0.044616,0.5,28.3358,66.0,83.0,14.4179,74.5,Vietnam,4.5%,5,Vietnam
+Asia,Bangladesh,22395,0.039596,28.5858,53.2899,66.0,83.0,40.9378,74.5,Bangladesh,4.0%,5,Bangladesh
+Asia,Philippines,19001,0.033595,53.5399,74.5,66.0,83.0,64.0199,74.5,Philippines,3.4%,5,Philippines
+Asia,Indonesia,18801,0.033242,0.5,28.596,83.25,99.5,14.548,91.375,Indonesia,3.3%,5,Indonesia
+Asia,Pakistan,15528,0.027455,28.846,52.0509,83.25,99.5,40.4484,91.375,Pakistan,2.7%,5,Pakistan
+Asia,Sri Lanka,14855,0.026265,52.3009,74.5,83.25,99.5,63.4004,91.375,Sri Lanka,2.6%,5,Sri Lanka
+Americas,Colombia,17403,0.03077,75.0,88.7449,0.5,36.6913,81.8724,18.5956,Colombia,3.1%,4,Colombia
+Americas,Brazil,13301,0.023517,88.9949,99.5,0.5,36.6913,94.2474,18.5956,Brazil,2.4%,4,Brazil
+Americas,Other Americas,18361,0.032464,75.0,99.5,36.9413,57.9465,87.25,47.4439,Others,3.2%,3,All other countries in the Americas
+Europe,Europe,16909,0.029896,75.0,99.5,58.2965,78.094,87.25,68.1952,Europe,3.0%,3,Europe
+Africa,Africa,13207,0.023351,75.0,99.5,78.444,93.907,87.25,86.1755,Africa,2.3%,3,Africa
+Oceania,Oceania,4478,0.007917,75.0,99.5,94.257,99.5,87.25,96.8785,Oceania,,1,Oceania

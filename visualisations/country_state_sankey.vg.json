@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 1100,
-  "height": 520,
+  "width": 1140,
+  "height": 800,
   "padding": {
     "left": 110,
     "right": 220,
@@ -24,35 +24,47 @@
   },
   "data": [
     {
-      "name": "ribbons",
-      "url": "data/country_state_sankey_ribbons.csv",
-      "format": {
-        "type": "csv",
-        "parse": {
-          "enrolments": "number",
-          "t": "number",
-          "x": "number",
-          "y_top": "number",
-          "y_bottom": "number"
-        }
-      }
-    },
+  "name": "ribbons",
+  "url": "data/country_state_sankey_ribbons.csv",
+  "format": {
+    "type": "csv",
+    "parse": {
+      "enrolments": "number",
+      "t": "number",
+      "x": "number",
+      "y_top": "number",
+      "y_bottom": "number"
+    }
+  },
+  "transform": [
     {
-      "name": "nodes",
-      "url": "data/country_state_sankey_nodes.csv",
-      "format": {
-        "type": "csv",
-        "parse": {
-          "total": "number",
-          "x0": "number",
-          "x1": "number",
-          "y0": "number",
-          "y1": "number",
-          "x_label": "number",
-          "y_label": "number"
-        }
-      }
-    },
+      "type": "filter",
+      "expr": "datum.target !== 'TAS' && datum.target !== 'NT'"
+    }
+  ]
+},
+    {
+  "name": "nodes",
+  "url": "data/country_state_sankey_nodes.csv",
+  "format": {
+    "type": "csv",
+    "parse": {
+      "total": "number",
+      "x0": "number",
+      "x1": "number",
+      "y0": "number",
+      "y1": "number",
+      "x_label": "number",
+      "y_label": "number"
+    }
+  },
+  "transform": [
+    {
+      "type": "filter",
+      "expr": "datum.state_code !== 'TAS' && datum.state_code !== 'NT'"
+    }
+  ]
+},
     {
       "name": "sourceLabels",
       "source": "nodes",
@@ -108,17 +120,18 @@
       ]
     }
   ],
-  "legends": [
-    {
-      "fill": "sourceColor",
-      "title": "Source country",
-      "orient": "bottom",
-      "direction": "horizontal",
-      "symbolType": "stroke",
-      "labelFontSize": 12,
-      "titleFontSize": 13
-    }
-  ],
+"legends": [
+  {
+    "fill": "sourceColor",
+    "title": "Source country",
+    "orient": "bottom",
+    "direction": "horizontal",
+    "symbolType": "square",
+    "symbolSize": 140,
+    "labelFontSize": 12,
+    "titleFontSize": 13
+  }
+],
   "marks": [
     {
       "type": "group",
