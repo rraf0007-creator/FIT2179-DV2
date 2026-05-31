@@ -7,6 +7,10 @@
 
   <title>International Students in Australia</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 
   <!-- Vega-Lite libraries -->
@@ -18,8 +22,6 @@
 <body>
   <header class="hero">
     <div class="hero-content">
-      
-
       <h1>Who Studies in Australia?</h1>
 
       <p class="subtitle">
@@ -52,10 +54,11 @@
       <p class="chapter-label">Overview</p>
       <h2>Australia’s international student population</h2>
       <p>
-    Australia recorded 565,601 international student enrolments in January 2026, but the numbers are not evenly spread.
-    Which countries send the most students? Which states attract them? What sectors do they study in, and how did
-    student migration change after the border closures? This visualisation follows the story behind Australia’s
-    international students through enrolment and migration data.
+        Australia recorded 565,601 international student enrolments in January 2026, but the numbers are not evenly spread.
+        This visualisation follows three connected questions: where students come from, where and what they study in
+        Australia, and how student migration changed after the COVID-19 border closure period. By combining enrolment
+        data with ABS migration data, the story moves from education demand to the broader movement of students across
+        Australia’s border.
       </p>
     </section>
 
@@ -63,59 +66,77 @@
       <p class="chapter-label">Chapter 1</p>
       <h1>Who comes to Australia?</h1>
       <p>
-        Australia’s international student population is not evenly spread across the world.
-        A small number of source countries account for a large share of enrolments, meaning changes in these
-        countries can strongly affect Australia’s education sector.
+        Australia’s international student population is strongly concentrated. A small number of countries account for a
+        large share of enrolments, meaning that changes in only a few major source countries can strongly affect the
+        scale and direction of Australia’s international education sector.
       </p>
     </section>
 
-    
-      <div class="chart-card">
-        <h2>China, India and Nepal lead Australia’s student source countries</h2>
-        <p>
-          Which countries send the most international students to Australia?
-        </p>
-        <div id="top-countries-bar"></div>
-        <p class="chart-note">
-          <strong>China</strong>  remains the largest source country for international student
-          enrolments, followed by <b>India</b> and <b>Nepal</b>. <b>Bangladesh</b> also appears in the top five, showing the importance
-          of South Asian countries in Australia’s international education system. We can already notice a trend that students mostly come to Australia from Asia. 
-          We will explore this relationship further in the coming chapters.
-        </p>
-      </div>
+    <section class="section chart-card">
+      <h2>China, India and Nepal lead Australia’s student source countries</h2>
+      <p>
+        Which countries send the most international students to Australia?
+      </p>
+      <div id="top-countries-bar"></div>
+      <p class="chart-note">
+        This ranking shows that Australia’s international student population is not evenly spread across source
+        countries. <strong>China</strong> remains the largest source country, followed by <strong>India</strong> and
+        <strong>Nepal</strong>, creating a clear top-three pattern. <strong>Bangladesh</strong> appearing in the top
+        five is also important because it shows that the South Asian student market extends beyond India and Nepal. The
+        chart therefore introduces one of the main themes of the page: Australia’s international education sector is
+        heavily connected to Asia, especially East and South Asia. This matters because policy changes, economic
+        conditions, exchange rates, or visa settings affecting these countries can influence Australia’s overall
+        international student numbers.
+      </p>
+    </section>
 
     <section class="section chart-card">
-  <h2>Where do students from major source countries enrol?</h2>
-  <p>
-    Which states do students coming from different parts of the world prefer? This flow diagram attempts to visualize 
-    the answer to that question by connecting the top five countries students come to australia 
-    (plus all other countries bundled as Others),
-    to the Australian states and territories where those enrolments are recorded.
-  </p>
-  <div id="country-state-sankey"></div>
-  <p class="chart-note">
-    <b>China</b> and <b>India</b> send large numbers of students to both <b>New South Wales</b> and <b>Victoria</b>,
-    while <b>Nepal</b> is especially concentrated in <b>New South Wales</b>. The “Other countries” group shows that Australia’s
-    international student population is broader than only the top five source countries.
-  </p>
-</section>
+      <h2>Where do students from major source countries enrol?</h2>
+      <p>
+        Which states do students coming from different parts of the world prefer? This flow diagram connects the top
+        five source countries, plus all other countries grouped together, to the Australian states and territories where
+        those enrolments are recorded.
+      </p>
+      <div id="country-state-sankey"></div>
+      <p class="chart-note">
+        The flow diagram moves one step beyond the country ranking by showing where students from major source countries
+        enrol inside Australia. Thicker flows represent stronger source-country-to-state connections. <strong>China</strong>
+        and <strong>India</strong> send large numbers of students to both <strong>New South Wales</strong> and
+        <strong>Victoria</strong>, which helps explain why those two states dominate later maps. <strong>Nepal</strong>
+        is especially concentrated in New South Wales, suggesting that different student communities do not distribute
+        evenly across the country. The “Other countries” group is also important: even though the top five countries are
+        very large, Australia’s student population still includes a wide range of smaller source countries. This makes
+        the system both concentrated and diverse at the same time.
+      </p>
+    </section>
 
     <section class="section chart-card">
-    <h2>Which continents and countries make up the largest share?</h2>
-<p>
-  <b>Asia</b> accounts for the overwhelming majority of Australia’s international students, so it is expanded into its largest source countries. 
-  The remaining regions are grouped in a separate panel on the right with each of their respective percentages.
-</p>
-    <div id="country-treemap"></div>
-  </section>
+      <h2>Which continents and countries make up the largest share?</h2>
+      <p>
+        <strong>Asia</strong> accounts for the overwhelming majority of Australia’s international students, so it is expanded into
+        its largest source countries. The remaining regions are grouped in a separate panel on the right with each of
+        their respective percentages.
+      </p>
+      <div id="country-treemap"></div>
+      <p class="chart-note">
+        The treemap adds hierarchy to the source-country story. Instead of treating every country as a separate equal
+        category, it first shows the continent-level imbalance, then expands Asia into its major source countries. Asia
+        receives most of the visual space because it contributes most enrolments, while the smaller regions are grouped
+        together on the right to keep the chart readable. Within Asia, the largest tiles show that China and India alone
+        account for a substantial share of all international student enrolments, while Nepal and the “Other Asia” group
+        show that the rest of the Asian market is also significant. This chart helps the viewer understand why Asia is
+        not just one category in the dataset, but the main geographic foundation of Australia’s international student
+        population.
+      </p>
+    </section>
 
     <section class="section chapter-intro">
       <p class="chapter-label">Chapter 2</p>
       <h1>What and where do they study?</h1>
       <p>
-        The student population is also uneven inside Australia. Enrolments are concentrated in the largest study
-        destinations, especially New South Wales and Victoria, while sector data shows that Higher Education remains
-        the dominant part of international education.
+        After looking at where students come from, the next step is to examine what they study and where they enrol
+        within Australia. Enrolments are concentrated in the largest study destinations, especially New South Wales and
+        Victoria, while sector data shows that Higher Education remains the dominant part of international education.
       </p>
     </section>
 
@@ -128,8 +149,14 @@
         </p>
         <div id="sector-trend"></div>
         <p class="chart-note">
-          <strong>Key takeaway:</strong> Higher Education remains the largest sector across the period, while VET
-          has become a much more visible part of the enrolment mix after the post-pandemic rebound.
+          This stacked area chart shows how the sector mix changed across time, rather than only showing a single-year
+          snapshot. Higher Education remains the largest layer throughout the period, meaning universities continue to
+          sit at the centre of Australia’s international student system. However, the growth of the VET layer after the
+          post-pandemic rebound is also important because it shows that the recovery was not limited to universities.
+          The dip around the border closure period shows how sensitive international education is to international
+          movement, while the rebound suggests that demand returned quickly once travel became possible again. Reading
+          the layers together shows both continuity and change: Higher Education is still dominant, but VET has become a
+          more visible part of the overall enrolment mix.
         </p>
       </div>
 
@@ -141,9 +168,13 @@
         </p>
         <div id="sector-breakdown"></div>
         <p class="chart-note">
-          <strong>Key takeaway:</strong> Higher Education accounts for the largest share of international
-          enrolments, followed by VET. Smaller sectors such as Schools, ELICOS and Non-award study make up a much
-          smaller share.
+          This donut chart provides a focused snapshot of the current sector structure in January 2026 year-to-date
+          data. Higher Education accounts for the largest share of enrolments, which reinforces the importance of
+          universities in Australia’s international education story. VET is the next major sector, showing that
+          vocational and skills-based study is also a substantial part of the system. Smaller sectors such as Schools,
+          ELICOS and Non-award study are still present, but their shares are much smaller. The chart is useful because
+          it turns the sector dataset into a quick proportional comparison: instead of only seeing counts, the viewer can
+          immediately see how much of the overall student population is shaped by tertiary education.
         </p>
       </div>
     </section>
@@ -155,9 +186,14 @@
       </p>
       <div id="australia-bubble-map"></div>
       <p class="chart-note">
-        <strong>Key takeaway:</strong> New South Wales and Victoria dominate the enrolment map. Queensland, Western
-        Australia and South Australia form a second tier, while Tasmania and the Northern Territory have much smaller
-        international student populations.
+        The bubble map shows that international students are not distributed evenly across Australia. <strong>New South
+        Wales</strong> and <strong>Victoria</strong> stand out as the largest study destinations, which is consistent
+        with their large metropolitan centres, major universities and dense education markets. <strong>Queensland</strong>,
+        <strong>Western Australia</strong> and <strong>South Australia</strong> form a second tier of destinations,
+        while <strong>Tasmania</strong> and the <strong>Northern Territory</strong> have much smaller international
+        student populations. This geographic imbalance matters because the benefits and pressures of international
+        education, such as campus demand, services, transport and accommodation needs, are likely to be felt most
+        strongly in the states with the largest enrolment bubbles.
       </p>
     </section>
 
@@ -165,24 +201,27 @@
       <p class="chapter-label">Chapter 3</p>
       <h1>Enrolment shows study location; migration shows movement</h1>
       <p>
-        Enrolments show where students are studying, but migration data shows how students move in and out of
-        Australia. The ABS data adds a wider population perspective by tracking student visa arrivals, departures and
-        net migration.
+        Enrolments show where students are studying, but migration data shows how students move in and out of Australia.
+        The ABS data adds a wider population perspective by tracking student visa arrivals, departures and net migration.
       </p>
     </section>
-    <section>
-          <div class="chart-card">
-        <h2>Enrolments fell during border closures and rebounded after 2022</h2>
-        <p>
-          The time series shows how international student enrolments changed before, during and after the border closure period.
-        </p>
-        <div id="yearly-trend-line"></div>
-        <p class="chart-note">
-          Enrolments fell sharply around the covid period due to border closure period, reaching a low
-          point in 2022, and then rebounding strongly from 2023 onwards. It may seem like the number of enrolment started dipping in 2026, 
-          however this is only because the 2026 value is January year-to-date data and not a complete full-year total which explains why 
-        </p>
-      </div>
+
+    <section class="section chart-card">
+      <h2>Enrolments fell during border closures and rebounded after 2022</h2>
+      <p>
+        The time series shows how international student enrolments changed before, during and after the border closure period.
+      </p>
+      <div id="yearly-trend-line"></div>
+      <p class="chart-note">
+        The line chart shows the disruption caused by the COVID-19 border closure period and the recovery that followed.
+        Enrolments dropped sharply around the closure period and reached a low point in 2022, showing how dependent
+        international education is on cross-border movement. From 2023 onwards, enrolments rebounded strongly, suggesting
+        that demand for Australian study remained high once students could return. The 2026 value needs careful reading:
+        it is January year-to-date data, not a complete annual total, so it should not be interpreted as a full-year
+        decline. This chart acts as a bridge between the enrolment-focused sections and the migration-focused sections,
+        because the enrolment pattern closely reflects changes in student movement.
+      </p>
+    </section>
 
     <section class="section chart-card">
       <h2>Student migration collapsed during border closures, then rebounded</h2>
@@ -192,23 +231,32 @@
       </p>
       <div id="abs-student-migration-trend"></div>
       <p class="chart-note">
-        Student migration collapsed during the covid period due to border closure, when departures
-        were high and arrivals were extremely low. After borders reopened, arrivals rebounded quickly and net student
-        migration became strongly positive again.
+        This chart explains the movement behind the enrolment trend. During the border closure period, student arrivals
+        fell dramatically while departures remained high, which pushed net student migration down. This means Australia
+        was losing more student migrants than it was gaining during that period. After borders reopened, arrivals
+        recovered quickly and net student migration became strongly positive again. The black net migration line is
+        especially important because it summarises the balance between people entering and leaving: a positive value
+        means student arrivals exceeded departures, while a negative value means departures were greater. This helps show
+        that international students are not only an education story, but also a major part of Australia’s population
+        movement story.
       </p>
     </section>
 
-    <section class="section grid-two">
+    <section class="section grid-two visa-grid">
       <div class="chart-card">
-        <h2>Temporary visa arrivals</h2>
+        <h2>Student visas were the largest selected temporary visa arrival group</h2>
         <p>
           This chart places student visas within the broader temporary visa migration picture for 2024–25.
         </p>
         <div id="abs-temp-visa-lollipop"></div>
         <p class="chart-note">
-          <strong>Key takeaway:</strong> In 2024–25, student visas were the largest selected temporary visa migrant
-          arrival group, showing that international students are also a major part of Australia’s temporary migration
-          system.
+          The lollipop chart compares student visas with other selected temporary visa migrant arrival groups in
+          2024–25. Student visas appear as the largest group, which shows that international students are not a minor
+          subset of temporary migration. They are one of the most important categories in the temporary migration
+          system. Comparing student visas with working holiday, visitor and skilled temporary categories gives the
+          education story a wider context: student movement is large enough to influence national migration patterns,
+          not just university enrolment figures. This is why the project uses both Department of Education data and ABS
+          migration data: the two datasets describe different parts of the same broader story.
         </p>
       </div>
 
@@ -219,8 +267,13 @@
         </p>
         <div id="abs-student-arrival-composition"></div>
         <p class="chart-note">
-          <strong>Key takeaway:</strong> Most student visa migrant arrivals in 2024–25 were linked to Higher Education,
-          reinforcing the central role of universities in Australia’s international student migration story.
+          This composition chart breaks student visa migrant arrivals into education categories. Higher Education makes
+          up the largest share, which reinforces the central role of universities in both enrolment and migration
+          patterns. VET and other student visa categories contribute smaller shares, but they still matter because they
+          show that student migration is not limited to one pathway. The chart also helps connect the migration data
+          back to the sector charts earlier in the page: the same dominance of Higher Education appears in both the
+          enrolment dataset and the ABS student visa arrivals dataset. This consistency strengthens the overall story
+          that universities remain the main anchor of Australia’s international student system.
         </p>
       </div>
     </section>
@@ -235,16 +288,20 @@
     </section>
 
     <section class="section chart-card">
-      <h2>NSW and Victoria combine high enrolments with high net student migration</h2>
+      <h2>How does student migration correlate to student enrolment across the states? </h2>
       <p>
         This chart combines Department of Education enrolment data with ABS migration flow data to compare the size of
         international student enrolments with net student migration.
       </p>
       <div id="combined-state-migration-enrolments"></div>
       <p class="chart-note">
-        <strong>Key takeaway:</strong> States with larger enrolment populations also tend to record larger net student
-        migration gains. New South Wales and Victoria stand out because they combine high enrolment numbers with high
-        student migration flows.
+        This combined chart links two different types of evidence: Department of Education enrolments and ABS student
+        visa net migration. States with larger enrolment bases generally also record larger student migration gains,
+        which suggests that study destinations and migration destinations are closely connected. <strong>New South
+        Wales</strong> and <strong>Victoria</strong> stand out because they combine high enrolment numbers with high
+        net student migration. The bubble size adds another layer by showing student arrivals, while the colour shows
+        net migration relative to enrolments. This makes the chart more than a simple ranking: it shows the relationship
+        between student presence, student inflow and the migration balance for each state.
       </p>
     </section>
 
@@ -256,20 +313,27 @@
       </p>
       <div id="abs-state-net-heatmap"></div>
       <p class="chart-note">
-        <strong>Key takeaway:</strong> The choropleth map shows how net student migration varies by state and financial
-        year. The slider reveals the sharp negative impact of 2020–21 and the strong rebound from 2022–23 onwards.
+        The choropleth map turns the migration trend into a geographic story. By moving the slider, the viewer can see
+        how net student migration changed across states before, during and after the border closure period. The negative
+        impact is visible around 2020–21, when several states show much weaker or negative net migration. The rebound
+        from 2022–23 onwards is especially visible in the largest study states, where student arrivals recovered more
+        strongly. Darker shades represent larger net student migration gains, so the map makes it clear that the
+        recovery was not evenly distributed across the country. This final chart brings together the page’s main themes:
+        concentration by source country, concentration by state, and the strong connection between international
+        education and migration flows.
       </p>
     </section>
 
     <section class="takeaway-section">
-      <h2>Key takeaways</h2>
+      <h2>What this shows overall</h2>
 
       <div class="takeaway-grid">
         <div class="takeaway-card">
           <h3>1. Source countries are concentrated</h3>
           <p>
             A small group of countries contributes a large share of international student enrolments, especially China,
-            India and Nepal. This means changes in a few major source countries can strongly affect the whole sector.
+            India and Nepal. This concentration means that changes in a few major source countries can strongly affect
+            the whole international education sector.
           </p>
         </div>
 
@@ -277,7 +341,8 @@
           <h3>2. Study destinations are uneven</h3>
           <p>
             New South Wales and Victoria dominate international enrolments, while smaller states and territories attract
-            much smaller student populations. The geographic pattern is therefore concentrated rather than evenly national.
+            much smaller student populations. The geographic pattern is therefore concentrated rather than evenly
+            national.
           </p>
         </div>
 
@@ -285,7 +350,8 @@
           <h3>3. Students shape migration flows</h3>
           <p>
             ABS migration data shows that student visa arrivals are a major part of Australia’s temporary migration
-            system, especially after the post-pandemic rebound. Student data therefore helps explain both education and migration patterns.
+            system, especially after the post-pandemic rebound. Student data therefore helps explain both education and
+            migration patterns.
           </p>
         </div>
       </div>

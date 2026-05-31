@@ -1,18 +1,23 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 360,
+  "height": 400,
   "autosize": {
     "type": "fit",
     "contains": "padding"
   },
   "title": {
     "text": "Big enrolment states also gained the most student migrants",
-    "subtitle": "Combines Department of Education enrolments with ABS student visa net migration"
+    "subtitle": "Department of Education enrolments compared with ABS student visa net migration, 2024–25"
   },
   "data": {
     "url": "data/combined_state_student_migration_enrolments.csv"
   },
+  "transform": [
+    {
+      "filter": "datum.state_code != 'TAS'"
+    }
+  ],
   "layer": [
     {
       "mark": {
@@ -33,7 +38,7 @@
         "y": {
           "field": "net_student_migration_2024_25",
           "type": "quantitative",
-          "title": "Net student migration 2024-25",
+          "title": "Net student migration, 2024–25",
           "axis": {
             "format": ",.0f"
           }
@@ -90,7 +95,8 @@
           {
             "field": "net_per_100_enrolments",
             "type": "quantitative",
-            "title": "Net per 100 enrolments"
+            "title": "Net per 100 enrolments",
+            "format": ".1f"
           }
         ]
       }
@@ -100,7 +106,8 @@
         "type": "text",
         "dy": -12,
         "fontWeight": "bold",
-        "fontSize": 12
+        "fontSize": 12,
+        "color": "#111827"
       },
       "encoding": {
         "x": {
@@ -116,6 +123,118 @@
           "type": "nominal"
         }
       }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state_code == 'NSW'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": 70,
+        "dy": 50,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "lineBreak": "\n",
+        "color": "#12355b"
+      },
+      "encoding": {
+        "x": {
+          "field": "enrolments_jan_2026",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "net_student_migration_2024_25",
+          "type": "quantitative"
+        },
+        "text": {
+          "value": "NSW has the largest enrolment base\nand one of the highest migration gains"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state_code == 'VIC'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": -250,
+        "dy": 0,
+        "fontSize": 12,
+        "lineBreak": "\n",
+        "color": "#374151"
+      },
+      "encoding": {
+        "x": {
+          "field": "enrolments_jan_2026",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "net_student_migration_2024_25",
+          "type": "quantitative"
+        },
+        "text": {
+          "value": "Victoria forms the second major cluster\nof enrolments and net student migration"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state_code == 'NT'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 0,
+        "dy": -125,
+        "fontSize": 11,
+        "lineBreak": "\n",
+        "color": "#4b5563"
+      },
+      "encoding": {
+        "x": {
+          "field": "enrolments_jan_2026",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "net_student_migration_2024_25",
+          "type": "quantitative"
+        },
+        "text": {
+          "value": "Smaller jurisdictions sit much lower\non both enrolments and migration gains"
+        }
+      }
     }
-  ]
+  ],
+  "config": {
+    "font": "IBM Plex Sans, Arial, sans-serif",
+    "title": {
+      "font": "IBM Plex Sans, Arial, sans-serif",
+      "fontSize": 16,
+      "subtitleFontSize": 12,
+      "anchor": "start"
+    },
+    "axis": {
+      "labelFont": "IBM Plex Sans, Arial, sans-serif",
+      "titleFont": "IBM Plex Sans, Arial, sans-serif"
+    },
+    "legend": {
+      "orient": "bottom",
+      "labelFont": "IBM Plex Sans, Arial, sans-serif",
+      "titleFont": "IBM Plex Sans, Arial, sans-serif"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
 }
