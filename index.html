@@ -142,20 +142,20 @@
 
     <section class="section grid-two">
       <div class="chart-card">
-        <h2>Higher Education leads, while VET has grown after the rebound</h2>
+        <h2>Higher Education leads, while Vocational Education and Training has grown after the rebound</h2>
         <p>
-          Higher Education remains the largest sector, while VET has become a much larger part of international
+          Higher Education remains the largest sector, while Vocational Education and Training has become a much larger part of international
           enrolments after the post-pandemic rebound.
         </p>
         <div id="sector-trend"></div>
         <p class="chart-note">
           This stacked area chart shows how the sector mix changed across time, rather than only showing a single-year
           snapshot. Higher Education remains the largest layer throughout the period, meaning universities continue to
-          sit at the centre of Australia’s international student system. However, the growth of the VET layer after the
+          sit at the centre of Australia’s international student system. However, the growth of the Vocational Education and Training layer after the
           post-pandemic rebound is also important because it shows that the recovery was not limited to universities.
           The dip around the border closure period shows how sensitive international education is to international
           movement, while the rebound suggests that demand returned quickly once travel became possible again. Reading
-          the layers together shows both continuity and change: Higher Education is still dominant, but VET has become a
+          the layers together shows both continuity and change: Higher Education is still dominant, but Vocational Education and Training has become a
           more visible part of the overall enrolment mix.
         </p>
       </div>
@@ -164,7 +164,7 @@
         <h2>Higher Education dominates the January 2026 sector mix</h2>
         <p>
           In January 2026 year-to-date data, Higher Education dominates international student enrolments, followed by the
-          VET sector.
+          Vocational Education and Training (VET) sector.
         </p>
         <div id="sector-breakdown"></div>
         <p class="chart-note">
@@ -180,21 +180,14 @@
     </section>
 
     <section class="section chart-card">
-      <h2>NSW and Victoria are the largest study destinations</h2>
+      <h2>Where are international students most concentrated relative to state population?</h2>
       <p>
         This map shows how international student enrolments are distributed across Australian states and territories.
       </p>
       <div id="australia-bubble-map"></div>
       <p class="chart-note">
-        The bubble map shows that international students are not distributed evenly across Australia. <strong>New South
-        Wales</strong> and <strong>Victoria</strong> stand out as the largest study destinations, which is consistent
-        with their large metropolitan centres, major universities and dense education markets. <strong>Queensland</strong>,
-        <strong>Western Australia</strong> and <strong>South Australia</strong> form a second tier of destinations,
-        while <strong>Tasmania</strong> and the <strong>Northern Territory</strong> have much smaller international
-        student populations. This geographic imbalance matters because the benefits and pressures of international
-        education, such as campus demand, services, transport and accommodation needs, are likely to be felt most
-        strongly in the states with the largest enrolment bubbles.
-      </p>
+  This choropleth map shows international student enrolments relative to each state’s population, using enrolments per 100,000 residents. This changes the question from “which state has the most students?” to “where are international students most concentrated relative to the size of the local population?”. New South Wales and Victoria still remain important study destinations because their raw enrolment totals are very large, but population normalisation makes smaller states easier to compare with the larger states. The tooltip still shows the raw enrolment count, so the viewer can compare both total scale and population-adjusted intensity.
+</p>
     </section>
 
     <section class="section chapter-intro">
@@ -306,22 +299,17 @@
     </section>
 
     <section class="section chart-card">
-      <h2>Student migration shifted sharply across states after border closures</h2>
+      <h2>Where are international students most concentrated relative to state population?</h2>
       <p>
         This interactive choropleth map shows net student migration by state and territory. Use the slider to compare
         financial years from 2004–05 to 2024–25.
       </p>
       <div id="abs-state-net-heatmap"></div>
-      <p class="chart-note">
-        The choropleth map turns the migration trend into a geographic story. By moving the slider, the viewer can see
-        how net student migration changed across states before, during and after the border closure period. The negative
-        impact is visible around 2020–21, when several states show much weaker or negative net migration. The rebound
-        from 2022–23 onwards is especially visible in the largest study states, where student arrivals recovered more
-        strongly. Darker shades represent larger net student migration gains, so the map makes it clear that the
-        recovery was not evenly distributed across the country. This final chart brings together the page’s main themes:
-        concentration by source country, concentration by state, and the strong connection between international
-        education and migration flows.
-      </p>
+      <<p class="chart-note">
+This choropleth map shows international student enrolments relative to each state’s population, using enrolments per 100,000 residents. This changes the question from “which state has the most students?” to “where are international students most concentrated relative to the size of the local population?”. The map makes New South Wales and Victoria easier to compare with smaller states, because the colour is based on population-adjusted intensity rather than raw enrolment totals. New South Wales and Victoria still remain important study destinations because their total enrolment numbers are very large, but normalisation helps reveal whether smaller states have a noticeable international student presence relative to their population size.
+
+The blue shading in 2020 reflects the disruption caused by the COVID-19 border closure period. International student arrivals dropped sharply because many students could not enter Australia, so enrolments and student movement weakened across the country. This is why the map becomes lighter or cooler across most states around 2020: the international student presence was reduced almost everywhere, not just in one state. The recovery becomes clearer after 2022, when borders reopened and student numbers began rising again. The tooltip still shows the raw enrolment count, so the viewer can compare both total scale and population-adjusted intensity.
+</p>
     </section>
 
     <section class="takeaway-section">
@@ -382,7 +370,14 @@
               Australian Bureau of Statistics — Overseas Migration, 2024–25 financial year.
             </a>
           </p>
-        </div>
+          <p>
+          <a href="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release" target="_blank" rel="noopener noreferrer">
+            Australian Bureau of Statistics — National, state and territory population, September 2025.
+          </a>
+        </p>
+<p>
+  This visualisation uses January 2026 Department of Education data as a fixed snapshot because it was the latest available dataset when the project was created.
+</p>        </div>
 
         <div class="footer-block">
           <h3>Project details</h3>

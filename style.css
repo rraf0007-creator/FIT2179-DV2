@@ -412,3 +412,13 @@ h3 {
   font-weight: 800;
   letter-spacing: -0.03em;
 }
+.footer-block a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-block a:hover {
+  color: #fff4c7;
+}

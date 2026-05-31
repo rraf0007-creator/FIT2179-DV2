@@ -7,7 +7,7 @@
     "contains": "padding"
   },
   "title": {
-    "text": "A small group of Asian countries dominates Australia\u2019s source-country ranking",
+    "text": "A small group of Asian countries dominates Australia’s source-country ranking",
     "subtitle": "International student enrolments by source country, January 2026 YTD"
   },
   "data": {
@@ -24,7 +24,18 @@
         "y": {
           "field": "country",
           "type": "nominal",
-          "sort": "-x",
+          "sort": [
+            "China",
+            "India",
+            "Nepal",
+            "Vietnam",
+            "Bangladesh",
+            "Philippines",
+            "Indonesia",
+            "Colombia",
+            "Pakistan",
+            "Sri Lanka"
+          ],
           "title": "Source country"
         },
         "x": {
@@ -63,7 +74,18 @@
         "y": {
           "field": "country",
           "type": "nominal",
-          "sort": "-x"
+          "sort": [
+            "China",
+            "India",
+            "Nepal",
+            "Vietnam",
+            "Bangladesh",
+            "Philippines",
+            "Indonesia",
+            "Colombia",
+            "Pakistan",
+            "Sri Lanka"
+          ]
         },
         "x": {
           "field": "students",
@@ -84,26 +106,36 @@
       ],
       "mark": {
         "type": "text",
-        "align": "left",
+        "align": "right",
         "baseline": "middle",
-        "dx": 14,
-        "dy": -16,
+        "dx": -8,
         "fontSize": 12,
         "fontWeight": "bold",
-        "color": "#12355b"
+        "color": "white"
       },
       "encoding": {
         "y": {
           "field": "country",
           "type": "nominal",
-          "sort": "-x"
+          "sort": [
+            "China",
+            "India",
+            "Nepal",
+            "Vietnam",
+            "Bangladesh",
+            "Philippines",
+            "Indonesia",
+            "Colombia",
+            "Pakistan",
+            "Sri Lanka"
+          ]
         },
         "x": {
           "field": "students",
           "type": "quantitative"
         },
         "text": {
-          "value": "China remains the largest source country"
+          "value": "Largest source country"
         }
       }
     },
@@ -117,8 +149,7 @@
         "type": "text",
         "align": "left",
         "baseline": "middle",
-        "dx": 70,
-        "dy": 0,
+        "dx": 50,
         "fontSize": 11,
         "color": "#374151"
       },
@@ -126,14 +157,25 @@
         "y": {
           "field": "country",
           "type": "nominal",
-          "sort": "-x"
+          "sort": [
+            "China",
+            "India",
+            "Nepal",
+            "Vietnam",
+            "Bangladesh",
+            "Philippines",
+            "Indonesia",
+            "Colombia",
+            "Pakistan",
+            "Sri Lanka"
+          ]
         },
         "x": {
           "field": "students",
           "type": "quantitative"
         },
         "text": {
-          "value": "Bangladesh in the top five highlights South Asia\u2019s growing importance"
+          "value": "South Asia is strongly represented"
         }
       }
     }

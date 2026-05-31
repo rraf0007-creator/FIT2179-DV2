@@ -20,8 +20,8 @@
     }
   ],
   "title": {
-    "text": "Net student migration by state and territory",
-    "subtitle": "Interactive choropleth map. Example: 2024 means 2024–25."
+    "text": "Net student migration per 100,000 residents",
+    "subtitle": "Population-normalised choropleth. Example: 2024 means 2024–25."
   },
   "data": {
     "url": "data/abs_state_choropleth.geojson",
@@ -32,21 +32,29 @@
   },
   "transform": [
     {
-  "calculate": "datum.properties.label_x",
-  "as": "label_x"
-},
-{
-  "calculate": "datum.state_code == 'VIC' ? datum.label_x - 250 : datum.label_x",
-  "as": "label_x_adjusted"
-},
-{
-  "calculate": "datum.state_code == 'VIC' ? datum.label_y - 250 : datum.label_y",
-  "as": "label_y_adjusted"
-},
-{
-  "calculate": "datum.properties.label_y",
-  "as": "label_y"
-},
+      "calculate": "datum.properties.state_code",
+      "as": "state_code"
+    },
+    {
+      "calculate": "datum.properties.state",
+      "as": "state"
+    },
+    {
+      "calculate": "datum.properties.label_x",
+      "as": "label_x"
+    },
+    {
+      "calculate": "datum.properties.label_y",
+      "as": "label_y"
+    },
+    {
+      "calculate": "datum.state_code == 'VIC' ? datum.label_x - 250 : datum.label_x",
+      "as": "label_x_adjusted"
+    },
+    {
+      "calculate": "datum.state_code == 'VIC' ? datum.label_y - 250 : datum.label_y",
+      "as": "label_y_adjusted"
+    },
     {
       "calculate": "datum.properties['financial_year_' + selectedYear]",
       "as": "financial_year"
@@ -64,16 +72,16 @@
       "as": "net_student_migration"
     },
     {
-      "calculate": "datum.properties.state",
-      "as": "state"
+      "calculate": "datum.state_code == 'NSW' ? 8624500 : datum.state_code == 'VIC' ? 7104300 : datum.state_code == 'QLD' ? 5692600 : datum.state_code == 'SA' ? 1908200 : datum.state_code == 'WA' ? 3061700 : datum.state_code == 'TAS' ? 576700 : datum.state_code == 'NT' ? 265500 : datum.state_code == 'ACT' ? 486200 : null",
+      "as": "state_population"
     },
     {
-      "calculate": "datum.properties.state_code",
-      "as": "state_code"
+      "calculate": "datum.net_student_migration / datum.state_population * 100000",
+      "as": "net_student_migration_per_100k"
     },
     {
-  "filter": "datum.state_code != 'ACT'"
-}
+      "filter": "datum.state_code != 'ACT'"
+    }
   ],
   "projection": {
     "type": "identity",
@@ -94,12 +102,12 @@
           "type": "geojson"
         },
         "color": {
-          "field": "net_student_migration",
+          "field": "net_student_migration_per_100k",
           "type": "quantitative",
-          "title": "Net student migration",
+          "title": "Net student migration per 100,000 residents",
           "scale": {
             "scheme": "blueorange",
-            "domain": [-25000, 95000],
+            "domain": [-400, 1100],
             "domainMid": 0
           },
           "legend": {
@@ -134,34 +142,57 @@
             "type": "quantitative",
             "title": "Net student migration",
             "format": ","
+          },
+          {
+            "field": "state_population",
+            "type": "quantitative",
+            "title": "State population used",
+            "format": ","
+          },
+          {
+            "field": "net_student_migration_per_100k",
+            "type": "quantitative",
+            "title": "Net per 100,000 residents",
+            "format": ".1f"
           }
         ]
       }
     },
     {
-  "mark": {
-    "type": "text",
-    "fontSize": 14,
-    "fontWeight": "bold",
-    "fill": "#111827"
-  },
-  "encoding": {
-    "longitude": {
-      "field": "label_x",
-      "type": "quantitative"
-    },
-    "latitude": {
-      "field": "label_y",
-      "type": "quantitative"
-    },
-    "text": {
-      "field": "state",
-      "type": "nominal"
+      "mark": {
+        "type": "text",
+        "fontSize": 13,
+        "fontWeight": "bold",
+        "fill": "#111827"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "label_x_adjusted",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "label_y_adjusted",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "state_code",
+          "type": "nominal"
+        }
+      }
     }
-  }
-}
   ],
   "config": {
+    "font": "IBM Plex Sans, Arial, sans-serif",
+    "title": {
+      "font": "IBM Plex Sans, Arial, sans-serif",
+      "fontSize": 16,
+      "subtitleFontSize": 12,
+      "anchor": "start"
+    },
+    "legend": {
+      "labelFont": "IBM Plex Sans, Arial, sans-serif",
+      "titleFont": "IBM Plex Sans, Arial, sans-serif"
+    },
     "view": {
       "stroke": null
     }
