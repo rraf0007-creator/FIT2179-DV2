@@ -1,38 +1,215 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 360,
-  "height": 320,
+  "width": 480,
+  "height": 390,
+  "padding": {
+    "top": 45,
+    "right": 35,
+    "bottom": 20,
+    "left": 35
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "title": {
+    "text": "Higher Education dominates the current sector mix",
+    "subtitle": "Department of Education YTD international enrolments by sector, January 2026"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/students_by_sector.csv"
+      },
+      "transform": [
+        {
+          "joinaggregate": [
+            {
+              "op": "sum",
+              "field": "students",
+              "as": "total_students"
+            }
+          ]
+        },
+        {
+          "calculate": "datum.students / datum.total_students",
+          "as": "share"
+        },
+        {
+          "calculate": "datum.sector == 'Higher Education' ? 1 : datum.sector == 'VET' ? 2 : datum.sector == 'ELICOS' ? 3 : datum.sector == 'Schools' ? 4 : datum.sector == 'Non-award' ? 5 : 6",
+          "as": "sector_order"
+        }
+      ],
+      "mark": {
+        "type": "arc",
+        "innerRadius": 70,
+        "outerRadius": 125,
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "theta": {
+          "field": "students",
+          "type": "quantitative",
+          "title": "YTD enrolments"
+        },
+        "order": {
+          "field": "sector_order",
+          "type": "quantitative",
+          "sort": "ascending"
+        },
+        "color": {
+          "field": "sector",
+          "type": "nominal",
+          "title": "Sector",
+          "scale": {
+            "domain": [
+              "Higher Education",
+              "VET",
+              "ELICOS",
+              "Schools",
+              "Non-award"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "sector",
+            "type": "nominal",
+            "title": "Sector"
+          },
+          {
+            "field": "students",
+            "type": "quantitative",
+            "title": "YTD enrolments",
+            "format": ","
+          },
+          {
+            "field": "share",
+            "type": "quantitative",
+            "title": "Share of total",
+            "format": ".1%"
+          }
+        ]
+      }
+    },
+    {
   "data": {
     "url": "data/students_by_sector.csv"
   },
-    "mark": {
-    "type": "arc",
-    "innerRadius": 60,
-    "outerRadius": 120
+  "transform": [
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "students",
+          "as": "total_students"
+        }
+      ]
     },
+    {
+      "calculate": "datum.students / datum.total_students",
+      "as": "share"
+    },
+    {
+      "calculate": "datum.sector == 'Higher Education' ? 1 : datum.sector == 'VET' ? 2 : datum.sector == 'ELICOS' ? 3 : datum.sector == 'Schools' ? 4 : datum.sector == 'Non-award' ? 5 : 6",
+      "as": "sector_order"
+    },
+    {
+      "calculate": "datum.sector + ' ' + format(datum.share, '.1%')",
+      "as": "sector_label"
+    },
+    {
+      "filter": "datum.share >= 0.04"
+    }
+  ],
+  "mark": {
+    "type": "text",
+    "radius": 140,
+    "fontSize": 10,
+    "fontWeight": "bold"
+  },
   "encoding": {
     "theta": {
       "field": "students",
       "type": "quantitative",
-      "title": "YTD enrolments"
+      "stack": true
+    },
+    "order": {
+      "field": "sector_order",
+      "type": "quantitative",
+      "sort": "ascending"
+    },
+    "text": {
+      "field": "sector_label"
     },
     "color": {
-      "field": "sector",
-      "type": "nominal",
-      "title": "Sector"
-    },
-    "tooltip": [
-      {
-        "field": "sector",
-        "type": "nominal",
-        "title": "Sector"
+      "value": "#111827"
+    }
+  }
+},
+    {
+      "data": {
+        "values": [
+          {
+            "text": "Jan 2026"
+          }
+        ]
       },
-      {
-        "field": "students",
-        "type": "quantitative",
-        "title": "YTD enrolments",
-        "format": ","
+      "mark": {
+        "type": "text",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "dy": -8,
+        "color": "#12355b"
+      },
+      "encoding": {
+        "text": {
+          "field": "text"
+        }
       }
-    ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "text": "Higher Education\nleads clearly"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dy": 12,
+        "lineBreak": "\n",
+        "color": "#374151"
+      },
+      "encoding": {
+        "text": {
+          "field": "text"
+        }
+      }
+    }
+  ],
+  "config": {
+    "font": "IBM Plex Sans, Arial, sans-serif",
+    "title": {
+      "font": "IBM Plex Sans, Arial, sans-serif",
+      "fontSize": 16,
+      "subtitleFontSize": 12,
+      "anchor": "start"
+    },
+    "axis": {
+      "labelFont": "IBM Plex Sans, Arial, sans-serif",
+      "titleFont": "IBM Plex Sans, Arial, sans-serif"
+    },
+    "legend": {
+      "orient": "bottom",
+      "labelFont": "IBM Plex Sans, Arial, sans-serif",
+      "titleFont": "IBM Plex Sans, Arial, sans-serif"
+    },
+    "view": {
+      "stroke": null
+    }
   }
 }
