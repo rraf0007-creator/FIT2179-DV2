@@ -56,7 +56,7 @@
       <p>
         Australia recorded 565,601 international student enrolments in January 2026, but the numbers are not evenly spread.
         This visualisation follows three connected questions: where students come from, where and what they study in
-        Australia, and how student migration changed after the COVID-19 border closure period. By combining enrolment
+        Australia, and how student migration changed after the border closure period. By combining enrolment
         data with ABS migration data, the story moves from education demand to the broader movement of students across
         Australia’s border.
       </p>
@@ -193,7 +193,7 @@ This donut chart shows that Higher Education makes up the largest share of Janua
       </p>
       <div id="yearly-trend-line"></div>
       <p class="chart-note">
-        The line chart shows the disruption caused by the COVID-19 border closure period and the recovery that followed.
+        The line chart shows the disruption caused by the border closure period and the recovery that followed.
         Enrolments dropped sharply around the closure period and reached a low point in 2022, showing how dependent
         international education is on cross-border movement. From 2023 onwards, enrolments rebounded strongly, suggesting
         that demand for Australian study remained high once students could return. The 2026 value needs careful reading:
@@ -260,38 +260,45 @@ This donut chart shows that Higher Education makes up the largest share of Janua
 
     <section class="section chapter-intro">
       <p class="chapter-label">Chapter 4</p>
-      <h2>Student migration is concentrated in the largest study states</h2>
+      <h1>Student migration is concentrated in the largest study states</h1>
       <p>
         The migration data also has a strong state pattern. The largest enrolment states are also the places gaining
         the largest numbers of student migrants, although the scale of migration varies over time.
       </p>
     </section>
 
-    <section class="section chart-card">
-      <h2>How does student migration correlate to student enrolment across the states? </h2>
-      <p>
-        This chart combines Department of Education enrolment data with ABS migration flow data to compare the size of
-        international student enrolments with net student migration.
-      </p>
-      <div id="combined-state-migration-enrolments"></div>
-<p class="chart-note">
-  This choropleth map shows international student enrolments relative to each state’s population, using enrolments per 100,000 residents. This changes the question from “which state has the most students?” to “where are international students most concentrated relative to the size of the local population?”. New South Wales and Victoria still remain important study destinations because their raw enrolment totals are very large, but population normalisation makes smaller states easier to compare with the larger states. The tooltip still shows the raw enrolment count, so the viewer can compare both total scale and population-adjusted intensity.
-</p>
-    </section>
+<section class="section chart-card">
+  <h2>How does student migration relate to student enrolment across the states?</h2>
+  <p>
+    This chart combines Department of Education enrolment data with ABS migration flow data to compare the size of
+    international student enrolments with net student migration.
+  </p>
 
-    <section class="section chart-card">
-      <h2>Where are international students most concentrated relative to state population?</h2>
-      <p>
-        This interactive choropleth map shows net student migration by state and territory. Use the slider to compare
-        financial years from 2004–05 to 2024–25.
-      </p>
-      <div id="abs-state-net-heatmap"></div>
-      <<p class="chart-note">
-This choropleth map shows international student enrolments relative to each state’s population, using enrolments per 100,000 residents. This changes the question from “which state has the most students?” to “where are international students most concentrated relative to the size of the local population?”. The map makes New South Wales and Victoria easier to compare with smaller states, because the colour is based on population-adjusted intensity rather than raw enrolment totals. New South Wales and Victoria still remain important study destinations because their total enrolment numbers are very large, but normalisation helps reveal whether smaller states have a noticeable international student presence relative to their population size.
+  <div id="combined-state-migration-enrolments"></div>
 
-The blue shading in 2020 reflects the disruption caused by the COVID-19 border closure period. International student arrivals dropped sharply because many students could not enter Australia, so enrolments and student movement weakened across the country. This is why the map becomes lighter or cooler across most states around 2020: the international student presence was reduced almost everywhere, not just in one state. The recovery becomes clearer after 2022, when borders reopened and student numbers began rising again. The tooltip still shows the raw enrolment count, so the viewer can compare both total scale and population-adjusted intensity.
-</p>
-    </section>
+  <p class="chart-note">
+    This chart compares two related but different measures: Department of Education enrolments and ABS net student
+    migration. States with larger enrolment populations generally record larger student migration gains, especially
+    New South Wales and Victoria. This shows that the biggest study destinations are also major points of student
+    population movement, while the colour scale adds another layer by showing net migration relative to enrolment size.
+  </p>
+</section>
+
+<section class="section chart-card">
+  <h2>Where is student migration most concentrated relative to population?</h2>
+  <p>
+    This interactive choropleth map shows net student migration per 100,000 residents by state and territory.
+    Use the slider to compare financial years from 2004–05 to 2024–25.
+  </p>
+  <div id="abs-state-net-heatmap"></div>
+  <p class="chart-note">
+    This map normalises ABS net student migration by state population, making smaller states easier to compare with
+    New South Wales and Victoria. The slider shows the sharp disruption around 2020–21, when student arrivals collapsed
+    and net student migration became negative or much weaker in many places. The rebound after 2022–23 shows how quickly
+    student migration recovered once international movement resumed. The tooltip shows arrivals, departures and net
+    student migration, so the viewer can compare both the population-adjusted pattern and the raw migration values.
+  </p>
+</section>
 
     <section class="takeaway-section">
       <h2>What this shows overall</h2>

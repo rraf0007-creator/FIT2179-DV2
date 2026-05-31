@@ -4,13 +4,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: auto;
 }
 
-#country-state-sankey .vega-embed {
-  margin: 0 auto;
+#country-state-sankey .vega-embed,
+#country-state-sankey canvas,
+#country-state-sankey svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .chapter-intro {
   background: #ffffff;
   border-left: 6px solid #1f6f8b;
