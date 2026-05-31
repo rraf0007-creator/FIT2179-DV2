@@ -47,14 +47,14 @@
       "calculate": "datum.properties.label_y",
       "as": "label_y"
     },
-    {
-      "calculate": "datum.state_code == 'VIC' ? datum.label_x - 250 : datum.label_x",
-      "as": "label_x_adjusted"
-    },
-    {
-      "calculate": "datum.state_code == 'VIC' ? datum.label_y - 250 : datum.label_y",
-      "as": "label_y_adjusted"
-    },
+{
+  "calculate": "datum.state_code == 'VIC' ? datum.label_x - 250 : datum.state_code == 'SA' ? datum.label_x + 50 : datum.state_code == 'QLD' ? datum.label_x - 420 : datum.label_x",
+  "as": "label_x_adjusted"
+},
+{
+  "calculate": "datum.state_code == 'VIC' ? datum.label_y - 250 : datum.state_code == 'SA' ? datum.label_y + 620 : datum.state_code == 'QLD' ? datum.label_y - 850 : datum.label_y",
+  "as": "label_y_adjusted"
+},
     {
       "calculate": "datum.properties['financial_year_' + selectedYear]",
       "as": "financial_year"
@@ -87,15 +87,17 @@
     "type": "identity",
     "reflectY": true,
     "scale": 0.055,
-    "translate": [70, 560]
+    "translate": [300, 560]
   },
   "layer": [
     {
+      
       "mark": {
         "type": "geoshape",
         "stroke": "white",
         "strokeWidth": 1.5
       },
+      
       "encoding": {
         "shape": {
           "field": "geometry",
@@ -110,9 +112,19 @@
             "domain": [-400, 1100],
             "domainMid": 0
           },
-          "legend": {
-            "format": ",.0f"
-          }
+"legend": {
+  "format": ",.0f",
+  "orient": "none",
+  "legendX": 850,
+  "legendY": 90,
+  "direction": "vertical",
+"gradientLength": 320,
+"gradientThickness": 24,
+  "titleFontSize": 8,
+  "labelFontSize": 13,
+  "titleLimit": 180,
+  "labelLimit": 120
+}
         },
         "tooltip": [
           {
@@ -175,7 +187,7 @@
           "type": "quantitative"
         },
         "text": {
-          "field": "state_code",
+          "field": "state",
           "type": "nominal"
         }
       }

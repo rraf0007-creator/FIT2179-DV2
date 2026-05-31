@@ -422,3 +422,15 @@ h3 {
 .footer-block a:hover {
   color: #fff4c7;
 }
+main h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+.grid-two .chart-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-two .chart-note {
+  margin-top: auto;
+}
