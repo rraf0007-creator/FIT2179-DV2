@@ -200,6 +200,6 @@
   ],
   "config": {
     "view": { "stroke": null },
-    "font": "Inter, Arial, sans-serif"
+    "font": "IBM Plex Sans, Arial, sans-serif"
   }
 }

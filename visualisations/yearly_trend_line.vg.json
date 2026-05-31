@@ -3,43 +3,215 @@
   "width": "container",
   "height": 320,
   "autosize": {
-  "type": "fit",
-  "contains": "padding"
-},
+    "type": "fit",
+    "contains": "padding"
+  },
   "data": {
     "url": "data/students_by_year.csv"
   },
-  "mark": {
-    "type": "line",
-    "point": true,
-    "strokeWidth": 3
-  },
-  "encoding": {
-    "x": {
-      "field": "year",
-      "type": "ordinal",
-      "title": "Year"
-    },
-    "y": {
-      "field": "students",
-      "type": "quantitative",
-      "title": "YTD international student enrolments",
-      "scale": {
-        "zero": false
-      }
-    },
-    "tooltip": [
-      {
-        "field": "year",
-        "type": "ordinal",
-        "title": "Year"
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3,
+        "color": "#5f7daa"
       },
-      {
-        "field": "students",
-        "type": "quantitative",
-        "title": "YTD enrolments",
-        "format": ","
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "students",
+          "type": "quantitative",
+          "title": "YTD international student enrolments",
+          "scale": {
+            "zero": false
+          }
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "students",
+            "type": "quantitative",
+            "title": "YTD enrolments",
+            "format": ","
+          }
+        ]
       }
-    ]
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 70,
+        "color": "#5f7daa",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "students",
+          "type": "quantitative",
+          "title": "YTD international student enrolments",
+          "scale": {
+            "zero": false
+          }
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "students",
+            "type": "quantitative",
+            "title": "YTD enrolments",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": "2020"
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "stroke": "#555555",
+        "strokeDash": [
+          5,
+          5
+        ],
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": "2020",
+            "note": "Border closure period begins"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 8,
+        "dy": 8,
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#333333"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "value": 8
+        },
+        "text": {
+          "field": "note"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year == 2022 || datum.year == '2022'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "bottom",
+        "dx": 10,
+        "dy": -8,
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#12355b"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "students",
+          "type": "quantitative"
+        },
+        "text": {
+          "value": "Lowest point after closures"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year == 2026 || datum.year == '2026'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "bottom",
+        "dx": -8,
+        "dy": -8,
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#12355b"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "students",
+          "type": "quantitative"
+        },
+        "text": {
+          "value": "Jan 2026 YTD only"
+        }
+      }
+    }
+  ],
+  "config": {
+    "font": "IBM Plex Sans, Arial, sans-serif",
+    "axis": {
+      "labelFont": "IBM Plex Sans, Arial, sans-serif",
+      "titleFont": "IBM Plex Sans, Arial, sans-serif"
+    },
+    "legend": {
+      "labelFont": "IBM Plex Sans, Arial, sans-serif",
+      "titleFont": "IBM Plex Sans, Arial, sans-serif"
+    },
+    "view": {
+      "stroke": null
+    }
   }
 }

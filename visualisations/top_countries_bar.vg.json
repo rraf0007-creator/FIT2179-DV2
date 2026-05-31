@@ -1,42 +1,157 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 320,
+  "height": 340,
   "autosize": {
-  "type": "fit",
-  "contains": "padding"
-},
+    "type": "fit",
+    "contains": "padding"
+  },
+  "title": {
+    "text": "A small group of Asian countries dominates Australia\u2019s source-country ranking",
+    "subtitle": "International student enrolments by source country, January 2026 YTD"
+  },
   "data": {
     "url": "data/students_by_country.csv"
   },
-  "mark": {
-    "type": "bar",
-    "cornerRadiusEnd": 4
-  },
-  "encoding": {
-    "y": {
-      "field": "country",
-      "type": "nominal",
-      "sort": "-x",
-      "title": "Source country"
-    },
-    "x": {
-      "field": "students",
-      "type": "quantitative",
-      "title": "Number of students"
-    },
-    "tooltip": [
-      {
-        "field": "country",
-        "type": "nominal",
-        "title": "Country"
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusEnd": 4,
+        "color": "#2f6f88"
       },
-      {
-        "field": "students",
-        "type": "quantitative",
-        "title": "Students",
-        "format": ","
+      "encoding": {
+        "y": {
+          "field": "country",
+          "type": "nominal",
+          "sort": "-x",
+          "title": "Source country"
+        },
+        "x": {
+          "field": "students",
+          "type": "quantitative",
+          "title": "Number of students",
+          "axis": {
+            "format": ",.0f"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "country",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "students",
+            "type": "quantitative",
+            "title": "Students",
+            "format": ","
+          }
+        ]
       }
-    ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 6,
+        "fontSize": 11,
+        "color": "#111827"
+      },
+      "encoding": {
+        "y": {
+          "field": "country",
+          "type": "nominal",
+          "sort": "-x"
+        },
+        "x": {
+          "field": "students",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "students",
+          "type": "quantitative",
+          "format": ","
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.country == 'China'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 14,
+        "dy": -16,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#12355b"
+      },
+      "encoding": {
+        "y": {
+          "field": "country",
+          "type": "nominal",
+          "sort": "-x"
+        },
+        "x": {
+          "field": "students",
+          "type": "quantitative"
+        },
+        "text": {
+          "value": "China remains the largest source country"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.country == 'Bangladesh'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 70,
+        "dy": 0,
+        "fontSize": 11,
+        "color": "#374151"
+      },
+      "encoding": {
+        "y": {
+          "field": "country",
+          "type": "nominal",
+          "sort": "-x"
+        },
+        "x": {
+          "field": "students",
+          "type": "quantitative"
+        },
+        "text": {
+          "value": "Bangladesh in the top five highlights South Asia\u2019s growing importance"
+        }
+      }
+    }
+  ],
+  "config": {
+    "font": "IBM Plex Sans, Arial, sans-serif",
+    "title": {
+      "font": "IBM Plex Sans, Arial, sans-serif",
+      "fontSize": 16,
+      "subtitleFontSize": 12,
+      "anchor": "start"
+    },
+    "axis": {
+      "labelFont": "IBM Plex Sans, Arial, sans-serif",
+      "titleFont": "IBM Plex Sans, Arial, sans-serif"
+    },
+    "view": {
+      "stroke": null
+    }
   }
 }

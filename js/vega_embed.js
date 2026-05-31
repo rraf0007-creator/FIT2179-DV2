@@ -18,14 +18,7 @@ vegaEmbed("#abs-state-net-heatmap", "visualisations/abs_state_net_heatmap.vg.jso
 
 vegaEmbed("#abs-student-arrival-composition", "visualisations/abs_student_arrival_composition.vg.json").catch(console.error);
 
-vegaEmbed("#country-treemap", "visualisations/country_treemap.vg.json").catch(console.error);
 
 vegaEmbed("#country-state-sankey", "visualisations/country_state_sankey.vg.json").catch(console.error);
-
-vegaEmbed("#country-treemap", "visualisations/country_continent_faceted_treemap.vg.json").catch(console.error);
-
-vegaEmbed("#country-treemap", "visualisations/country_continent_nested_treemap.vg.json").catch(console.error);
-
-vegaEmbed("#country-treemap", "visualisations/country_continent_grouped_treemap.vg.json").catch(console.error);
 
 vegaEmbed("#country-treemap", "visualisations/country_continent_sidepanel_treemap.vg.json").catch(console.error);

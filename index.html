@@ -30,7 +30,7 @@
       <div class="hero-stats">
         <div class="stat-card">
           <span class="stat-number">565,601</span>
-          <span class="stat-label">YTD enrolments in Jan 2026</span>
+          <span class="stat-label">January 2026 year-to-date enrolments</span>
         </div>
 
         <div class="stat-card">
@@ -61,7 +61,7 @@
 
     <section class="section chapter-intro">
       <p class="chapter-label">Chapter 1</p>
-      <h2>Who comes to Australia?</h2>
+      <h1>Who comes to Australia?</h1>
       <p>
         Australia’s international student population is not evenly spread across the world.
         A small number of source countries account for a large share of enrolments, meaning changes in these
@@ -69,60 +69,49 @@
       </p>
     </section>
 
-    <section class="section grid-two">
+    
       <div class="chart-card">
-        <h2>Top source countries</h2>
+        <h2>China, India and Nepal lead Australia’s student source countries</h2>
         <p>
           Which countries send the most international students to Australia?
         </p>
         <div id="top-countries-bar"></div>
         <p class="chart-note">
-          <strong>Key takeaway:</strong> China remains the largest source country for international student
-          enrolments, followed by India and Nepal. Bangladesh also appears in the top five, showing the importance
-          of South Asian countries in Australia’s international education system.
+          <strong>China</strong>  remains the largest source country for international student
+          enrolments, followed by <b>India</b> and <b>Nepal</b>. <b>Bangladesh</b> also appears in the top five, showing the importance
+          of South Asian countries in Australia’s international education system. We can already notice a trend that students mostly come to Australia from Asia. 
+          We will explore this relationship further in the coming chapters.
         </p>
       </div>
-
-      <div class="chart-card">
-        <h2>Enrolments over time</h2>
-        <p>
-          How have international student enrolments changed over time?
-        </p>
-        <div id="yearly-trend-line"></div>
-        <p class="chart-note">
-          <strong>Key takeaway:</strong> Enrolments fell sharply around the border closure period, reached a low
-          point in 2022, and then rebounded strongly from 2023 onwards. The 2026 value is January year-to-date data,
-          not a complete full-year total.
-        </p>
-      </div>
-    </section>
 
     <section class="section chart-card">
   <h2>Where do students from major source countries enrol?</h2>
   <p>
-    This flow diagram connects the top five source countries, plus all other countries,
+    Which states do students coming from different parts of the world prefer? This flow diagram attempts to visualize 
+    the answer to that question by connecting the top five countries students come to australia 
+    (plus all other countries bundled as Others),
     to the Australian states and territories where those enrolments are recorded.
   </p>
   <div id="country-state-sankey"></div>
   <p class="chart-note">
-    <strong>Key takeaway:</strong> China and India send large numbers of students to both New South Wales and Victoria,
-    while Nepal is especially concentrated in New South Wales. The “Other countries” group shows that Australia’s
+    <b>China</b> and <b>India</b> send large numbers of students to both <b>New South Wales</b> and <b>Victoria</b>,
+    while <b>Nepal</b> is especially concentrated in <b>New South Wales</b>. The “Other countries” group shows that Australia’s
     international student population is broader than only the top five source countries.
   </p>
 </section>
 
     <section class="section chart-card">
-    <h2>Which countries make up the largest share?</h2>
+    <h2>Which continents and countries make up the largest share?</h2>
 <p>
-  Asia accounts for the overwhelming majority of Australia’s international students, so it is expanded into its largest source countries. 
-  The remaining regions are grouped in a separate panel on the right, preserving the continent hierarchy while keeping the treemap readable.
+  <b>Asia</b> accounts for the overwhelming majority of Australia’s international students, so it is expanded into its largest source countries. 
+  The remaining regions are grouped in a separate panel on the right with each of their respective percentages.
 </p>
     <div id="country-treemap"></div>
   </section>
 
     <section class="section chapter-intro">
       <p class="chapter-label">Chapter 2</p>
-      <h2>What and where do they study?</h2>
+      <h1>What and where do they study?</h1>
       <p>
         The student population is also uneven inside Australia. Enrolments are concentrated in the largest study
         destinations, especially New South Wales and Victoria, while sector data shows that Higher Education remains
@@ -132,7 +121,7 @@
 
     <section class="section grid-two">
       <div class="chart-card">
-        <h2>How has the sector mix changed?</h2>
+        <h2>Higher Education leads, while VET has grown after the rebound</h2>
         <p>
           Higher Education remains the largest sector, while VET has become a much larger part of international
           enrolments after the post-pandemic rebound.
@@ -145,9 +134,9 @@
       </div>
 
       <div class="chart-card">
-        <h2>Sector breakdown of enrolments, Jan 2026</h2>
+        <h2>Higher Education dominates the January 2026 sector mix</h2>
         <p>
-          In January 2026 YTD data, Higher Education dominates international student enrolments, followed by the
+          In January 2026 year-to-date data, Higher Education dominates international student enrolments, followed by the
           VET sector.
         </p>
         <div id="sector-breakdown"></div>
@@ -160,7 +149,7 @@
     </section>
 
     <section class="section chart-card">
-      <h2>Where do international students study in Australia?</h2>
+      <h2>NSW and Victoria are the largest study destinations</h2>
       <p>
         This map shows how international student enrolments are distributed across Australian states and territories.
       </p>
@@ -174,23 +163,36 @@
 
     <section class="section chapter-intro">
       <p class="chapter-label">Chapter 3</p>
-      <h2>Why migration data matters</h2>
+      <h1>Enrolment shows study location; migration shows movement</h1>
       <p>
         Enrolments show where students are studying, but migration data shows how students move in and out of
         Australia. The ABS data adds a wider population perspective by tracking student visa arrivals, departures and
         net migration.
       </p>
     </section>
+    <section>
+          <div class="chart-card">
+        <h2>Enrolments fell during border closures and rebounded after 2022</h2>
+        <p>
+          The time series shows how international student enrolments changed before, during and after the border closure period.
+        </p>
+        <div id="yearly-trend-line"></div>
+        <p class="chart-note">
+          Enrolments fell sharply around the covid period due to border closure period, reaching a low
+          point in 2022, and then rebounding strongly from 2023 onwards. It may seem like the number of enrolment started dipping in 2026, 
+          however this is only because the 2026 value is January year-to-date data and not a complete full-year total which explains why 
+        </p>
+      </div>
 
     <section class="section chart-card">
-      <h2>Student visa arrivals and departures over time</h2>
+      <h2>Student migration collapsed during border closures, then rebounded</h2>
       <p>
         Student migration dropped sharply during the border closure period, then rebounded strongly after 2021–22.
         The black line shows net student migration: arrivals minus departures.
       </p>
       <div id="abs-student-migration-trend"></div>
       <p class="chart-note">
-        <strong>Key takeaway:</strong> Student migration collapsed during the border closure period, when departures
+        Student migration collapsed during the covid period due to border closure, when departures
         were high and arrivals were extremely low. After borders reopened, arrivals rebounded quickly and net student
         migration became strongly positive again.
       </p>
@@ -200,7 +202,7 @@
       <div class="chart-card">
         <h2>Temporary visa arrivals</h2>
         <p>
-          This chart places student visas within the broader temporary visa migration picture.
+          This chart places student visas within the broader temporary visa migration picture for 2024–25.
         </p>
         <div id="abs-temp-visa-lollipop"></div>
         <p class="chart-note">
@@ -211,7 +213,7 @@
       </div>
 
       <div class="chart-card">
-        <h2>What type of student visas drive migrant arrivals?</h2>
+        <h2>Higher Education drives most student visa migrant arrivals</h2>
         <p>
           Student visa arrivals are not evenly split across education types.
         </p>
@@ -225,7 +227,7 @@
 
     <section class="section chapter-intro">
       <p class="chapter-label">Chapter 4</p>
-      <h2>Where is student migration concentrated?</h2>
+      <h2>Student migration is concentrated in the largest study states</h2>
       <p>
         The migration data also has a strong state pattern. The largest enrolment states are also the places gaining
         the largest numbers of student migrants, although the scale of migration varies over time.
@@ -233,7 +235,7 @@
     </section>
 
     <section class="section chart-card">
-      <h2>Enrolments vs net migration by state</h2>
+      <h2>NSW and Victoria combine high enrolments with high net student migration</h2>
       <p>
         This chart combines Department of Education enrolment data with ABS migration flow data to compare the size of
         international student enrolments with net student migration.
@@ -247,7 +249,7 @@
     </section>
 
     <section class="section chart-card">
-      <h2>How did student migration change across Australia?</h2>
+      <h2>Student migration shifted sharply across states after border closures</h2>
       <p>
         This interactive choropleth map shows net student migration by state and territory. Use the slider to compare
         financial years from 2004–05 to 2024–25.
@@ -267,7 +269,7 @@
           <h3>1. Source countries are concentrated</h3>
           <p>
             A small group of countries contributes a large share of international student enrolments, especially China,
-            India and Nepal.
+            India and Nepal. This means changes in a few major source countries can strongly affect the whole sector.
           </p>
         </div>
 
@@ -275,7 +277,7 @@
           <h3>2. Study destinations are uneven</h3>
           <p>
             New South Wales and Victoria dominate international enrolments, while smaller states and territories attract
-            much smaller student populations.
+            much smaller student populations. The geographic pattern is therefore concentrated rather than evenly national.
           </p>
         </div>
 
@@ -283,7 +285,7 @@
           <h3>3. Students shape migration flows</h3>
           <p>
             ABS migration data shows that student visa arrivals are a major part of Australia’s temporary migration
-            system, especially after the post-pandemic rebound.
+            system, especially after the post-pandemic rebound. Student data therefore helps explain both education and migration patterns.
           </p>
         </div>
       </div>
@@ -305,10 +307,14 @@
         <div class="footer-block">
           <h3>Data sources</h3>
           <p>
-            Australian Government Department of Education — International student data, January 2026.
+            <a href="https://www.education.gov.au/international-education-data-and-research/international-student-monthly-summary-and-data-tables" target="_blank" rel="noopener noreferrer">
+              Australian Government Department of Education — International student data, January 2026.
+            </a>
           </p>
           <p>
-            Australian Bureau of Statistics — Overseas Migration, 2024–25 financial year.
+            <a href="https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release" target="_blank" rel="noopener noreferrer">
+              Australian Bureau of Statistics — Overseas Migration, 2024–25 financial year.
+            </a>
           </p>
         </div>
 

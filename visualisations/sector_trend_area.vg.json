@@ -1,64 +1,208 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 320,
+  "height": 340,
   "autosize": {
     "type": "fit",
     "contains": "padding"
   },
   "title": {
-    "text": "International enrolments by sector over time",
-    "subtitle": "Department of Education YTD enrolments, 2019–2026"
+    "text": "Higher Education remained dominant while VET expanded after the rebound",
+    "subtitle": "Department of Education YTD international enrolments by sector, 2019\u20132026"
   },
-  "data": {
-    "url": "data/sector_by_year.csv"
-  },
-  "mark": {
-    "type": "area",
-    "opacity": 0.85
-  },
-  "encoding": {
-    "x": {
-      "field": "year",
-      "type": "ordinal",
-      "title": "Year"
-    },
-    "y": {
-      "field": "students",
-      "type": "quantitative",
-      "stack": "zero",
-      "title": "YTD enrolments",
-      "axis": {
-        "format": ",.0f"
-        }  
-    },
-    "color": {
-      "field": "sector",
-      "type": "nominal",
-      "title": "Sector"
-    },
-    "tooltip": [
-      {
-        "field": "year",
-        "type": "ordinal",
-        "title": "Year"
+  "layer": [
+    {
+      "data": {
+        "url": "data/sector_by_year.csv"
       },
-      {
-        "field": "sector",
-        "type": "nominal",
-        "title": "Sector"
+      "mark": {
+        "type": "area",
+        "opacity": 0.85
       },
-      {
-        "field": "students",
-        "type": "quantitative",
-        "title": "YTD enrolments",
-        "format": ","
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "students",
+          "type": "quantitative",
+          "stack": "zero",
+          "title": "YTD enrolments",
+          "axis": {
+            "format": ",.0f"
+          }
+        },
+        "color": {
+          "field": "sector",
+          "type": "nominal",
+          "title": "Sector"
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "sector",
+            "type": "nominal",
+            "title": "Sector"
+          },
+          {
+            "field": "students",
+            "type": "quantitative",
+            "title": "YTD enrolments",
+            "format": ","
+          }
+        ]
       }
-    ]
-  },
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2022,
+            "students": 382756,
+            "label": "2022 marks the lowest point before enrolments rebounded"
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "strokeDash": [
+          5,
+          4
+        ],
+        "color": "#374151",
+        "opacity": 0.8
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2022,
+            "students": 430000,
+            "label": "2022 low point"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 8,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#374151"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "students",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2026,
+            "students": 540000,
+            "label": "Higher Education remains the largest sector"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -8,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#12355b"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "students",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": 2025,
+            "students": 215925,
+            "label": "VET became much more visible after the post-pandemic rebound"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -8,
+        "fontSize": 11,
+        "color": "#374151"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "students",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    }
+  ],
   "config": {
+    "font": "IBM Plex Sans, Arial, sans-serif",
+    "title": {
+      "font": "IBM Plex Sans, Arial, sans-serif",
+      "fontSize": 16,
+      "subtitleFontSize": 12,
+      "anchor": "start"
+    },
+    "axis": {
+      "labelFont": "IBM Plex Sans, Arial, sans-serif",
+      "titleFont": "IBM Plex Sans, Arial, sans-serif"
+    },
     "legend": {
-      "orient": "bottom"
+      "orient": "bottom",
+      "labelFont": "IBM Plex Sans, Arial, sans-serif",
+      "titleFont": "IBM Plex Sans, Arial, sans-serif"
+    },
+    "view": {
+      "stroke": null
     }
   }
 }

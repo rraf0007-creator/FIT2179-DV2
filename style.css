@@ -113,7 +113,7 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   background:
     linear-gradient(180deg, #edf4f7 0%, #f7f3ed 45%, #edf4f7 100%);
   color: #222;
@@ -246,9 +246,13 @@ main {
   margin-bottom: 12px;
 }
 
-.chart-card p {
+.chart-card > p:not(.chart-note) {
   min-height: 52px;
   margin-top: 0;
+}
+
+.chart-note {
+  margin-top: 18px;
 }
 
 .chart-card > div[id] {
@@ -350,4 +354,61 @@ main {
 .footer-brand h2 {
   font-size: 28px;
 }
+}
+
+.chart-card > p:not(.chart-note) {
+  min-height: 52px;
+  margin-top: 0;
+}
+
+.chart-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  background: #f1f5f9;
+  border-left: 4px solid #2f6f88;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.section > p.chart-note,
+.chart-card > p.chart-note {
+  width: 100%;
+  max-width: none;
+  min-height: auto;
+  align-self: stretch;
+}
+
+.chapter-intro p:not(.chapter-label) {
+  max-width: 1100px;
+  width: 100%;
+}
+
+.section > p:not(.chart-note):not(.chapter-label),
+.chapter-intro p:not(.chapter-label) {
+  max-width: 1100px;
+  width: 100%;
+}
+.visa-grid {
+  align-items: start;
+}
+
+.visa-grid .chart-card {
+  min-height: auto;
+}
+
+#abs-temp-visa-lollipop {
+  min-height: 380px;
+}
+
+#abs-student-arrival-composition {
+  min-height: 380px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.03em;
 }
